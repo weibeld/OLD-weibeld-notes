@@ -1,0 +1,21 @@
+---
+layout: default
+---
+<article class="post">
+
+  <h1 class="post-title">{{ page.title | escape }}</h1>
+  <p class="post-meta">
+    <time datetime="{{ page.date | date_to_xmlschema }}">
+      {{ page.date | date: site.date_format }}
+    </time>
+    {% if page.author %} • {{ page.author }}{% endif %}
+  </p>
+
+  <div class="post-content">
+    {{ content }}
+  </div>
+
+  {% if site.disqus.shortname %}
+    {% include disqus_comments.html %}
+  {% endif %}
+</article>
