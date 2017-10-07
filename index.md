@@ -18,22 +18,4 @@ layout: default
         </li>
       {% endif %}
     {% endfor %}
-    
-    {% for page in site.android %}
-      <li>
-        <span class="post-meta">
-          {% if page.last_updated %}
-            Last updated {{ page.last_updated | date: site.date_format }}
-          {% else %}
-            {{ page.date | date: site.date_format }}
-          {% endif %}
-        </span>
-           
-        <h2>
-          <a href="{{ page.url | relative_url }}">
-            {{ page.title | escape }}
-          </a>
-        </h2>
-      </li>
-    {% endfor %}
   </ul>
