@@ -1,32 +1,59 @@
 body {
-	margin: 30px;
+	margin: 0;
 	color: $font-color;
 	font-family: $font-style;
-	font-size: 1.1em;
-	line-height: 1.6;
-  background-color: $gray;
+	font-size: $base-font-size;
+  background-color: white;
 	-webkit-font-smoothing: antialiased;
 }
-h1,
-h2,
-h3 {
-	font-weight: 700;
-	color: $heading-font-color;
-	font-family: $heading-font;
-	line-height: 1.5;
+
+/* Include border and padding in width (important if doing width arithmetic) */
+* { box-sizing: border-box; }
+
+// To delete
+p {
+  //margin: 0;
 }
+
+h1,h2,h3,h4,h5 {
+  color: black;
+  //background: purple;
+  margin: 0;
+  font-family: $heading-font;
+}
+
 h1 {
-	color: $main;
-	font-size: 2.5em;
-	a,
-	a:visited {
-		text-decoration: none;
-		color: $main;
-	}
+  font-size: 1.9em;
 }
+
 h2 {
-	font-size: 2em;
+  font-size: 1.4em;
 }
+
+h3 {
+  font-size: 1.25em;
+}
+
+h4 {
+  font-size: 1em;
+}
+
+//h1,
+//h2,
+//h3 {
+//	font-weight: 700;
+//	color: $heading-font-color;
+//	font-family: $heading-font;
+//	line-height: 1.5;
+//  margin: 0;
+//}
+//h1 {
+//	color: $main;
+//	font-size: 2.5em;
+//}
+//h2 {
+//	font-size: 2em;
+//}
 a,
 a:visited {
 	color: $link-color;
@@ -38,27 +65,35 @@ a:hover {
 	text-decoration: underline;
 }
 
-// Banner on home page
-header {
-	background: $header;
-	//padding: 0px 15px;
-	//margin: 50px 0 0;
-	height: 50vh;
-  width: 100vw;
-  left: 50%;
-  margin-left: -50vw;
-  position: relative;
-	display: flex;
-	justify-content: center;
-	align-items: center;
+.page-title {
+  font-size: 2.7em;
+  color: black;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
+
+// Banner on home page
+//header {
+//	background: $header;
+//	//padding: 0px 15px;
+//	//margin: 50px 0 0;
+//	height: 50vh;
+//  width: 100vw;
+//  left: 50%;
+//  margin-left: -50vw;
+//  position: relative;
+//	display: flex;
+//	justify-content: center;
+//	align-items: center;
+//}
 
 // Immediate child of <body>
 main {
 	padding: 0;
 	max-width: $content-width;
 	margin: 0 auto;
-  background: purple;
+  background: white;
 }
 
 time {
@@ -71,63 +106,69 @@ time {
 	margin: 0 auto;
 }
 
-	nav {
-    background-color: yellow;
-    position: relative;
-    #home-link {
-      position: absolute;
-      float:left;
-      display: flex;
-      height: 100%;
-      align-items: center;
-      a {
-        font-size: 2em;
-        font-weight: 900;
-        color: black;
-        text-decoration: none;
-        &:hover,
-        &:active {
-          text-decoration: underline;
-        }
+
+header {
+  background-color: white;
+  height: 3.5em;
+  position: relative;
+  border-bottom: 5px solid black;
+
+  #home-link {
+    position: absolute;
+    float:left;
+    margin-left: 2em;
+    display: flex;
+    height: 100%;
+    align-items: center;
+    a {
+      font-size: 2em;
+      font-weight: 900;
+      color: black;
+      text-decoration: none;
+      &:hover,
+      &:active {
+        text-decoration: underline;
       }
     }
+  }
 
-    #nav-pages {
-      float: right;
-      ul {
-        margin: 0;
-        padding: 0;
-        list-style: none;  // No bullet points
-        li {
-          float: left;  // List items left to right rather than top down
-          position: relative;
-          a {
+  nav {
+    float: right;
+    ul {
+      margin: 0;
+      padding: 0;
+      list-style: none;  // No bullet points
+      li {
+        float: left;  // List items left to right rather than top down
+        position: relative;
+        a {
+          text-decoration: none;
+          display: block;
+          padding: 15px;
+          font-family: 'Muli', sans-serif;
+          line-height: 20px;
+          margin-bottom: -1px;
+          box-shadow: 0;
+          &:hover,
+          &:active {
+            background: $header;
             text-decoration: none;
-            display: block;
-            padding: 15px;
-            font-family: 'Muli', sans-serif;
-            line-height: 20px;
-            margin-bottom: -1px;
-            box-shadow: 0;
-            &:hover,
-            &:active {
-              background: $header;
-              text-decoration: none;
-              color: $main;
-            }
+            color: $main;
           }
         }
       }
     }
-		&:after {
-			content: '';
-			display: table;
-			clear: both;
-		}
-	}
+  }
+  &:after {
+    content: '';
+    display: table;
+    clear: both;
+  }
+}
 
 footer {
 	text-align: center;
 	padding: 40px;
-  background-color: red;
+  background-color: $gray;
+  margin: 0;
 }
