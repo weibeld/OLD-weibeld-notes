@@ -12,7 +12,7 @@ layout: default
     {% for coll in site.collections %}
       {% if coll.title %}
         <li>
-          <a href="/categories/{{ coll.label}}">
+          <a href="/mynotes/categories/{{ coll.label}}">
             {{ coll.title}}
           </a>
         </li>
