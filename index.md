@@ -2,17 +2,18 @@
 layout: default
 ---
 
-<h1 class="categories-title">Categories</h1>
+<!--<h1 class="categories-title">Categories</h1>-->
 
-<ul>
+<div>
   {% for coll in site.collections %}
     {% if coll.title %}
-      <li>
         {% assign category_url = "/categories/" | append: coll.label %}
-        <a class="exposed-link" href="{{ category_url | relative_url }}">
-          {{ coll.title}}
-        </a>
-      </li>
+          <a class="collection-box-link" href="{{ category_url | relative_url }}">
+        <div class="collection-box">
+            <h1>{{ coll.title}}</h1>
+            <p>{{ coll.description }}</p>
+        </div>
+          </a>
     {% endif %}
   {% endfor %}
-</ul>
+</div>

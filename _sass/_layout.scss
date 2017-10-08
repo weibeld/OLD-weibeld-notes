@@ -127,6 +127,32 @@ ul.breadcrumbs {
   }
 }
 
+a.collection-box-link {
+  font-weight: 400;
+  &:hover {
+    color: $main;
+    background-color: lightgray;
+  }
+}
+
+.collection-box{
+  border: 5px solid black;
+  border-radius: 15px;
+  float: left;
+  width: 46%;
+  margin: 2%;
+  padding: 10px;
+  &:hover {
+    //box-shadow: 0 4px 4px rgba(0,0,0,.2);
+    background-color: #F5F5F5;
+  }
+  h1 {
+    font-family: $font-style;
+    font-size: 1.5em;
+  }
+}
+
+
 // Banner on home page
 //header {
 //	background: $header;
@@ -148,7 +174,7 @@ main {
 	max-width: $content-width;
 	margin: 20px auto;
   background: white;
-  border: 1px solid;
+  //border: 1px solid;
 }
 
 time {
@@ -228,10 +254,18 @@ header {
   }
 }
 
+
 footer {
 	text-align: center;
 	padding: 40px;
-  background-color: lightgray;
+  background-color: #F5F5F5;
   border-top: 5px solid black;
   margin: 0;
+}
+
+/* Since containers are floating, we need this to take into account their space */
+main::after {
+    content: "";
+    clear: both;
+    display: table;
 }

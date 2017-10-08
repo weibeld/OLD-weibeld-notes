@@ -6,9 +6,12 @@ $font-style: 'Source Sans Pro', sans-serif;
 $heading-font: Oswald, sans-serif;
 
 // Colours
-$accent-color: #19CCAA;
 
-$main: #19CCAA;
+//$main: #19CCAA;
+$main: #2299FF;
+
+$accent-color: $main;
+
 $font-color: #262626;
 $link-color: black;
 $link-hover-color: $main;
