@@ -39,12 +39,14 @@ collections:
     output: true
     title: Android
     permalink: /categories/:collection/:path/
+    image: /assets/icons/android.png
     description: >
       Notes about the Android SDK and other Android-related topics.
   google:
     output: true
     title: Google
     permalink: /categories/:collection/:path/
+    image: /assets/icons/google.png
     description: >
       Google products, such as Google Photos, Google Fonts, etc.
   categories:

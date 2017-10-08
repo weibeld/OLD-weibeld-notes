@@ -10,7 +10,10 @@ layout: default
         {% assign category_url = "/categories/" | append: coll.label %}
           <a class="collection-box-link" href="{{ category_url | relative_url }}">
         <div class="collection-box">
-            <h1>{{ coll.title}}</h1>
+            <div class="collection-box-title">
+              <img src="{{ coll.image | relative_url }}" height="50px">
+              <h1>{{ coll.title}}</h1>
+            </div>
             <p>{{ coll.description }}</p>
         </div>
           </a>

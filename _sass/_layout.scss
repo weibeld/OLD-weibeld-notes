@@ -130,28 +130,44 @@ ul.breadcrumbs {
 a.collection-box-link {
   font-weight: 400;
   &:hover {
-    color: $main;
+    color: black;
     background-color: lightgray;
   }
 }
 
 .collection-box{
-  border: 5px solid black;
+  border: 4px solid black;
   border-radius: 15px;
   float: left;
   width: 46%;
   margin: 2%;
-  padding: 10px;
+  padding: 15px;
   &:hover {
     //box-shadow: 0 4px 4px rgba(0,0,0,.2);
     background-color: #F5F5F5;
   }
-  h1 {
-    font-family: $font-style;
-    font-size: 1.5em;
+  .collection-box-title {
+    display: flex;
+    align-items: center;
+    h1 {
+      font-family: $font-style;
+      font-size: 1.5em;
+      padding-left: 15px;
+    }
+    img {
+      float: left;
+    }
+  }
+  p {
+    margin-top: 15px;
+    margin-bottom: 10px;
   }
 }
-
+.collection-box-title::after {
+  content: "";
+  clear: both;
+  display: table;
+}
 
 // Banner on home page
 //header {
@@ -265,7 +281,7 @@ footer {
 
 /* Since containers are floating, we need this to take into account their space */
 main::after {
-    content: "";
-    clear: both;
-    display: table;
+  content: "";
+  clear: both;
+  display: table;
 }
