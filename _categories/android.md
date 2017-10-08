@@ -2,15 +2,23 @@
 layout: default
 ---
 
+{% assign collection = site.collections | where: "label", "android" | first %}
+<ul class="breadcrumbs">
+  <li><a href="{{ "/" | relative_url }}">Categories</a></li>
+  <li>{{ collection.title }}</li>
+</ul>
 
-<h1 class="page-heading">Android</h1>
+<h1 class="categories-title">{{ collection.title }}</h1>
 
 <ul>
   {% for note in site.android %}
       <li>
-        <a href="{{ note.url | relative_url }}">
+        <a class="exposed-link" href="{{ note.url | relative_url }}">
           {{ note.title}}
         </a>
       </li>
+      <!--<ul> -->
+        <!--<li>{{ note.excerpt }}</li> -->
+      <!--</ul> -->
   {% endfor %}
 </ul>

@@ -2,9 +2,23 @@
 layout: default
 ---
 
+{% assign collection = site.collections | where: "label", page.collection | first %}
+{% assign category-url = "/categories/" | append: collection.label | append: "/" %}
+<ul class="breadcrumbs">
+  <li><a href="{{ "/" | relative_url }}">Categories</a></li>
+  <li><a href="{{ category-url | relative_url }}">{{ collection.title }}</a></li>
+  <li>{{ page.title | escape }}</li>
+</ul>
+
 <article class="page">
 
   <h1 class="page-title">{{ page.title | escape }}</h1>
+
+  {% if page.last_updated %}
+    <div class="page-date">
+      Last updated {{ page.last_updated }}
+    </div>
+  {% endif %}
 
   <div class="page-content">
     {{ content }}

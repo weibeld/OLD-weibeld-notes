@@ -1,12 +1,12 @@
 <header>
   <div id="home-link">
-    <a href="/mynotes/">{{ site.title }}</a>
+    <a href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
   </div>
   <nav>
     <ul>
       {% for page in site.pages %}
         {% if page.title %}
-          <li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
+          <li><a href="{{ page.url | relative_url }}">{{ page.title }}</a></li>
         {% endif %}
       {% endfor %}
     </ul>

@@ -1,7 +1,7 @@
 ---
 title:  Android Terms
 author: Daniel Weibel
-date:   December 2015
+date:   December 2017
 ---
 
 #### Kernel

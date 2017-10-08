@@ -54,16 +54,29 @@ h4 {
 //h2 {
 //	font-size: 2em;
 //}
+
+// Links within body text
 a,
 a:visited {
-	color: $link-color;
-	text-decoration: underline;
-	font-weight: bold;
+  color: $link-color;
+  text-decoration: underline;
+  font-weight: bold;
 }
 a:hover {
-	color: $link-hover-color;
-	text-decoration: underline;
+  color: $link-hover-color;
+  text-decoration: underline;
 }
+
+// Links in lists, etc.
+a.exposed-link {
+  text-decoration: none;
+}
+
+a.exposed-link:hover {
+  color: $accent-color;
+  text-decoration: underline;
+}
+
 
 .page-title {
   font-size: 2.7em;
@@ -71,6 +84,47 @@ a:hover {
   text-align: center;
   margin-top: 30px;
   margin-bottom: 30px;
+}
+
+.page-date {
+  font-style: italic;
+  text-align: center;
+  width: 100%;
+  font-size: 0.9em;
+  color: $gray;
+  margin-bottom: 30px;
+}
+
+.categories-title {
+  padding-left: 20px;
+  font-size: 2.333em;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+ul.breadcrumbs {
+  padding-left: 10px;
+  padding-top: 5px;
+  padding-bottom: 10px;
+  list-style: none;
+  background: white;
+  margin: 0;
+  font-size: 0.9em;
+  font-weight: 400;
+  font-style: italic;
+  li {
+    display: inline;
+    background: white;
+  }
+  li+li:before {
+    color: black;
+    content: "\00a0>\00a0\00a0";
+  }
+  a {
+    @extend .exposed-link;
+    font-weight: 400;
+    text-decoration: underline;
+  }
 }
 
 // Banner on home page
@@ -90,10 +144,11 @@ a:hover {
 
 // Immediate child of <body>
 main {
-	padding: 0;
+	padding: 20px;
 	max-width: $content-width;
-	margin: 0 auto;
+	margin: 20px auto;
   background: white;
+  border: 1px solid;
 }
 
 time {
@@ -115,11 +170,17 @@ header {
 
   #home-link {
     position: absolute;
-    float:left;
-    margin-left: 2em;
+    float: left;
+    padding-left: 1em;
+    padding-right: 1em;
     display: flex;
     height: 100%;
     align-items: center;
+      &:hover,
+      &:active {
+        background-color: black;
+        color: white;
+      }
     a {
       font-size: 2em;
       font-weight: 900;
@@ -127,7 +188,8 @@ header {
       text-decoration: none;
       &:hover,
       &:active {
-        text-decoration: underline;
+        background-color: black;
+        color: white;
       }
     }
   }
@@ -169,6 +231,7 @@ header {
 footer {
 	text-align: center;
 	padding: 40px;
-  background-color: $gray;
+  background-color: lightgray;
+  border-top: 5px solid black;
   margin: 0;
 }
