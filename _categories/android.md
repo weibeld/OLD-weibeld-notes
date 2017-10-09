@@ -10,15 +10,10 @@ layout: default
 
 <h1 class="categories-title">{{ collection.title }}</h1>
 
-<ul>
+<div class="doc-list">
   {% for note in site.android %}
-      <li>
-        <a class="exposed-link" href="{{ note.url | relative_url }}">
+        <a class="doc-list-link" href="{{ note.url | relative_url }}">
           {{ note.title}}
         </a>
-      </li>
-      <!--<ul> -->
-        <!--<li>{{ note.excerpt }}</li> -->
-      <!--</ul> -->
   {% endfor %}
-</ul>
+</div>

@@ -15,6 +15,13 @@ p {
   //margin: 0;
 }
 
+li {
+  margin: 5px 0;
+}
+ul {
+  list-style-type: square;
+}
+
 h1,h2,h3,h4,h5 {
   color: black;
   //background: purple;
@@ -23,11 +30,17 @@ h1,h2,h3,h4,h5 {
 }
 
 h1 {
-  font-size: 1.9em;
+  font-size: 1.7em;
+  border-bottom: 1px solid;
+  margin-top: 50px;
+  padding-bottom: 10px;
+  padding-top: 10px;
 }
 
 h2 {
   font-size: 1.4em;
+  margin-top: 30px;
+  margin-bottom: -5px;
 }
 
 h3 {
@@ -63,8 +76,12 @@ a:visited {
   font-weight: bold;
 }
 a:hover {
-  color: $link-hover-color;
-  text-decoration: underline;
+  //color: $link-hover-color;
+  //text-decoration: underline;
+  color: white;
+  background-color: black;
+  text-decoration: none;
+  border-radius: 4px;
 }
 
 // Links in lists, etc.
@@ -73,17 +90,41 @@ a.exposed-link {
 }
 
 a.exposed-link:hover {
+  background: initial;
   color: $accent-color;
   text-decoration: underline;
 }
 
+.doc-list {
+  //list-style-image: url('/mynotes/assets/list-item-marker.png');
+  //list-style-type: none;
+  a {
+    width: 100%;
+    padding: 15px;
+    font-size: 1.2em;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    height: 55px;
+    text-decoration: none;
+    border-radius: 5px;
+    &:active,
+    &:hover {
+      background-color: black;
+      color: white;
+    }
+  }
+}
+
 
 .page-title {
+  border: initial;
   font-size: 2.7em;
   color: black;
   text-align: center;
   margin-top: 30px;
   margin-bottom: 30px;
+  border-bottom: none;
 }
 
 .page-date {
@@ -96,14 +137,15 @@ a.exposed-link:hover {
 }
 
 .categories-title {
-  padding-left: 20px;
-  font-size: 2.333em;
+  border: initial;
+  padding-left: 15px;
+  font-size: 2.5em;
   margin-top: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 ul.breadcrumbs {
-  padding-left: 10px;
+  padding-left: 15px;
   padding-top: 5px;
   padding-bottom: 10px;
   list-style: none;
@@ -131,7 +173,7 @@ a.collection-box-link {
   font-weight: 400;
   &:hover {
     color: black;
-    background-color: lightgray;
+    //background-color: lightgray;
   }
 }
 
@@ -143,14 +185,21 @@ a.collection-box-link {
   margin: 2%;
   padding: 15px;
   &:hover {
-    //box-shadow: 0 4px 4px rgba(0,0,0,.2);
-    background-color: #F5F5F5;
+    box-shadow: 0 4px 4px rgba(0,0,0,.2);
+    background-color: black;
+    color: white;
+  }
+  &:hover .collection-box-title h1 {
+    //color: $main;
+    //text-decoration: underline;
+    color: white;
   }
   .collection-box-title {
     display: flex;
     align-items: center;
     h1 {
-      font-family: $font-style;
+      all: initial;
+      font-family: $heading-font;
       font-size: 1.5em;
       padding-left: 15px;
     }
@@ -190,7 +239,7 @@ main {
 	max-width: $content-width;
 	margin: 20px auto;
   background: white;
-  //border: 1px solid;
+  //border: 1px solid red;
 }
 
 time {
@@ -209,64 +258,24 @@ header {
   height: 3.5em;
   position: relative;
   border-bottom: 5px solid black;
-
   #home-link {
-    position: absolute;
+    border-radius: initial;
     float: left;
-    padding-left: 1em;
-    padding-right: 1em;
-    display: flex;
     height: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 2em;
+    font-weight: 900;
+    color: black;
+    text-decoration: none;
+    display: flex;
     align-items: center;
-      &:hover,
-      &:active {
-        background-color: black;
-        color: white;
-      }
-    a {
-      font-size: 2em;
-      font-weight: 900;
-      color: black;
-      text-decoration: none;
-      &:hover,
-      &:active {
-        background-color: black;
-        color: white;
-      }
+    &:hover,
+    &:active {
+      //text-decoration: underline;
+      background-color: black;
+      color: white;
     }
-  }
-
-  nav {
-    float: right;
-    ul {
-      margin: 0;
-      padding: 0;
-      list-style: none;  // No bullet points
-      li {
-        float: left;  // List items left to right rather than top down
-        position: relative;
-        a {
-          text-decoration: none;
-          display: block;
-          padding: 15px;
-          font-family: 'Muli', sans-serif;
-          line-height: 20px;
-          margin-bottom: -1px;
-          box-shadow: 0;
-          &:hover,
-          &:active {
-            background: $header;
-            text-decoration: none;
-            color: $main;
-          }
-        }
-      }
-    }
-  }
-  &:after {
-    content: '';
-    display: table;
-    clear: both;
   }
 }
 
