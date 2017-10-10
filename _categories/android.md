@@ -3,17 +3,5 @@ layout: default
 ---
 
 {% assign collection = site.collections | where: "label", "android" | first %}
-<ul class="breadcrumbs">
-  <li><a href="{{ "/" | relative_url }}">Categories</a></li>
-  <li>{{ collection.title }}</li>
-</ul>
 
-<h1 class="categories-title">{{ collection.title }}</h1>
-
-<div class="doc-list">
-  {% for note in site.android %}
-        <a class="doc-list-link" href="{{ note.url | relative_url }}">
-          {{ note.title}}
-        </a>
-  {% endfor %}
-</div>
+{% include doc-list.html collection=collection %}

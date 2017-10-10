@@ -105,9 +105,10 @@ a.exposed-link:hover {
     background-color: white;
     display: flex;
     align-items: center;
-    height: 55px;
     text-decoration: none;
-    border-radius: 5px;
+    border-radius: 10px;
+    border: 3px solid;
+    margin-bottom: 5px;
     &:active,
     &:hover {
       background-color: black;
@@ -281,11 +282,47 @@ header {
 
 
 footer {
-	text-align: center;
-	padding: 40px;
-  background-color: #F5F5F5;
+	padding: 40px 40px 5px 40px;
+  background-color: #EEE;
+  //background-color: #181818;
+  //color: white;
   border-top: 5px solid black;
   margin: 0;
+  float: left;
+  font-size: 0.9em;
+
+  #footer-col-1 {
+    width: 48%;
+    float: left;
+    margin-right: 2%;
+  }
+  #footer-col-2 {
+    width: 48%;
+    float: left;
+    margin-left: 2%;
+  }
+}
+
+#license-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1em;
+}
+
+.icon-github {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 0.25em;
+  margin-left: 0.25em;
+}
+
+.footer-header {
+  margin: initial;
+  //color: white;
+  font-size: 1em;
+  font-family: 'Source Sans Pro';
+  font-weight: 700;
 }
 
 /* Since containers are floating, we need this to take into account their space */
