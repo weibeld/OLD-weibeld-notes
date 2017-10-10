@@ -4,6 +4,9 @@ layout: default
 
 <!--<h1 class="categories-title">Categories</h1>-->
 
+<div id="test">&nbsp;</div>
+
+
 <div>
   {% for coll in site.collections %}
     {% if coll.title %}
