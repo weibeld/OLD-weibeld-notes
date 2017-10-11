@@ -4,7 +4,9 @@ layout: default
 
 <!--<h1 class="categories-title">Categories</h1>-->
 
-<div id="test">&nbsp;</div>
+<div id="test1">96 px</div>
+<div id="test2">1 in</div>
+<div id="test3">1 cm</div>
 
 
 <div>

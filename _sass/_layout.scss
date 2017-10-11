@@ -335,7 +335,15 @@ main::after {
   display: table;
 }
 
-#test {
+#test1 {
   width: 96px;
+  border-bottom: 0.5cm solid black;
+}
+#test2 {
+  width: 1in;
+  border-bottom: 0.5cm solid black;
+}
+#test3 {
+  width: 1cm;
   border-bottom: 0.5cm solid black;
 }
