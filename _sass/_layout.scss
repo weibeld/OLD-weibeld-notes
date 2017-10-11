@@ -2,7 +2,10 @@ body {
 	margin: 0;
 	color: $font-color;
 	font-family: $font-style;
-	font-size: $base-font-size;
+  // Do not set the font size of the body element in px, but use the default
+  // font size of the device this website will be displayed on. Then alter font
+  // sizes of other element relative to it with em (e.g. font-size: 1.5em;)
+	//font-size: $base-font-size;
   background-color: white;
 	-webkit-font-smoothing: antialiased;
 }
@@ -333,6 +336,6 @@ main::after {
 }
 
 #test {
-  width: 320px;
+  width: 96px;
   border-bottom: 0.5cm solid black;
 }
