@@ -55,7 +55,11 @@ The app scans all folders of the device for photos and videos. All the folders c
 
 For each of these folders, "back up & sync" can be separately activated or deactivated.
 
+### Do back up and sync
+
 If "back up & sync" is activated for a folder, then all the photos and videos in this folder are uploaded to Google Photos. Whenever a new photo or video is added to this folder, it is automatically uploaded to Google Photos.
+
+#### Some information
 
 Note: the information above should, more or less, also apply to the iOS app, however, I didn't test it.
 

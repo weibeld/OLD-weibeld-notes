@@ -2,7 +2,7 @@
   <!-- Meta data -->
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <!--<meta name="viewport" content="width=device-width, initial-scale=1">-->
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 
   <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
 
@@ -10,11 +10,13 @@
   <!-- Google Font -->
   <link
     rel="stylesheet"
-    href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400i,700,900|Source+Code+Pro">
+    href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400i,700,900|Source+Code+Pro:400,500,600,700,900">
   <link href="https://fonts.googleapis.com/css?family=Coda:800|Oswald:700" rel="stylesheet">
+  <link rel="stylesheet" href="css/normalize.min.css">
   <link
     rel="stylesheet"
     href="{{ '/assets/main.css' | relative_url }}">
+
 
   <!-- MathJax -->
   <!--<script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">-->

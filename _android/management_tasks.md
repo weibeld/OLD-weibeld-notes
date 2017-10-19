@@ -2,6 +2,7 @@
 title:  Android Management Tasks
 author: Daniel Weibel
 date:   15 December 2015
+last_updated: 15 December 2015
 ---
 
 This document contains step-by-step instructions for some common Android management tasks.

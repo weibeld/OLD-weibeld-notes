@@ -5,7 +5,7 @@ layout: default
 {% assign collection = site.collections | where: "label", page.collection | first %}
 {% assign category-url = "/categories/" | append: collection.label | append: "/" %}
 <ul class="breadcrumbs">
-  <li><a href="{{ "/" | relative_url }}">Categories</a></li>
+  <li><a href="{{ "/" | relative_url }}">Home</a></li>
   <li><a href="{{ category-url | relative_url }}">{{ collection.title }}</a></li>
   <li>{{ page.title | escape }}</li>
 </ul>

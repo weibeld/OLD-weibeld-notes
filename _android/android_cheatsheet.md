@@ -17,8 +17,13 @@ In `AndroidManifest.xml`:
 
 # Ways to set colours in resource XML files
 
-- `android:background="@android:color/white"`
-- `android:background="#FFF9C4"`
+~~~xml
+android:background="@android:color/white"
+~~~
+
+~~~xml
+android:background="#FFF9C4"
+~~~
 
 # Disable fullscreen keyboard in landscape orientation for an `EditText` 
 

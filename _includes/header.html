@@ -1,6 +1,14 @@
 <header>
-  <a id="home-link" href="{{ "/" | relative_url }}">
+  <a id="home-logo-link" class="naked-link no-strong-hover" href="{{ "/" | relative_url }}">
+    <div id="home-logo">
+      <img src="{{ '/assets/icons/weibeld.png' | relative_url }}">
+    </div>
+    </a>
+     
+  <a class="naked-link no-strong-hover" href="{{ "/" | relative_url }}">
+    <div id="home-title">
       {{ site.title | escape }}
-  </a>
+    </div>
+   </a>
 </header>
 

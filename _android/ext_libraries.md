@@ -10,7 +10,7 @@ date:   1 February 2016
 1. Create a directory in the Android project for keeping the external library `.jar` files, e.g. `libs`
 2. In `build.gradle`, add
 
-~~~email
+~~~
 android {
     ...
     dependencies {

@@ -1,316 +1,474 @@
-body {
-	margin: 0;
-	color: $font-color;
-	font-family: $font-style;
+html {
   // Do not set the font size of the body element in px, but use the default
   // font size of the device this website will be displayed on. Then alter font
   // sizes of other element relative to it with em (e.g. font-size: 1.5em;)
-	//font-size: $base-font-size;
-  background-color: white;
+  font-size: $font-size-root-Mobile;
+  // Disable horizontal scrolling
+  overflow-x: hidden;
+}
+@media (min-width: $break-give-space) {
+  html {
+    font-size: $font-size-root-Desktop;
+  }
+}
+
+body {
+	margin: 0;
+	font-family: $font-body;
+  line-height: $line-height-body-Mobile;
 	-webkit-font-smoothing: antialiased;
 }
-
-/* Include border and padding in width (important if doing width arithmetic) */
-* { box-sizing: border-box; }
-
-// To delete
-p {
-  //margin: 0;
+@media (min-width: $break-give-space) {
+  body {
+    line-height: $line-height-body-Desktop;
+  }
 }
 
-li {
-  margin: 5px 0;
+// Include border and padding in width (important if doing width arithmetic)
+*,
+*::before,
+*::after {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+/* Main container (immediate child of <body>) */
+
+main {
+	padding: $padding-main-Mobile;
+  padding-bottom: 1rem;
+	max-width: $content-width;
+	margin: 0 auto;
+  &::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+}
+
+@media (min-width: $break-give-space) {
+  main {
+    padding: $padding-main-Desktop;
+    padding-bottom: 2rem;
+  }
+}
+
+
+/* Headings and paragraphs */
+
+h1,h2,h3,h4,h5 {
+  font-family: $font-headings;
+  line-height: $line-height-heading;
+  margin: 0;
+}
+h1 {
+  font-size: $font-size-h1-Mobile;
+  border-bottom: 1px solid;
+  margin-top: $margin-top-h1-Mobile;
+  padding-bottom: 0.2em;
+}
+h2 {
+  font-size: $font-size-h2-Mobile;
+  margin-top: $margin-top-h2-Mobile;
+}
+h3 {
+  font-size: $font-size-h3-Mobile;
+  margin-top: $margin-top-h3-Mobile;
+}
+h4 {
+  font-size: $font-size-h4-Mobile;
+}
+@media (min-width: $break-give-space) {
+  h1 {
+    margin-top: $margin-top-h1-Desktop;
+  }
+  h2 {
+    margin-top: $margin-top-h2-Desktop;
+  }
+  h3 {
+    margin-top: $margin-top-h3-Desktop;
+  }
+}
+
+
+p{
+  margin: $margin-paragraph-Mobile 0;
+}
+@media (min-width: $break-give-space) {
+  p {
+    margin: $margin-paragraph-Desktop 0;
+  }
+}
+
+
+
+/* Lists */
+
+ul, ol {
+  margin: 0;
+  padding-left: 1.75rem;
 }
 ul {
   list-style-type: square;
 }
-
-h1,h2,h3,h4,h5 {
-  color: black;
-  //background: purple;
-  margin: 0;
-  font-family: $heading-font;
+// A list that comes directly after a heading (and not a paragraph as usual)
+h1,h2,h3,h4 {
+  &+ol, &+ul {
+    margin-top: $margin-paragraph-Mobile;
+  }
 }
 
-h1 {
-  font-size: 1.7em;
-  border-bottom: 1px solid;
-  margin-top: 50px;
-  padding-bottom: 10px;
-  padding-top: 10px;
-}
-
-h2 {
-  font-size: 1.4em;
-  margin-top: 30px;
-  margin-bottom: -5px;
-}
-
-h3 {
-  font-size: 1.25em;
-}
-
-h4 {
-  font-size: 1em;
-}
-
-//h1,
-//h2,
-//h3 {
-//	font-weight: 700;
-//	color: $heading-font-color;
-//	font-family: $heading-font;
-//	line-height: 1.5;
-//  margin: 0;
-//}
-//h1 {
-//	color: $main;
-//	font-size: 2.5em;
-//}
-//h2 {
-//	font-size: 2em;
-//}
-
-// Links within body text
-a,
-a:visited {
-  color: $link-color;
-  text-decoration: underline;
-  font-weight: bold;
-}
-a:hover {
-  //color: $link-hover-color;
-  //text-decoration: underline;
-  color: white;
+@mixin strong-hover-mixin {
   background-color: black;
-  text-decoration: none;
-  border-radius: 4px;
+  color: white;
+  border-color: black;
+  box-shadow: $shadow-large;
 }
 
-// Links in lists, etc.
-a.exposed-link {
-  text-decoration: none;
+@mixin soft-hover-mixin {
+  background-color: initial;
+  color: $color-accent;
+  border-radius: initial;
+  box-shadow: none;
+  border-color: $color-accent-light;
 }
 
-a.exposed-link:hover {
-  background: initial;
-  color: $accent-color;
-  text-decoration: underline;
-}
+/* Links */
 
-.doc-list {
-  //list-style-image: url('/mynotes/assets/list-item-marker.png');
-  //list-style-type: none;
-  a {
-    width: 100%;
-    padding: 15px;
-    font-size: 1.2em;
-    background-color: white;
-    display: flex;
-    align-items: center;
-    text-decoration: none;
-    border-radius: 10px;
-    border: 3px solid;
-    margin-bottom: 5px;
-    &:active,
-    &:hover {
-      background-color: black;
-      color: white;
+a, a:visited {
+  text-decoration: initial;
+  color: initial;
+  font-weight: bold;
+  border-bottom: 2px solid $color-accent-light;
+}
+a:hover, a:active {
+  color: $color-accent;
+}
+a.naked-link {
+  border: initial;
+  padding: initial;
+}
+@media (hover: hover) {
+  a:hover, a:active {
+    @include strong-hover-mixin;
+    border-radius: 0.15em;
+  }
+  a.no-strong-hover {
+    &:hover, &:active {
+      @include soft-hover-mixin;
     }
   }
 }
 
 
-.page-title {
+/* Prominent headings */
+//   Title of a "category" page
+.categories-title {
   border: initial;
-  font-size: 2.7em;
-  color: black;
+  margin: initial;
+  font-size: $font-size-page-heading-Mobile;
+  margin-top: 0.75rem;
+  margin-bottom: 0.5rem;
+  @media (min-width: $break-give-space) {
+    margin-top: 1.25rem;
+    margin-bottom: 0.75rem;
+    font-size: $font-size-page-heading-Desktop;
+  }
+  
+}
+//   Description of a "category" page
+.collection-description-row {
+  display: flex;
+  align-items: center;
+  background: linear-gradient(to right, #eee, #fff); //#f0f0f0;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  //box-shadow: $shadow-large;
+  margin-bottom: 1rem;
+  //margin: 0 1rem 1rem 1rem;
+  img {
+    float: left;
+    margin-right: 0.75rem;
+    height: 2.5rem;
+  }
+  p {
+    margin: 0;
+  }
+  @media (min-width: $break-give-space) {
+    margin-bottom: 1.25rem;
+  }
+}
+// Title of a document
+.page-title {
+  margin: initial;
+  padding: initial;
+  border: initial;
+  font-size: $font-size-page-heading-Mobile;
   text-align: center;
-  margin-top: 30px;
-  margin-bottom: 30px;
-  border-bottom: none;
+  line-height: $line-height-heading;
+  margin-top: 0.3em;
+  margin-bottom: 0.5rem;
+  @media (min-width: $break-give-space) {
+    margin-top: 1em;
+    margin-bottom: 2rem;
+    font-size: $font-size-page-heading-Desktop;
+  }
 }
 
+/* Other UI elements */
+
 .page-date {
+  font-size: $font-size-date;
   font-style: italic;
   text-align: center;
   width: 100%;
-  font-size: 0.9em;
-  color: $gray;
-  margin-bottom: 30px;
+  color: $color-secondary-text;
+  margin-bottom: 0.8rem;
 }
-
-.categories-title {
-  border: initial;
-  padding-left: 15px;
-  font-size: 2.5em;
-  margin-top: 20px;
-  margin-bottom: 30px;
+@media (min-width: $break-give-space) {
+  .page-date {
+    margin-bottom: 2rem;
+  }
 }
-
 ul.breadcrumbs {
-  padding-left: 15px;
-  padding-top: 5px;
-  padding-bottom: 10px;
-  list-style: none;
-  background: white;
-  margin: 0;
-  font-size: 0.9em;
-  font-weight: 400;
+  font-size: $font-size-breadcrumbs-Mobile;
+  font-weight: 700;
   font-style: italic;
+  padding-left: 0;
+  margin: 0;
+  list-style: none;
   li {
     display: inline;
-    background: white;
+    line-height: $line-height-body-Mobile;
   }
   li+li:before {
-    color: black;
     content: "\00a0>\00a0\00a0";
   }
-  a {
-    @extend .exposed-link;
+}
+@media (pointer: fine) {
+  ul.breadcrumbs {
     font-weight: 400;
-    text-decoration: underline;
+    font-size: $font-size-breadcrumbs-Desktop;
+    a {
+      font-weight: 400;
+    }
   }
 }
 
-a.collection-box-link {
-  font-weight: 400;
-  &:hover {
-    color: black;
-    //background-color: lightgray;
-  }
-}
 
-.collection-box{
-  border: 4px solid black;
-  border-radius: 15px;
-  float: left;
-  width: 46%;
-  margin: 2%;
-  padding: 15px;
-  &:hover {
-    box-shadow: 0 4px 4px rgba(0,0,0,.2);
-    background-color: black;
-    color: white;
-  }
-  &:hover .collection-box-title h1 {
-    //color: $main;
-    //text-decoration: underline;
-    color: white;
-  }
-  .collection-box-title {
+
+/* List of documents on the "category" page */
+
+.doc-list {
+  a {
+    border-radius: $border-radius-doc-list;
+    border: $border-doc-list;
+    font-size: $font-size-doc-list;
+    padding: 0.6em;
+    line-height: $line-height-heading;
     display: flex;
     align-items: center;
-    h1 {
-      all: initial;
-      font-family: $heading-font;
-      font-size: 1.5em;
-      padding-left: 15px;
+    & + a {
+      margin-top: 8px;
+    }
+    &:active,
+    &:hover {
+      color: initial;
+      border-color: $color-accent;
+      background-color: $color-accent-very-light;
+    }
+    @media (hover: hover) {
+      &:active, &:hover {
+        @include strong-hover-mixin;
+      }
+    }
+  }
+}
+
+
+
+/* Boxes on the home page */
+
+// Outermost link containing the box
+//a.collection-box-link {
+//  &:active, &:hover {
+//  }
+//}
+// The box itself
+.collection-box {
+  border: $border-collection-box;
+  border-radius: $border-radius-collection-box;
+  float: left;
+  width: 100%;
+  height: 9.5rem;
+  margin: 0.5rem 0;
+  padding: 0.7rem;
+  overflow-y: auto;
+  &:hover {
+    border-color: $color-accent;
+    background-color: $color-accent-very-light;
+    color: initial;
+  }
+  @media (hover: hover) {
+    &:hover {
+      @include strong-hover-mixin;
+      & .collection-box-heading h1 {
+        color: white;
+      }
+    }
+  }
+  p {
+    margin: 0;
+    font-weight: 400;
+  }
+  // Heading of the box consisting of image and title
+  .collection-box-heading {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.7rem;
+    &::after {
+      content: "";
+      clear: both;
+      display: table;
     }
     img {
       float: left;
     }
-  }
-  p {
-    margin-top: 15px;
-    margin-bottom: 10px;
-  }
-}
-.collection-box-title::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-
-// Banner on home page
-//header {
-//	background: $header;
-//	//padding: 0px 15px;
-//	//margin: 50px 0 0;
-//	height: 50vh;
-//  width: 100vw;
-//  left: 50%;
-//  margin-left: -50vw;
-//  position: relative;
-//	display: flex;
-//	justify-content: center;
-//	align-items: center;
-//}
-
-// Immediate child of <body>
-main {
-	padding: 20px;
-	max-width: $content-width;
-	margin: 20px auto;
-  background: white;
-  //border: 1px solid red;
-}
-
-time {
-	color: $gray;
-}
-
-// Immediate child of <aside> (page header)
-.container {
-	//max-width: $content-width;
-	margin: 0 auto;
-}
-
-
-header {
-  background-color: white;
-  height: 3.5em;
-  position: relative;
-  border-bottom: 5px solid black;
-  #home-link {
-    border-radius: initial;
-    float: left;
-    height: 100%;
-    padding-left: 30px;
-    padding-right: 30px;
-    font-size: 2em;
-    font-weight: 900;
-    color: black;
-    text-decoration: none;
-    display: flex;
-    align-items: center;
-    &:hover,
-    &:active {
-      //text-decoration: underline;
-      background-color: black;
-      color: white;
+    h1 {
+      all: initial;
+      font-family: $font-headings;
+      font-size: $font-size-collection-box-heading;
+      line-height: $line-height-heading;
+      padding-left: 0.9rem;
     }
   }
 }
 
-
-footer {
-	padding: 40px 40px 5px 40px;
-  background-color: #EEE;
-  //background-color: #181818;
-  //color: white;
-  border-top: 5px solid black;
-  margin: 0;
-  float: left;
-  font-size: 0.9em;
-
-  #footer-col-1 {
-    width: 48%;
-    float: left;
-    margin-right: 2%;
-  }
-  #footer-col-2 {
-    width: 48%;
-    float: left;
-    margin-left: 2%;
+@media (min-width: $break-two-cols) {
+  .collection-box {
+    width: 46%;
+    margin: 2%;
   }
 }
 
+@media (pointer: coarse) { main {  } }
+
+/* The primary input mechanism of the device includes an accurate pointing device. */
+@media (pointer: fine) { main {  } }
+
+
+/* Header */
+
+header {
+  height: 3.5rem;
+  border-bottom: $border-header-footer;
+    display: flex;
+    align-items: center;
+    #home-logo {
+      float: left;
+      height: calc(3.5rem - 5px);
+      margin-left: $padding-main-Mobile;
+      padding-right: 0.375rem;
+      display: flex;
+      align-items: center;
+      //background: green;
+      img {
+        height: 2.5rem;
+      }
+    }
+    #home-title {
+      display: flex;
+      align-items: center;
+      padding: 0;
+      height: calc(3.5rem - 5px);
+      line-height: 1;
+      float: left;
+      margin: 0;
+      font-size: 2rem;
+      font-weight: 900;
+      padding-left: 0.375rem;
+      padding-right: 0.5rem;
+      //background: red;
+    }
+    &::after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+    #home-logo-link:hover + a, #home-logo-link:active + a {
+      color: $color-accent;
+    }
+}
+@media (min-width: $break-give-space) {
+  header {
+    #home-logo {
+      margin-left: $padding-main-Desktop;
+    }
+  }
+}
+
+/* Footer */
+
+footer {
+  font-size: $font-size-footer;
+	padding: 0 $padding-main-Mobile;
+  background-color: $color-footer;
+  border-top: $border-header-footer;
+  margin: 0;
+  float: left;
+
+  #footer-col-1 {
+    width: 100%;
+    float: left;
+  }
+  #footer-col-2 {
+    width: 100%;
+    float: left;
+  }
+}
+@media (min-width: $break-give-space) {
+  footer {
+    padding: 0 $padding-main-Desktop;
+  }
+}
+
+.footer-heading {
+  margin: initial;
+  font-family: $font-body;
+  font-size: 1.1em;
+  margin-top: 1em;
+  font-weight: 700;
+}
+
+@media only screen and (min-width: $break-two-cols) {
+  footer {
+    #footer-col-1 {
+      width: 48%;
+      float: left;
+      margin-right: 2%;
+    }
+    #footer-col-2 {
+      width: 48%;
+      float: left;
+      margin-left: 2%;
+    }
+  }
+}
+
+div[id^=footer-col-] > :first-child {
+  //background: red;
+}
+
 #license-icon {
+  padding: 0;
   display: flex;
   justify-content: center;
   align-items: center;
   margin-top: 1em;
+}
+#license-icon-img {
+  height: 2.25em;
 }
 
 .icon-github {
@@ -320,30 +478,5 @@ footer {
   margin-left: 0.25em;
 }
 
-.footer-header {
-  margin: initial;
-  //color: white;
-  font-size: 1em;
-  font-family: 'Source Sans Pro';
-  font-weight: 700;
-}
 
-/* Since containers are floating, we need this to take into account their space */
-main::after {
-  content: "";
-  clear: both;
-  display: table;
-}
 
-#test1 {
-  width: 96px;
-  border-bottom: 0.5cm solid black;
-}
-#test2 {
-  width: 1in;
-  border-bottom: 0.5cm solid black;
-}
-#test3 {
-  width: 1cm;
-  border-bottom: 0.5cm solid black;
-}

@@ -1,14 +1,17 @@
 <ul class="breadcrumbs">
-  <li><a href="{{ "/" | relative_url }}">Categories</a></li>
+  <li><a href="{{ "/" | relative_url }}">Home</a></li>
   <li>{{ collection.title }}</li>
 </ul>
 
 <h1 class="categories-title">{{ collection.title }}</h1>
 
+<div class="collection-description-row">
+  <img src="{{ collection.image | relative_url }}" height="50px">
+  <p>{{ collection.description }}</p>
+</div>
+
 <div class="doc-list">
   {% for doc in collection.docs %}
-        <a class="doc-list-link" href="{{ doc.url | relative_url }}">
-          {{ doc.title}}
-        </a>
+        <a href="{{ doc.url | relative_url }}">{{ doc.title}}</a>
   {% endfor %}
 </div>
