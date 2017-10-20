@@ -152,6 +152,11 @@ a.naked-link {
   border: initial;
   padding: initial;
 }
+a.sitemap-link {
+  @extend .naked-link;
+  @extend .no-strong-hover;
+  font-weight: initial;
+}
 @media (hover: hover) {
   a:hover, a:active {
     @include strong-hover-mixin;
@@ -261,7 +266,18 @@ ul.breadcrumbs {
     }
   }
 }
-
+// Search results
+#search-result-list {
+  margin-top: 1.5rem;
+  li {
+    margin: 1rem 0;
+  }
+}
+.search-result {
+  font-size: $font-size-h2-Mobile;
+  font-family: $font-body;
+  @extend .naked-link;
+}
 
 
 /* List of documents on the "category" page */

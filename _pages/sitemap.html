@@ -1,0 +1,26 @@
+---
+title: Sitemap
+layout: default
+permalink: /sitemap/
+---
+
+<h1 class="categories-title">{{ page.title }}</h1>
+
+<ul>
+{% for coll in site.collections %}
+  {% if coll.title %}
+    {% assign coll_url = "/" | append: coll.label | relative_url %}
+    <li><a class="sitemap-link" href="{{ coll_url }}">{{ coll.title }}</a></li>
+    <ul>
+      {% for doc in coll.docs %}
+        <li>
+          <a class="sitemap-link" href="{{ doc.url | relative_url }}">{{ doc.title }}</a>
+
+          <!--&nbsp;&nbsp;<span class="page-date">{{ doc.date | date: site.date_format }}</span>-->
+
+        </li>
+      {% endfor %}
+    </ul>
+  {% endif %}
+{% endfor %}
+</ul>

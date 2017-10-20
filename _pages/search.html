@@ -4,25 +4,29 @@ title: Search
 permalink: /search/
 ---
 
-{% include search-box.html %}
+<h1 class="categories-title">Search</h1>
+
+{% include search-box-body.html %}
 
 <!-- Placeholder for search results -->
-<ul id="search-results"></ul>
+<ul id="search-result-list"></ul>
 
 <script>
   window.store = {
     {% for coll in site.collections %}
-      {% for doc in coll.docs %}
-      "{{ doc.url | slugify }}": {
-        "title": "{{ doc.title | xml_escape }}",
-        //"author": "{{ doc.author | xml_escape }}",
-        //"category": "{{ doc.category | xml_escape }}",
-        "content": {{ doc.content | strip_html | strip_newlines | jsonify }},
-        //"url": "{{ doc.url | xml_escape }}"
-      }
-      ,
-      //{% unless forloop.last %},{% endunless %}
-      {% endfor %}
+      {% if coll.title %}
+        {% for doc in coll.docs %}
+        "{{ doc.url | slugify }}": {
+          "title": "{{ doc.title | xml_escape }}",
+          //"author": "{{ doc.author | xml_escape }}",
+          //"category": "{{ doc.category | xml_escape }}",
+          "content": {{ doc.content | strip_html | strip_newlines | jsonify }},
+          "url": "{{ doc.url | relative_url | xml_escape }}"
+        }
+        ,
+        //{% unless forloop.last %},{% endunless %}
+        {% endfor %}
+      {% endif %}
     {% endfor %}
   };
 </script>

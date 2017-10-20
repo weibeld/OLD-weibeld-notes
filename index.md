@@ -8,9 +8,6 @@ layout: default
 <div id="test2">1 in</div>
 <div id="test3">1 cm</div>-->
 
-{% include search-box.html %}
-
-
 <div>
   {% for coll in site.collections %}
     {% if coll.title %}

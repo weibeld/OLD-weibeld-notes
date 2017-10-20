@@ -3,16 +3,15 @@
 
   // Step 3: display the results
   function displaySearchResults(results, store) {
-    var searchResults = document.getElementById('search-results');
-      searchResults.innerHTML = '<li>No results found</li>';
+    var searchResults = document.getElementById('search-result-list');
 
     if (results.length) { // Are there any results?
       var appendString = '';
 
       for (var i = 0; i < results.length; i++) {  // Iterate over the results
         var item = store[results[i].ref];
-        appendString += '<li><a href="' + item.url + '"><h3>' + item.title + '</h3></a>';
-        appendString += '<p>' + item.content.substring(0, 50) + '...</p></li>';
+        appendString += '<li><a class="search-result" href="' + item.url + '"><span>' + item.title + '</span></a>';
+        //appendString += '<p>' + item.content.substring(0, 50) + '...</p></li>';
       }
 
       searchResults.innerHTML = appendString;
@@ -41,7 +40,7 @@
 
   // Step 2: perform the search (with lunr)
   if (searchTerm) {
-    document.getElementById('search-box').setAttribute("value", searchTerm);
+    document.getElementById('search-box-body').setAttribute("value", searchTerm);
 
     // Initalize lunr with the fields it will be searching on. I've given title
     // a boost of 10 to indicate matches on this field are more important.
