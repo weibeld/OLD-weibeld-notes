@@ -1,7 +1,8 @@
 ---
 title:  Droidcon Vietnam 2017
 author: Daniel Weibel
-date:   15--16 April 2017
+date:   15 April 2017
+last_updated: 16 April 2017
 ---
 
 # Part 1: 15 April Morning

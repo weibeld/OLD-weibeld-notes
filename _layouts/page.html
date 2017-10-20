@@ -3,9 +3,10 @@ layout: default
 ---
 
 {% assign collection = site.collections | where: "label", page.collection | first %}
-{% assign category-url = "/categories/" | append: collection.label | append: "/" %}
+{% assign category-url = "/" | append: collection.label | append: "/" %}
+{% assign home-url = "/" %}
 <ul class="breadcrumbs">
-  <li><a href="{{ "/" | relative_url }}">Home</a></li>
+  <li><a href="{{ home-url | relative_url }}">Home</a></li>
   <li><a href="{{ category-url | relative_url }}">{{ collection.title }}</a></li>
   <li>{{ page.title | escape }}</li>
 </ul>
@@ -14,11 +15,22 @@ layout: default
 
   <h1 class="page-title">{{ page.title | escape }}</h1>
 
-  {% if page.last_updated %}
+  <div class="page-date-container">
+    <!-- If date missing from front matter, Jekyll sets page.date to current date -->
+    {% capture created_s %}{{ page.date | date: site.date_format }}{% endcapture %}
     <div class="page-date">
-      Last updated {{ page.last_updated }}
+      Created {{ created_s }}
     </div>
-  {% endif %}
+
+    {% if page.last_updated %}
+      {% capture last_updated_s %}{{ page.last_updated | date: site.date_format }}{% endcapture %}
+      {% if last_updated_s != created_s %}
+        <div class="page-date">
+          Last updated {{ last_updated_s }}
+        </div>
+      {% endif %}
+    {% endif %}
+  </div>
 
   <div class="page-content">
     {{ content }}

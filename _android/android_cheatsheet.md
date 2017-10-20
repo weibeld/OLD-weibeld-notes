@@ -1,7 +1,8 @@
 ---
 title:  Android Cheatsheet
 author: Daniel Weibel
-date:   Jan--Feb 2017
+date:   January 2017
+last_updated: February 2017
 ---
 
 # Show the soft keyboard on activity startup

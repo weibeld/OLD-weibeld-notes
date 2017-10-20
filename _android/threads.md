@@ -2,6 +2,7 @@
 title:  Android Threads
 author: Daniel Weibel
 date:   4 October 2016
+last_updated: 4 October 2016
 ---
 
 Main Thread and Worker Threads

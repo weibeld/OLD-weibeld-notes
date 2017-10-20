@@ -2,6 +2,7 @@
 title:  Run Android App on Physical Device
 author: Daniel Weibel
 date:   3 October 2016
+last_updated: 3 October 2016
 ---
 
 

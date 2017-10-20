@@ -2,6 +2,7 @@
 title:  Nexus 6
 author: Daniel Weibel
 date:   January 2016
+last_updated: January 2016
 ---
 
 The Nexus 6 is a smartphone developed by Motorola Mobility, originally running Android Lollipop 5.0 (upgradeable to 6.0). It was first announced on October 15, 2014.

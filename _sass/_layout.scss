@@ -116,6 +116,9 @@ ul {
 h1,h2,h3,h4 {
   &+ol, &+ul {
     margin-top: $margin-paragraph-Mobile;
+    @media (min-width: $break-give-space) {
+      margin-top: $margin-paragraph-Desktop;
+    }
   }
 }
 
@@ -193,7 +196,9 @@ a.naked-link {
     height: 2.5rem;
   }
   p {
+    line-height: $line-height-description;
     margin: 0;
+    font-size: 0.9em;
   }
   @media (min-width: $break-give-space) {
     margin-bottom: 1.25rem;
@@ -221,13 +226,14 @@ a.naked-link {
 .page-date {
   font-size: $font-size-date;
   font-style: italic;
-  text-align: center;
-  width: 100%;
   color: $color-secondary-text;
-  margin-bottom: 0.8rem;
+  text-align: center;
+}
+.page-date-container {
+  margin-bottom: 1rem;
 }
 @media (min-width: $break-give-space) {
-  .page-date {
+  .page-date-container {
     margin-bottom: 2rem;
   }
 }
@@ -301,10 +307,14 @@ ul.breadcrumbs {
   border-radius: $border-radius-collection-box;
   float: left;
   width: 100%;
-  height: 9.5rem;
+  height: $height-collection-box-Mobile;
+  @media (min-width: $break-give-space) {
+    height: $height-collection-box-Desktop;
+  }
   margin: 0.5rem 0;
-  padding: 0.7rem;
+  padding: $padding-collection-box;
   overflow-y: auto;
+  //background-color: $color-footer;
   &:hover {
     border-color: $color-accent;
     background-color: $color-accent-very-light;
@@ -321,6 +331,8 @@ ul.breadcrumbs {
   p {
     margin: 0;
     font-weight: 400;
+    line-height: $line-height-description;
+    font-size: 0.95em;
   }
   // Heading of the box consisting of image and title
   .collection-box-heading {

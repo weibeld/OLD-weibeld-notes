@@ -2,6 +2,7 @@
 title:  Android Activity Lifecycle
 author: Daniel Weibel
 date:   14 October 2016
+last_updated: 14 October 2016
 ---
 
 - `onCreate` > `onStart` > `onResume` > `onPause` > `onStop` > `onDestroy`

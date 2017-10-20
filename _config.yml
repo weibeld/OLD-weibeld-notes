@@ -22,6 +22,8 @@ description: > # this means to ignore newlines until "baseurl:"
 baseurl: "/mynotes" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username: weibeld
+date_format: "%-d %b %Y"
+
 
 # Build settings
 markdown: kramdown
@@ -69,6 +71,7 @@ collections:
       Notes about editing PDF files with command-line tools.
   categories:
     output: true
+    permalink: /:path/
 
 defaults:
   - values:

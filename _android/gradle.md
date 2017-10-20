@@ -2,7 +2,7 @@
 title:  Create an Android Project with Gradle as the Build System
 author: Daniel Weibel
 date:   10 November 2015
-last_updated: 20 September 2017
+last_updated: 10 November 2015
 ---
 
 

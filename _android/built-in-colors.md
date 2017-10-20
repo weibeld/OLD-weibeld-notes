@@ -1,7 +1,8 @@
 ---
-title:  Andorid Built-In Colours
+title:  Android Built-In Colours
 author: Daniel Weibel
 date:   March 2017
+last_updated: March 2017
 ---
 
 - COLOR_RED 

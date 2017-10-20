@@ -2,6 +2,7 @@
 title:  Android Studio Shortcuts
 author: Daniel Weibel
 date:   October 2016
+last_updated: October 2016
 ---
 
 - Ctrl-o: select methods to override/implement
