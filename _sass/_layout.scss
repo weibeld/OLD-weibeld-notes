@@ -439,15 +439,15 @@ header {
   #header-search-form {
     display: flex;
     #header-search-text {
-      background: #ccc;
+      height: 100%;
       padding: 0 1rem;
-      //width: calc(100vw - #{$width-search-button});
+      font-family: $font-body;
+      font-size: 1.2rem;
       $width-search-text: calc(100vw - #{$width-search-button});
       width: $width-search-text;
       position: absolute;
       right: calc(-1 * #{$width-search-text} + #{$width-search-button});
       transition: right 0.3s;
-      height: 100%;
       &.active {
         right: $width-search-button;
       }

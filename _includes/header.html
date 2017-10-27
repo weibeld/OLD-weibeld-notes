@@ -9,7 +9,7 @@
     </a>
   </div>
 
-  <form id="header-search-form" action="{{ '/search/' | relative_url }}" method="get">
+  <form id="header-search-form" action="{{ '/search/' | relative_url }}" method="get" onsubmit="return isSubmit();">
     <input type="search" id="header-search-text" name="query" placeholder="Search...">
     <button type="submit" id="header-search-submit">
       <img id="search-black" src="{{ 'assets/icons/search-black.svg' | relative_url }}">
@@ -17,5 +17,7 @@
     </button>
   </form>
 
+  <script src="{{ '/js/search-bar.js' | relative_url }}"></script>
+  <script src="{{ '/js/classie.js' | relative_url }}"></script>
 </header>
 
