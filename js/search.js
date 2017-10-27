@@ -40,7 +40,10 @@
 
   // Step 2: perform the search (with lunr)
   if (searchTerm) {
-    document.getElementById('search-box-body').setAttribute("value", searchTerm);
+    var textBox = document.getElementById('body-search-text');
+    // Don't focus on mobile to avoid that soft-keyboard pops up
+    if (window.matchMedia("(pointer: fine)").matches) textBox.focus();
+    textBox.value = searchTerm;
 
     // Initalize lunr with the fields it will be searching on. I've given title
     // a boost of 10 to indicate matches on this field are more important.

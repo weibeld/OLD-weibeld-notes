@@ -277,11 +277,34 @@ ul.breadcrumbs {
     }
   }
 }
+// Search bar (on search page)
+#body-search-form {
+  display: inline-flex;
+  width: 70%;
+  border: 2px solid;
+  #body-search-text {
+    padding: 0.5rem 1rem;
+    width: 100%;
+  }
+  #body-search-submit {
+    width: 2.25rem;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 1.75rem;
+    background-image: url('icons/search-black.svg');
+    background-color: white ;
+    &:hover {
+      background-color: black;
+      background-image: url('icons/search-white.svg');
+    }
+  }
+}
 // Search results
 #search-result-list {
   margin-top: 1.5rem;
   li {
     margin: 1rem 0;
+    text-align: left;
   }
 }
 .search-result {

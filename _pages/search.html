@@ -8,7 +8,10 @@ permalink: /search/
 
 <h1 class="categories-title">Search</h1>
 
-{% include search-box-body.html %}
+<form id="body-search-form" action="{{ '/search/' | relative_url }}" method="get">
+  <input id="body-search-text" type="search" name="query" placeholder="Search..."> 
+  <button id="body-search-submit" type="submit"></button>
+</form>
 
 <!-- Placeholder for search results -->
 <ul id="search-result-list"></ul>
