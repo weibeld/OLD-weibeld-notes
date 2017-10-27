@@ -1,17 +1,20 @@
 <header>
+
   <div id="header-left">
-    <a id="header-logo-link" class="naked-link no-strong-hover" href="{{ "/" | relative_url }}">
+    <a id="header-logo-link" href="{{ "/" | relative_url }}">
       <img src="{{ '/assets/icons/weibeld.png' | relative_url }}">
     </a>
-    <a id="header-title-link" class="naked-link no-strong-hover" href="{{ "/" | relative_url }}">
+    <a id="header-title-link" href="{{ "/" | relative_url }}">
       {{ site.title | escape }}
     </a>
   </div>
 
   <form id="header-search-form" action="{{ '/search/' | relative_url }}" method="get">
-    <label for="header-search-input"></label>
-    <input type="text" id="header-search-input" name="query" placeholder="Search...">
-    <input type="submit" id="header-search-submit" value="&nbsp;">
+    <input type="search" id="header-search-text" name="query" placeholder="Search...">
+    <button type="submit" id="header-search-submit">
+      <img id="search-black" src="{{ 'assets/icons/search-black.svg' | relative_url }}">
+      <img id="search-white" src="{{ 'assets/icons/search-white.svg' | relative_url }}">
+    </button>
   </form>
 
 </header>
