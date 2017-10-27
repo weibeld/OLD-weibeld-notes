@@ -502,7 +502,7 @@ header {
 /* Footer */
 
 footer {
-  font-size: $font-size-footer;
+  font-size: $font-size-footer-Mobile;
 	padding: 0 $padding-main-Mobile;
   background-color: $color-footer;
   border-top: $border-header-footer;
@@ -521,6 +521,11 @@ footer {
 @media (min-width: $break-give-space) {
   footer {
     padding: 0 $padding-main-Desktop;
+    font-size: $font-size-footer-Desktop;
+    line-height: $line-height-footer-Desktop;
+    p {
+      margin: $margin-paragraph-footer-Desktop 0;
+    }
   }
 }
 
