@@ -22,7 +22,7 @@ description: > # this means to ignore newlines until "baseurl:"
 baseurl: "/mynotes" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username: weibeld
-date_format: "%-d %b %Y'"
+date_format: "%-d %b %Y"
 
 
 # Build settings
@@ -69,7 +69,25 @@ collections:
     image: /assets/icons/pdf.png
     description: >
       Notes about editing PDF files with command-line tools.
-  categories:
+  aws:
+    output: true
+    title: Amazon Web Services
+    image: /assets/icons/aws.png
+    description: >
+      Some notes about specific Amazon Web Services (AWS) products, in particular Amazon S3.
+  vim:
+    output: true
+    title: Vim
+    image: /assets/icons/vim.png
+    description: >
+      The amazing vim editor, successor of vi, visual mode of ex, successor of ed, better version of qed.
+  latex:
+    output: true
+    title: LaTeX
+    image: /assets/icons/latex.png
+    description: >
+      Notes about and code snippets of the LaTeX typesetting system, including related tools, such as BibTeX.
+  categorie:
     output: true
     permalink: /:path/
 
