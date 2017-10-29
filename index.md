@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-
+ 
 <!--<h1 class="categories-title">Categories</h1>-->
 
 <!--<div id="test1">500 px</div>
