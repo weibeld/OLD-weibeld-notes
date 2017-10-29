@@ -85,7 +85,7 @@ collections:
     title: LaTeX
     image: /assets/icons/latex.png
     description: >
-      Notes about and code snippets of the LaTeX typesetting system, including related tools, such as BibTeX.
+      A bunch of how to's and code snippets for LaTeX and related tools, such as BibTeX and BibDesk.
   categories:
     output: true
     permalink: /:path/
