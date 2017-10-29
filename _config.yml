@@ -27,8 +27,9 @@ date_format: "%-d %b %Y"
 
 # Build settings
 markdown: kramdown
-plugins:
-  - jekyll-feed
+#plugins:
+#  - jekyll-feed
+#  - jekyll-gist
 
 # Further settings
 
@@ -87,13 +88,14 @@ collections:
     image: /assets/icons/latex.png
     description: >
       Notes about and code snippets of the LaTeX typesetting system, including related tools, such as BibTeX.
-  categorie:
+  categories:
     output: true
     permalink: /:path/
 
 defaults:
   - values:
       layout: page
+
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
