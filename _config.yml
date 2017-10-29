@@ -1,12 +1,7 @@
-# Welcome to Jekyll!
-#
 # This config file is meant for settings that affect your whole blog, values
 # which you are expected to set up once and rarely edit after that. If you find
 # yourself editing this file very often, consider using Jekyll's data files
 # feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
 # These are used to personalize your new site. If you look in the HTML files,
@@ -15,28 +10,31 @@
 # in the templates via {{ site.myvariable }}.
 title: Notes
 email: info@weibeld.net
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "/mynotes" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-github_username: weibeld
+baseurl: "/mynotes"  # the subpath of your site, e.g. /blog
+url: ""  # the base hostname & protocol for your site, e.g. http://example.com
 date_format: "%-d %b %Y"
 
 
 # Build settings
 markdown: kramdown
-#plugins:
-#  - jekyll-feed
-#  - jekyll-gist
 
-# Further settings
+# Default settings
+defaults:
+  - values:
+      layout: page
 
-# Process the files in the _pages folder
+# Include directories in Jekyll processing
 include:
   - _pages
 
+# Collections
+#
+# With Jekyll version 3.7.0 all the collection directories can be gathered in a
+# single top-level directory. This directory can be specified in _config.yml
+# by "collections_dir: my_collections" (https://jekyllrb.com/docs/collections/).
+#
+# However, this can only be used when GitHub Pages updates to Jekyll v3.7.0.
+# Check currently used Jekyll version here: https://pages.github.com/versions/
 collections:
   android:
     output: true
@@ -92,9 +90,7 @@ collections:
     output: true
     permalink: /:path/
 
-defaults:
-  - values:
-      layout: page
+
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

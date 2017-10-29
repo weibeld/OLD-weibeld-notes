@@ -1,28 +1,14 @@
 source "https://rubygems.org"
 
-# Hello! This is where you manage which Jekyll version is used to run.
-# When you want to use a different version, change it below, save the
-# file and run `bundle install`. Run Jekyll with `bundle exec`, like so:
+# This gem (https://github.com/github/pages-gem) installs all the gems that are
+# used on GitHub Pages locally (and the same versions of these gems). This makes
+# the local build environment similar to the build environment on GitHub Pages.
 #
-#     bundle exec jekyll serve
-#
-# This will help ensure the proper Jekyll version is running.
-# Happy Jekylling!
-#gem "jekyll", "3.6.0"
-
-# This is the default theme for new Jekyll sites. You may change this to anything you like.
-# gem "minima", "~> 2.0"
-
-# If you want to use GitHub Pages, remove the "gem "jekyll"" above and
-# uncomment the line below. To upgrade, run `bundle update github-pages`.
+# - To install the gems, run "bundle install" (writes Gemfile.lock). This must
+#   be only done once, at the very beginning.
+# - To synchronise the gem versions installed locally with the versions
+#   currently used on GitHub Pages, run "bundle update github-pages"
+# - To see the gem versions used locally, run "bundle exec github-pages versions"
+# - To see the gem versions currently used by GitHub Pages, go to
+#   https://pages.github.com/versions/
 gem "github-pages", group: :jekyll_plugins
-
-# If you have any plugins, put them here!
-group :jekyll_plugins do
-   #gem "jekyll-feed", "~> 0.6"
-   #gem 'jekyll-gist'
-end
-
-# Windows does not include zoneinfo files, so bundle the tzinfo-data gem
-#gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
-
