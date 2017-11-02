@@ -39,7 +39,7 @@ $margin-paragraph-footer-Desktop: 0.5rem;
 /* Font sizes */
 //   Root
 $font-size-root-Mobile: 1.05em;
-$font-size-root-Desktop: 1.25rem;
+$font-size-root-Desktop: 1.25em;
 //   Miscellaneous UI elements
 $font-size-page-heading-Mobile: 2.3rem;
 $font-size-page-heading-Desktop: 2.6rem;
@@ -50,7 +50,8 @@ $font-size-footer-Desktop: 0.8rem;
 $font-size-breadcrumbs-Mobile: 1.05rem;
 $font-size-breadcrumbs-Desktop: 0.9rem;
 $font-size-date: 0.9rem;
-
+$font-size-blockquote-Mobile: 0.95rem;
+$font-size-blockquote-Desktop: 0.9rem;
 
 /* Line heights */
 $line-height-body-Mobile: 1.3;
@@ -87,6 +88,7 @@ $margin-top-h3-Desktop: 1rem;
 $base-color-accent: #f99100;
 $color-accent: rgba($base-color-accent, 1);
 $color-accent-light: rgba($base-color-accent, 0.5);
+$color-accent-medium-light: rgba($base-color-accent, 0.35);
 $color-accent-very-light: rgba($base-color-accent, 0.2);
 // Other colours
 $color-secondary-text: rgba(0, 0, 0, 0.5);

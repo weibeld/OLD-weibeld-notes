@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xl="http://www.w3.org/1999/xlink" version="1.1" viewBox="239 367 117 117" width="117pt" height="117pt" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <metadata> Produced by OmniGraffle 7.2.1 
+    <dc:date>2017-10-31 17:55:18 +0000</dc:date>
+  </metadata>
+  <defs>
+    <font-face font-family="Helvetica Neue" font-size="22" panose-1="2 0 8 3 0 0 0 9 0 4" units-per-em="1000" underline-position="-100" underline-thickness="50" slope="0" x-height="517" cap-height="714" ascent="975.0061" descent="-216.99524" font-weight="bold">
+      <font-face-src>
+        <font-face-name name="HelveticaNeue-Bold"/>
+      </font-face-src>
+    </font-face>
+  </defs>
+  <g stroke="none" stroke-opacity="1" stroke-dasharray="none" fill="none" fill-opacity="1">
+    <title>Canvas 1</title>
+    <rect fill="white" width="595.2756" height="841.8898"/>
+    <g>
+      <title>Layer 1</title>
+      <circle cx="297.6378" cy="425.19685" r="56.693004" fill="#80ff80" fill-opacity=".8"/>
+      <circle cx="297.6378" cy="425.19685" r="56.693004" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.8346457"/>
+      <circle cx="283.46457" cy="425.19685" r="28.346502" fill="#ff8080"/>
+      <circle cx="283.46457" cy="425.19685" r="28.346502" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.8346457"/>
+      <text transform="translate(271.4567 400.614)" fill="black">
+        <tspan font-family="Helvetica Neue" font-size="22" font-weight="bold" x=".163" y="21" textLength="14.674">P</tspan>
+      </text>
+      <text transform="translate(311.14174 379.35416)" fill="black">
+        <tspan font-family="Helvetica Neue" font-size="22" font-weight="bold" x=".442" y="21" textLength="17.116">Q</tspan>
+      </text>
+    </g>
+  </g>
+</svg>

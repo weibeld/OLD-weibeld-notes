@@ -576,4 +576,99 @@ div[id^=footer-col-] > :first-child {
 }
 
 
+.center-image {
+  margin: 0 auto;
+  display: block;
+}
 
+/* Tables */
+
+// Table elements WITHOUT a class, because GitHub Gists are also tables
+table:not([class]) {
+  margin: 0 auto;
+  border-collapse: collapse;
+  box-shadow: $shadow-large;
+
+  td, th {
+    padding: 0.2rem 0.75rem;
+    &:first-child {
+      padding-left: 0.4rem;
+    }
+    &:last-child {
+      padding-right: 0.4rem;
+    }
+  }
+
+  tbody > tr {
+    &:nth-child(even) {
+      background: #CCC;
+    }
+    &:hover {
+      //background-color: black;
+      //color: white;
+      //box-shadow: $shadow-large;
+    }
+  }
+
+  thead > tr {
+    background: #CCC;
+  }
+
+  tbody {
+    //border-top: 1px solid;
+    //border-bottom: 1px solid;
+  }
+}
+
+.glossary-following + table {
+  border-collapse: collapse;
+  width: 100%;
+  table-layout: fixed;
+
+  td {
+    padding: 0.5rem 1rem;
+    word-wrap: break-word;
+    vertical-align: top;
+    &:first-child {
+      padding-left: 0.4rem;
+      max-width: 15rem;
+      font-weight: bold;
+    }
+    &:last-child {
+      padding-right: 0.4rem;
+      line-height: $line-height-description;
+    }
+  }
+
+  tbody > tr {
+    border-bottom: 1px solid;
+    border-top: 1px solid;
+    &:nth-child(odd) {
+      background: initial;
+    }
+    &:hover {
+      //background: $color-accent-very-light;
+      //background: black;
+      //color: white;
+      //a {
+      //color: white;
+     // }
+    }
+  }
+}
+
+
+/* Block quotes */
+
+blockquote {
+  font-size: $font-size-blockquote-Desktop;
+  line-height: $line-height-footer-Desktop;
+  margin: 0; // 2rem;
+  padding: 0.5rem 0.75rem;
+  background: $color-accent-medium-light;
+  border: 3px solid $color-accent;
+  box-shadow: $shadow-large;
+  p {
+    margin: 0;
+  }
+}

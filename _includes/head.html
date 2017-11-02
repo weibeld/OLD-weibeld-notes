@@ -19,11 +19,18 @@
 
 
   <!-- MathJax -->
-  <!--<script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">-->
+  <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      tex2jax: {
+        inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+        processEscapes: true
+      }
+    });
+  </script>
+  <script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ "/feed.xml" | relative_url }}">
-  <!--<link rel="shortcut icon" type="image/x-icon" href="{{ '/favicon.ico?' | relative_url }}">-->
   <!-- Favicon (generated with https://realfavicongenerator.net/) -->
   <link rel="apple-touch-icon" sizes="180x180" href="{{ '/assets/favicons/apple-touch-icon.png' | relative_url }}">
   <link rel="icon" type="image/png" sizes="32x32" href="{{ '/assets/favicons/favicon-32x32.png' | relative_url }}">

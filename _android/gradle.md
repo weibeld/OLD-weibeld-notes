@@ -47,13 +47,13 @@ Change Gradle Version for Android Project
 
 In `gradle/wrapper/gradle-wrapper.properties` change
 
-~~~email
+~~~
 distributionUrl=http\://services.gradle.org/distributions/gradle-1.12-all.zip
 ~~~
 
 to
 
-~~~email
+~~~
 distributionUrl=http\://services.gradle.org/distributions/gradle-2.8-all.zip
 ~~~
 
@@ -65,13 +65,13 @@ Adapt Gradle Build File
 
 In `build.gradle` change
 
-~~~email
+~~~
 runProguard false
 ~~~
 
 to
 
-~~~email
+~~~
 minifyEnabled false
 ~~~
 

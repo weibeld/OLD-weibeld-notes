@@ -13,7 +13,7 @@ email: info@weibeld.net
 baseurl: "/mynotes"  # the subpath of your site, e.g. /blog
 url: ""  # the base hostname & protocol for your site, e.g. http://example.com
 date_format: "%-d %b %Y"
-
+future: true
 
 # Build settings
 markdown: kramdown
@@ -49,7 +49,7 @@ collections:
     #permalink: /categories/:collection/:path/
     image: /assets/icons/google.png
     description: >
-      Google products, such as Google Photos, Google Fonts, etc.
+      For fans of the zillion of Google products, like Google Fonts, Google Photos, Google Play Music, etc.
   terminals-and-shells:
     output: true
     title: Terminals & Shells
@@ -85,7 +85,55 @@ collections:
     title: LaTeX
     image: /assets/icons/latex.png
     description: >
-      A bunch of how to's and code snippets for LaTeX and related tools, such as BibTeX and BibDesk.
+      How to's and code snippets concerning LaTeX, as well as related tools, such as BibTeX and BibDesk.
+  git:
+    output: true
+    title: Git
+    image: /assets/icons/git.png
+    description: >
+      Everyting about Git, the incredibly effective version control system.
+  trash:
+    output: true
+    title: Trash
+    image: /assets/icons/trash.png
+    description: >
+      Notes that I deem not so important or high-quality, but that I still want to keep for now.
+  misc:
+    output: true
+    title: Misc
+    image: /assets/icons/misc.png
+    description: >
+      Miscellaneous notes. Everything that doesn't fit into one of the existing categories.
+  heroku:
+    output: true
+    title: Heroku
+    image: /assets/icons/heroku.png
+    description: >
+      Heroku is a flexible and easy-to-use Platform as a Service for deploying web applications.
+  java:
+    output: true
+    title: Java
+    image: /assets/icons/java.png
+    description: >
+      Everything about the Java programming language and environment.
+  r:
+    output: true
+    title: R 
+    image: /assets/icons/r.png
+    description: >
+      Notes about the R programming language for statistical computing, and related technologies, like R Markdown.
+  rails:
+    output: true
+    title: Ruby on Rails
+    image: /assets/icons/rails.png
+    description: >
+      The Ruby on Rails web application framework, which together with Git and Heroku makes the magic trio.
+  mac:
+    output: true
+    title: macOS
+    image: /assets/icons/apple.png
+    description: >
+      How to do various things on macOS.
   categories:
     output: true
     permalink: /:path/
