@@ -5,237 +5,185 @@ date:   December 2013
 last_updated: 28 December 2015
 ---
 
-A checklist of things to do after factory-resetting a Mac (or setting up a new Mac).
+Settings, tweaks, and software that I find useful on a Mac. This can be used as a checklist when setting up a machine with a fresh macOS.
 
 Last used for setting up Mac OS X El Capitan 10.11.1 on MacBook Air Model A1465.
 
+# Check For macOS Updates
 
-# Enable tap to click
+*App Store > Updates*
+
+# Enable Tap To Click
 
 *System Preferences > Trackpad > Tap to click*
 
+# Enable Three-Finger Dragging Of Windows
 
-# Enable three-finger dragging of windows
+*System Preferences > Accessibility > Mouse & Trackpad > Trackpad Options... > Enable dragging > three finger drag*
 
-*System Preferences > Accessibility > Mouse & Trackpad (list on left) > Trackpad Options... > Check "Enable dragging" > Choose "three finger drag"*
-
-
-# Switch Alt/Cmd and Ctrl/Caps Lock keys
+# Swap Alt/Cmd and Ctrl/Caps Lock keys
 
 *System Preferences > Keyboard > Modifier Keys...*
 
+# Hide Dock And Fixate Menu Bar
 
-# Hide dock and fixate menu bar
+*Right-click on Dock > Turn Hiding On*
 
-*Right click on dock > Turn Hiding On*
-
-
-# Disable auto adjustment of screen brightness
+# Disable Auto Adjustment Of Screen Brightness
 
 *System Preferences > Displays > Uncheck "Automatically adjust brightness"*
 
+# Enable "Snap-To-Grid" For Desktop Icons
 
-# Enable "snap-to-grid" for desktop icons
+*Finder > View > Show View Options > Sort by > Snap to Grid*
 
-*Finder > View > Show View Options > Sort by > Select "Snap to Grid"*
+# Allow Apps From Unidentified Developers
 
-# Install Logitech Swiss German keyboard layout
+*System Preferences > Security & Privacy > General > Allow apps downloaded from: > 
+Anywhere*
 
-See instructions [here](custom-keyboard-layout.html).
+# Prevent Startup Sound
+
+This mutes the volume just before logout, and restores the previous volume just after login. In this way, the startup chime is never played:
+
+~~~bash
+sudo defaults write com.apple.loginwindow LogoutHook "osascript -e 'set volume with output muted'"
+sudo defaults write com.apple.loginwindow LoginHook "osascript -e 'set volume without output muted'"
+~~~
+
+Very recommended if you work in a library 🙉
 
 # Customise Finder
 
-- Finder preferences:
-  - General:  New Finder windows show: Desktop
-  - Sidebar:  Select desired items
-  - Advanced:
-      - Check "Show all filename extensions"
-      - Uncheck "Show warning before changing an extension"
-      - When performing a search: Search the Current Folder
-- View > Show Status Bar
+## Preferences
 
+In *Finder > Preferences...*, make the following changes:
+
+- *General > New Finder windows show > Desktop*
+- *Sidebar > Select the desired items*
+- *Advanced > Check "Show all filename extensions"*
+- *Advanced > Uncheck "Show warning before changing an extension"*
+- *Advanced > When performing a search > Search the Current Folder*
+
+## Show Status Bar and Path Bar:
+
+- *View > Show Status Bar*
+- *View > Show Path Bar*
+
+
+## Show the `~/Library` Folder:
+
+~~~bash
+chflags nohidden ~/Library
+~~~
 
 # Customise TextEdit
 
-- TextEdit Preferences:
-  - Format:  Plain Text
-  - Width:   80
-  - Font:    Menlo Regular 12
-  - Options: Uncheck all
+In *TextEdit > Preferences...* make the following changes:
+
+- *Format > Plain Text*
+- *Width > 80 Characters*
+- *Plain text font > Menlo Regular 12*
+- *Options > Uncheck all!*
 
 
-# Customise Terminal
+# Install Logitech Swiss German Keyboard Layout
 
-- Terminal Preferences:
-    - Profiles
-        - Text
-            - Background: black
-            - Font: Menlo Regular 14 pt.
-            - Text:
-                - Text:      white
-                - Bold Text: white
-                - Selection: tab with colour names > "Crayons" > set "Nickel"
-            - Cursor: Vertical Bar, white
-        - Advanced
-            - Uncheck "Audible bell"
-- Alternatively, import file Basic.terminal, stored on Amazon S3
-
-
-# Install OS X updates
-
-App Store > Updates
-
-
-# Install previously purchased apps
-
-App Store > Purchased
-
-
-# Allow apps from unidentified developers
-
-System Preferences > Security & Privacy > General > Allow apps downloaded from:
-Anywhere
+See instructions [here](custom-keyboard-layout.html).
 
 
 # Install Xcode Command Line Tools
 
-- Execute "$ gcc"
-- In the dialog that appears, click "Install"
-- Verify installation of the Command Line Tools with "$ xcode-select -p"
-    - If output is /Library/Developer/CommandLineTools, then OK
+Execute
+
+~~~bash
+gcc
+~~~
+
+In Order To Trigger A Dialog Prompting You To Install The *Xcode Command Line Tools*.
+
+Verify installation with:
+
+~~~bash
+xcode-select p
+~~~
+
+If the output is
+
+~~~
+/Library/Developer/CommandLineTools
+~~~
+
+then the installation was successful.
 
 
-# Install and set up Homebrew
+# Install Homebrew
 
-- Find command for installing on http://brew.sh/
-- Install
-- Run "$ brew doctor", and follow instructions to remove all the warnings
+~~~bash
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+~~~
 
+## Make Sure Homebrew is Fine
 
-# Install Git
+Run
 
-- $ brew install git
+~~~bash
+brew doctor
+~~~
 
-
-# Install dotfiles
-
-- $ git clone https://github.com/weibeld/dotfiles.git
-- Create links to dotfiles in repository by sourcing the "_link" files in the
-  different directories of the repository
+and follow the instructions to remove all the warnings.
 
 
-# Install tmux and tmuxinator
+# Install Software with Homebrew
 
-- $ brew install tmux
-- $ sudo gem install tmuxinator
+Save the following content as a file named `Brewfile` in any directory:
 
+~~~
+tap 'caskroom/cask'
 
-# Prevent startup sound
+brew 'git'
+brew 'tmux'
+brew 'r'
+brew 'pandoc'
+brew 'pandoc-citeproc'
+brew 'imagemagick'
+brew 'chruby'
+brew 'ruby-install'
 
-- Make sure scripts "mute_on" and "mute_off" are in /Users/dw/bin
-- $ sudo defaults write com.apple.loginwindow LogoutHook /Users/dw/bin/mute_on
-- $ sudo defaults write com.apple.loginwindow LoginHook  /Users/dw/bin/mute_off
+cask 'mactex'
+cask 'java'
+cask 'google-chrome'
+cask 'firefox'
+cask 'opera'
+cask 'gimp'
+cask 'vlc'
+cask 'iterm2'
+cask 'omnigraffle'
+cask 'cyberduck'
+~~~
 
+Now, in the directory where the `Brewfile` is located, run:
 
-# Install R
+~~~bash
+brew bundle install
+~~~
 
-Download and install from http://stat.ethz.ch/CRAN/
+This installs all the applications listed in the `Brewfile` with Homebrew.
 
+# Install an "Open Terminal Here" Tool for Finder
 
-# Install Pandoc and pandoc-citeproc
+[*cd to*](https://github.com/jbtule/cdto) is a plugin for the Finder toolbar which allows to open a terminal window in the current directory.
 
-$ brew install pandoc
-$ brew install pandoc-citeproc
+- Download the latest release of *cd to* from [here](https://github.com/jbtule/cdto) (ZIP file).
+- Unzip the file
+- Copy the `cd to.app` file of the directory named after the desired terminal to the `/Applications` folder
+    - For example, if you want to use **iTerm2**, use the file `iterm/cd to.app`
+- From the `/Applications` folder, hold *Alt-Cmd* and drag the `cd to.app` file onto the toolbar of any Finder window
 
+Now the plugin is installed.
 
-# Install MacTeX
+# Last But Not Least: Install Your Dotfiles
 
-Download and install from https://tug.org/mactex/
+This is probably where most of your customisations are.
 
-
-# Install and set up BibDesk
-
-- Download and install from http://bibdesk.sourceforge.net/
-- Deploy scripts in scripts.zip on Amazon S3 according to instructions
-
-
-# Install VPN client from UNIFR
-
-- Find by googling "unifr vpn"
-- Server: vpn.unifr.ch
-
-
-# Set up Logitech R700 presenter for Preview
-
-1. Download and install KeyRemap4MacBook from https://pqrs.org/macosx/keyremap4macbook/
-2. Open the application
-3. Go to tab 'Misc & Uninstall'
-4. Click 'Open private.xml'
-5. Replace the content of private.xml with the following:
-<?xml version="1.0"?>
-<root>
-	<appdef>
-		<appname>PREVIEW</appname>
-	<equal>com.apple.iWork.Preview</equal>
-	</appdef>
-	<devicevendordef>
-		<vendorname>LOGITECH</vendorname>
-		<vendorid>0x046d</vendorid>
-	</devicevendordef>
-	<deviceproductdef>
-		<productname>Rx00</productname>
-		<productid>0xc52d</productid>
-	</deviceproductdef>
-	<item>
-		<name>Logitech Presenter with Preview</name>
-		<identifier>private.app_preview_logitech_presenter</identifier>
-		<only>PREVIEW</only>
-		<device_only>DeviceVendor::LOGITECH, DeviceProduct::Rx00</device_only>
-		<autogen>
-			--KeyToKey-- KeyCode::PAGEDOWN, KeyCode::CURSOR_RIGHT
-		</autogen>
-		<autogen>
-			--KeyToKey-- KeyCode::PAGEUP, KeyCode::CURSOR_LEFT
-		</autogen>
-		<autogen>
-			--KeyToKey-- KeyCode::F5, KeyCode::F, ModifierFlag::COMMAND_L | ModifierFlag::SHIFT_L
-		</autogen>
-	</item>
-</root>
-6. Go to tab 'Change Key'
-7. Click 'Reload XML'
-8. Add a tick in the newly appearing 'Logitech Presenter with Preview'
-9. Close KeyRemap4MacBook
-10. Plug in the Logitech R700 stick
-11. Close a probably appearing Keyboard Setup Assistant dialog
-12. Now, the R700 works for controlling Preview slideshows
-This modified the functions of the R700 buttons so that they work with Preview:
-R700 button	Default function	New function
-----------------------------------------------------
-Next		Page down		Cursor right
-Previous	Page up			Cursor left
-Start		F5			Cmd+Shift+F
-http://prezentation.ch/2012/08/logitech-presenter-r400-und-r800-mit-keynote/
-
-
-# Futher software to install (directly from the respective websites)
-
-- VLC player
-- uTorrent
-- LibreOffice
-- Java SDK
-- Printer driver
-- Sublime Text
-- Caffeine
-- Android File Transfer
-- Dropbox
-- Skype (skype name: dw.unige)
-
-
-# Make a Time Machine backup of the freshly customised Mac
-
-- Connect an external HD
-- Erase it: Applications > Utilities > Disk Utility > select second, indented line of HD > Erase > Format: Mac OS Extended (Case-sensitive, Journaled) or Mac OS Extended (Case-sensitive)
-- System Preferences > Time Machine > Select Disk...
-- The backup will now be made automatically on the HD
-
+My dotfiles are backed up here: <https://github.com/weibeld/dotfiles>

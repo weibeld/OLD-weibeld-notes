@@ -134,6 +134,30 @@ collections:
     image: /assets/icons/apple.png
     description: >
       How to do various things on macOS.
+  linux:
+    output: true
+    title: Linux
+    image: /assets/icons/linux.png
+    description: >
+      Various Linux-specific notes.
+  webdesign:
+    output: true
+    title: Web Design
+    image: /assets/icons/webdesign.png
+    description: >
+      Information, tips, and tricks about the main ingredients of web design: HTML, CSS, and JavaScript.
+  experiences:
+    output: true
+    title: Events & Experiences
+    image: /assets/icons/experiences.png
+    description: >
+      Summaries and journals of events that I attended, or other experiences that I made.
+  mobcom:
+    output: true
+    title: Mobile Communication
+    image: /assets/icons/mobcom.png
+    description: >
+      Mobile communication technologies, including UMTS, LTE, 5G, organisations like 3GPP, and technical aspects of radio communication.
   categories:
     output: true
     permalink: /:path/

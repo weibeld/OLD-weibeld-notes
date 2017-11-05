@@ -12,7 +12,7 @@ Apple Color Window
 
 The Apple Color Window is the following window:
 
-![Apple Color Window](assets/colors-window.png){:width="40%"}{:.center-image}
+![Apple Color Window](assets/apple-color-window.png){:width="40%"}{:.center-image}
 
 It is a window provided by the operating system, and used by many applications as their interface for choosing a color (for example, OmniGraffle).
 

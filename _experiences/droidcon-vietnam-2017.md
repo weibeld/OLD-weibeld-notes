@@ -5,13 +5,22 @@ date:   15 April 2017
 last_updated: 16 April 2017
 ---
 
-# Part 1: 15 April Morning
+From 15--16 April 2017 Droidcon took place in Ho Chi Minh City, Vietnam. 
 
-## Espresso: Beyond the Basics
+Here is a short summary of all the presentations that I attended.
 
-**Inaki Villar**
+It includes a subjective ordering of the presentations of each day, with respect to how relevant I found the presented content for myself (1 means most relevant). 
 
-My day rank: 7
+# List of Presentations
+* TOC
+{:toc}
+
+# Espresso: Beyond the Basics
+
+- Speaker: **Iñaki Villar**
+- Date: 15 April, morning
+
+## Content
 
 - Architecture and usage of Espresso
 - Talk did not cover basic usage, but only advanced topics
@@ -23,21 +32,31 @@ My day rank: 7
     - Amazon
     - Firebase
 
-## Exploring Data Binding
+## Order
 
-**Zarah Dominguez**
+7/8
 
-My day rank: 3
+# Exploring Data Binding
+
+- Speaker: **Zarah Dominguez**
+- Date: 15 April, morning
+
+## Content
 
 - Good overview of data binding
 - TODO: explore it more, especially anonymous method calls in XML and `@BindingAdapter`
 - Issue to add data binding to an XML file automatically in Android Studio: <https://issuetracker.google.com/issues/37136823>
 
-## Reverse Engineering Apps
+## Order
 
-**Jesse Sum**
+3/8
 
-My day rank: 1
+# Reverse Engineering Apps
+
+- Speaker: **Jesse Sum**
+- Date: 15 April, morning
+
+## Content
 
 - Very interesting
 - Decompiling an APK in two ways:
@@ -48,14 +67,17 @@ My day rank: 1
 - Obfuscating code with ProGuard replaces identifiers with short strings, so it's harder to make sense of the decompiled code (but not impossible)
 - See *Reverse Engineering* talk on 16 April, afternoon
 
+## Order
 
-# Part 2: 15 April Afternoon
+1/8
 
-## Android Performance
 
-**Enrique Lopez**
+# Android Performance
 
-My day rank: 6
+- Speaker: **Enrique Lopez**
+- Date: 15 April, afternoon
+
+## Content
 
 - Various techniques to make an app more performant
     - SysTrace
@@ -65,11 +87,17 @@ My day rank: 6
     - `WeakReference` (to prevent memory leaks)
     - etc.
 
-## J2ObjC
+## Order
 
-**Charlie Collins**
+6/8
 
-My day rank: 5
+
+# J2ObjC
+
+- Speaker: **Charlie Collins**
+- Date: 15 April, afternoon
+
+## Content
 
 - Write parts of code once and use them on both Android and iOS (and even Web)
 - Most suitable to be shared like this are the *Entities* (see Android Clean Architecture)
@@ -77,41 +105,69 @@ My day rank: 5
 - Presentation of the *J2ObjC* tool
 - Did not attend the entire talk
 
-## Kotlin
+## Order
 
-**Kai Koenig**
+5/8
 
-My day rank: 4
+# Kotlin
+
+- Speaker: **Kai Koenig**
+- Date: 15 April, afternoon
+
+## Content
 
 - Introduction to Kotlin (v1.1)
 - Slideshare: <https://www.slideshare.net/AgentK>
 
-## Design of Fabulous
+## Order
 
-**Taylor Ling**
+4/8
 
-My day rank: 2
+# Design of Fabulous
+
+- Speaker: **Taylor Ling**
+- Date: 15 April, afternoon
+
+## Content
 
 - Development story of the [Fabulous](https://play.google.com/store/apps/details?id=co.thefabulous.app) app
 - Interesting form a product management perspective
 - Learned the term of MVP: minimum viable product
 
-## React Native
+## Order
 
-**Henry Tao**
+2/8
 
-My day rank: 8
+# React Native
+
+- Speaker: **Henry Tao**
+- Date: 15 April, afternoon
+
+## Content
 
 - Presentation of ReactNative
 - Did not attend the entire talk
 
-# Part 3: 16 April Morning
+## Order
 
-## Reactive Programming on Android
+8/8
 
-**Soham Mondal**
 
-My day rank: 3
+<p>&nbsp;</p>
+
+***
+
+**Next day**
+
+***
+
+
+# Reactive Programming on Android
+
+- Speaker: **Soham Mondal**
+- Date: 16 April, morning
+
+## Content
 
 - Good introduction to reactive programming
 - Three elements:
@@ -133,11 +189,16 @@ My day rank: 3
     - `onError`
 - Slides: <http://bit.ly/introduction_reactive_android)
 
-## How to make high-quality Android apps
+## Order
 
-**Hai Nguyen**
+3/5
 
-My day rank: 2
+# How To Make High-Quality Android Apps
+
+- Speaker: **Hai Nguyen**
+- Date: 16 April, morning
+
+## Content
 
 - Software architecture and project managemnt that facilitate developing complex apps
     - Testing
@@ -181,11 +242,16 @@ My day rank: 2
         - Circle CI
         - Codeship
 
-## ConstraintLayout
+## Order
 
-**Cao Duy Vu**
+2/5
 
-My day rank: 5
+# ConstraintLayout
+
+- Speaker: **Cao Duy Vu**
+- Date: 16 April, morning
+
+## Content
 
 - Interesting introduction to ConstraintLayout
 - Each view has a horizontal and vertical constraint which can be relative to any other view
@@ -194,13 +260,15 @@ My day rank: 5
 - Performance slightly worse than without ConstraintLayout and Android Studio GUI Layout Designer integration is buggy
 - Likely to be improved in the future, as it was introduced just in Google I/O 2016
 
-# Part 4: 16 April Afternoon
+## Order
 
-## Nearby API
+5/5
 
-**Chad Schultz**
+# Nearby API
 
-My day rank: 4
+- Speaker: **Chad Schultz**
+- Date: 16 April, afternoon
+
 
 - Demonstration of the Google [Nearby API](https://developers.google.com/nearby/)
 - How it works: broadcast messages through some nearby communication medium (WiFi, Bluetooth) and other user in the range can receive them
@@ -224,11 +292,16 @@ My day rank: 4
         - Currently can transmit at most 10 bytes
         - Set [Strategy](https://developers.google.com/android/reference/com/google/android/gms/nearby/messages/Strategy) `DISTANCE_TYPE_EARSHOT`
 
-## Android Reverse Engineering
+## Order
 
-**Huynh Quang**
+4/5
 
-My day rank: 1
+# Android Reverse Engineering
+
+- Speaker: **Huynh Quang**
+- Date: 16 April, afternoon
+
+## Content
 
 - Same topic as the *Reverse Engineering* talk from 15 April, morning (Apktool/smali approach)
 - Explanation of smali code
@@ -246,29 +319,37 @@ My day rank: 1
     - [YouTube AdAway](http://repo.xposed.info/module/ma.wanam.youtubeadaway) - remove ads from YouTube app
 
 
-## F-Droid
+## Order
 
-**Peter Seerwylo**
+1/5
 
-My day rank: --
+# F-Droid
 
-- Not attended
+- Speaker: **Peter Seerwylo**
+- Date: 16 April, afternoon
 
-## Custom Lint Rules for Android
+*Not attended*
 
-**Hieu Hua**
+# Custom Lint Rules for Android
 
-My day rank: --
+- Speaker: **Hieu Hua**
+- Date: 16 April, afternoon
 
-- Not attended
+*Not attended*
 
----
+<p>&nbsp;</p>
 
-# Conclusion
+***
+
+**End of event**
+
+***
+
+# Conclusions
 
 Topics presented in the conference, which are...
 
-## Important for Now
+## Important and Urgent to Learn
 
 - Data Binding: explore in more depth
 - Architecture: learn how to apply these patterns
@@ -283,9 +364,9 @@ Topics presented in the conference, which are...
 - Reactive Programming
 - Use a testing farm, like the one of Firebase or Amazon
 
-## Important for the Future
+## Important but Not Urgent to Learn
 
-- Techniques to improve performance of apps (talk *Android Performance* on 15 April, afternoon)
+- Techniques to improve performance of apps ([*Android Performance*](#android-performance))
 - Continous integration
 
 ## Interesting But Not So Important
