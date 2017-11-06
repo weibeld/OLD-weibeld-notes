@@ -676,8 +676,11 @@ blockquote {
   background: $color-accent-medium-light;
   background-image: url('icons/info.png');
   background-repeat: no-repeat;
-  background-position: 0.5rem center;
+  background-position: 0.5em 0.65em;
   background-size: 2rem; 
+  min-height: 3.5rem;
+  display: flex;
+  align-items: center;
   p {
     margin: 0;
   }
