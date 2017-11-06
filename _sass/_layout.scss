@@ -664,18 +664,42 @@ table:not([class]) {
 
 /* Block quotes */
 
+// Normal blockquotes (info boxes)
 blockquote {
   font-size: $font-size-blockquote-Desktop;
   line-height: $line-height-footer-Desktop;
   margin: 0; // 2rem;
-  padding: 0.5rem 0.75rem;
-  background: $color-accent-medium-light;
   border: 3px solid $color-accent;
   box-shadow: $shadow-large;
+  padding: 0.5rem 0.75rem;
+  padding-left: 3rem;
+  background: $color-accent-medium-light;
+  background-image: url('icons/info.png');
+  background-repeat: no-repeat;
+  background-position: 0.5rem center;
+  background-size: 2rem; 
   p {
     margin: 0;
   }
 }
+
+// Blockquotes containing a quote
+.quote {
+  background-color: #DDD;
+  background-image: url('icons/quote.png');
+  font-size: 1.1rem;
+  padding-left: 3.5rem;
+  border: none;
+}
+
+// Blockquotes containingn a warning
+.warning {
+  border-color: red;
+  background-image: url('icons/warning.png');
+  font-size: 1rem;
+  padding-left: 3.25rem;
+}
+
 
 // Automatic ID given by kramdown {:toc} attribute to TOC
 #markdown-toc {

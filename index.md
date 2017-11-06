@@ -2,7 +2,7 @@
 layout: default
 ---
 
-{% assign sorted = site.collections | sort: 'label' %}
+{% assign sorted = site.collections | sort: 'size' %}
 
 <div>
   {% for coll in sorted %}
