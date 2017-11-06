@@ -10,7 +10,7 @@ Summary of various concepts that are central to radio communication.
 # Contents
 
 - TOC
-{:toc}
+{:toc .toc-depth-2 .toc-skip-first}
 
 Basic Concepts
 ==============

@@ -12,8 +12,9 @@ Here is a short summary of all the presentations that I attended.
 It includes a subjective ordering of the presentations of each day, with respect to how relevant I found the presented content for myself (1 means most relevant). 
 
 # List of Presentations
-* TOC
-{:toc}
+
+1. TOC
+{:toc .toc-depth-1 .toc-skip-first .toc-skip-last}
 
 # Espresso: Beyond the Basics
 

@@ -1,16 +1,11 @@
 ---
 layout: default
 ---
- 
-<!--<h1 class="categories-title">Categories</h1>-->
 
-<!--<div id="test1">500 px</div>
-<div id="test2">1 in</div>
-<div id="test3">1 cm</div>-->
-
+{% assign sorted = site.collections | sort: 'label' %}
 
 <div>
-  {% for coll in site.collections %}
+  {% for coll in sorted %}
     {% if coll.title %}
         {% assign category_url = "/" | append: coll.label %}
           <a class="collection-box-link" href="{{ category_url | relative_url }}">

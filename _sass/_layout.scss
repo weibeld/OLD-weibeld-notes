@@ -677,13 +677,43 @@ blockquote {
   }
 }
 
-// Restrict markdown table of contents to only one level
+// Automatic ID given by kramdown {:toc} attribute to TOC
 #markdown-toc {
+}
+
+// Hide first item of TOC
+.toc-skip-first {
   li:first-child {
     display: none;
   }
-  li ul {
+}
+
+// Hide last item of TOC
+.toc-skip-last {
+  li:last-child {
     display: none;
+  }
+}
+
+// Hide second level (and below) of TOC
+.toc-depth-1 {
+  li {
+    ul,ol {
+      display: none;
+    }
+  }
+}
+
+// Hide third level (and below) of TOC
+.toc-depth-2{
+  li {
+    ul,ol {
+      li {
+        ul,ol {
+          display: none;
+        }
+      }
+    }
   }
 }
 
