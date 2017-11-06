@@ -49,6 +49,7 @@ The functions of these keys, as revealed by *Keyboard Viewer*, are as follows:
 | Previous | *Page Up*
 | Start/Stop | Alternating between *F5* and *Esc*
 | Hide     | . (period)
+{:.table-normal} 
 
 These functions are clearly targeted at Microsoft Power Point under Windows. *F5* enters *Slide Show Mode* and *Esc* exits it. The dot key hides the current slide. 
 
@@ -77,6 +78,7 @@ The presentation control keys of Preview are as follows:
 | Start slideshow | *Cmd-Shift-F*
 | End slideshow | *Esc*
 | Hide current slide | not supported
+{:.table-normal}
 
 
 # Remappings For Logitech Presenter And Preview
@@ -88,6 +90,7 @@ So, based on the above examples, if we want to make the Logitech R700 presenter 
 | Next | *Page Down* | *Arrow Right*
 | Previous | *Page Up* | *Arrow Left*
 | Start/Stop | *F5* | *Cmd-Shift-F*
+{:.table-normal}
 
 Since Preview has no "hide current slide" functionality, we don't remap the *period* function of the *Hide* key on the presenter.
 
@@ -147,6 +150,7 @@ A "complex modification" has to be defined in JSON and saved as a file in the fo
 ~~~
 ~/.config/karabiner/assets/complex_modifications
 ~~~
+{:#karabiner-dir}
 
 The following is the "complex modification" JSON file implementing the remappings from the above [table](#remappings-for-logitech-presenter-and-preview):
 
@@ -258,13 +262,13 @@ osascript -e 'id of app "App Name"'
 
 Replace `App Name` with the name of the application. This name must be name displayed next to the  symbol in the menu bar when the application is running.
 
-In the Karabiner JSON file, app IDs are specified as regular expressions of the form `"^com\\.apple\\.Preview$"`. Just leave the escape and control characters as they are. For example, if your app ID is `com.microsoft.Powerpoint`, just use
+In the Karabiner JSON file, app IDs are specified as regular expressions of the form `"^com\\.apple\\.Preview$"`. Just leave the escape and control characters as they are.
+
+For example, if your app ID is `com.microsoft.Powerpoint`, use the following in the JSON file:
 
 ~~~
 "^com\\.microsoft\\.Powerpoint$"`
 ~~~
-
-in the JSON file.
 
 ## How To Find The Vendor ID And Product ID Of A Device?
 
@@ -302,7 +306,7 @@ Alternatively, you can completely exclude the input devices in question from bei
 
 There is currently no documentation of the JSON schema for defining complex modifications. The best one can do is to start from existing complex modification rules and edit them. There is a large collection of complex modification JSON files in [this](https://github.com/pqrs-org/KE-complex_modifications) GitHub Repository.
 
-> By the way, most complex modifications of the above GitHub repository can be directly imported to Karabiner under *Complex Rules > Add Rule > Import more rules from the Internet*. They will be saved in the `~/.config/karabiner/assets/complex_modifications` directory.
+> By the way, most complex modifications of the above GitHub repository can be directly imported to Karabiner under *Complex Rules > Add Rule > Import more rules from the Internet*. They will be saved in the "complex modifications" directory listed [above](#karabiner-dir).
 
 There is also a sample "complex modification" file provided by Karabiner here:
 

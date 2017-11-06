@@ -583,63 +583,78 @@ div[id^=footer-col-] > :first-child {
 
 /* Tables */
 
-// Table elements WITHOUT a class, because GitHub Gists are also tables
-table:not([class]) {
-  margin: 0 auto;
+// A "normal" small table, no wrapping, no scrolling
+.table-normal {
+  margin: $margin-paragraph-Desktop auto;
   border-collapse: collapse;
   box-shadow: $shadow-large;
-  // Enable horizontal scroll bars for wide tables
-  display: block;
-  overflow-x: auto;
-  white-space: nowrap;
-
   td, th {
     padding: 0.2rem 0.75rem;
-    &:first-child {
-      padding-left: 0.4rem;
-    }
-    &:last-child {
-      padding-right: 0.4rem;
-    }
+    &:first-child { padding-left: 0.5rem; }
+    &:last-child { padding-right: 0.5rem; }
   }
-
+  thead {
+    background: #AAA;
+  }
+  th {
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+  }
   tbody > tr {
-    &:nth-child(even) {
-      background: #CCC;
-    }
-    &:hover {
-      //background-color: black;
-      //color: white;
-      //box-shadow: $shadow-large;
-    }
+    &:nth-child(even) { background: #CCC; }
+    &:nth-child(odd) { background: white; }
   }
-
-  thead > tr {
-    background: #CCC;
-  }
-
-  tbody {
-    //border-top: 1px solid;
-    //border-bottom: 1px solid;
+  // If the table has no header, start with gray
+  &.table-no-head {
+    tbody > tr {
+      &:nth-child(odd) { background: #CCC; }
+      &:nth-child(even) { background: white; }
+    }
   }
 }
 
-.glossary-following + table {
+// A normal table with horizontal scrolling suppport. This is not an ideal
+// solution, because it requires display: block, which is not good when the
+// natural table width is less than 100%.
+.table-wide {
+  @extend .table-normal;
+  overflow-x: auto;
+  display: block;
+  white-space: nowrap;
+  box-shadow: none;
+}
+// Table with description of acronyms in two columns
+.table-acronym {
+  margin: $margin-paragraph-Desktop 0;
+  margin-left: 1rem;
+  border-collapse: collapse;
+  td {
+    padding: 0 0;
+    &:first-child {
+      font-weight: bold;
+      padding-right: 0.5rem;
+    }
+    &:last-child {
+      padding-left: 0.5rem;
+    }
+  }
+}
+// Table with description of terms with two columns
+.table-description {
   border-collapse: collapse;
   width: 100%;
-  table-layout: fixed;
-
+  margin: $margin-paragraph-Desktop 0;
   td {
-    padding: 0.5rem 1rem;
+    padding: 0.75rem 1rem;
     word-wrap: break-word;
     vertical-align: top;
     &:first-child {
-      padding-left: 0.4rem;
-      max-width: 15rem;
+      padding-left: 0.5rem;
+      max-width: 10rem;
       font-weight: bold;
     }
     &:last-child {
-      padding-right: 0.4rem;
+      padding-right: 0.5rem;
       line-height: $line-height-description;
     }
   }
@@ -647,17 +662,13 @@ table:not([class]) {
   tbody > tr {
     border-bottom: 1px solid;
     border-top: 1px solid;
-    &:nth-child(odd) {
-      background: initial;
-    }
-    &:hover {
-      //background: $color-accent-very-light;
-      //background: black;
-      //color: white;
-      //a {
-      //color: white;
-     // }
-    }
+  }
+}
+
+// Hide the table head row of this table
+.table-no-head {
+  thead {
+    display: none;
   }
 }
 
@@ -745,30 +756,7 @@ blockquote {
 }
 
 
-// Table of acronyms and their meaning (two columns)
-
-table.acronyms {
-  display: flex;
-  justify-content: left;
-  margin-top: 1em;
-  thead {
-    display: none;
-  }
-  tbody > tr {
-    border-bottom: 1px solid black;
-    border-top: 1px solid black;
-  }
-  td {
-    padding: 0.375rem 1rem;
-    &:first-child {
-      font-weight: bold;
-      padding-left: 0.5rem;
-    }
-    &:last-child {
-      padding-right: 0.5rem;
-    }
-  }
-}
+/* Figure caption */
 
 .caption {
   display: flex;
@@ -776,6 +764,3 @@ table.acronyms {
   font-size: 0.9em;
 }
 
-.footnotes {
-  font-size: 0.9em;
-}

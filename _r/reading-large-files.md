@@ -16,6 +16,8 @@ Experiment with an [OpenCellID](https://opencellid.org/) file of 330 MB.
 |With colClasses (2) and nrows         | read.csv(file, colClasses, nrows) |             55 sec. |
 |With colClasses (3) and nrows         | read.csv(file, colClasses, nrows) |             60 sec. |
 +--------------------------------------+-----------------------------------+---------------------|
+{:.table-normal .table-no-head}
+
 
 Plain read
 ----------

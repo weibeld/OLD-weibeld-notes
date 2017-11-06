@@ -18,7 +18,7 @@ The following parameters are listed fore each device:
 
 The following table lists some smartphones and the size and resolution of their screen, as well as the resulting pixel density:
 
-| Phone           | Size (in)       | Resolution (pixels)       |  Pixel Density (PPI) | Device Pixel Ratio | Year |
+| Phone           | Size (in)       | Resolution       |  Pixel Density (PPI) |  DPR | Release Year |
 |:----------------|----------------:|--------------------------:|---------------------:|-------------------:|-----:|
 | iPhone 3G       | 1.94 x 2.91     | 320 x 480                 |  165                 | 1                  | 2008 |
 | iPhone 4        | 1.94 x 2.91     | 640 x 960                 |  330                 | 2                  | 2010 |
@@ -27,6 +27,7 @@ The following table lists some smartphones and the size and resolution of their 
 | iPhone 7 Plus   | 2.69 x 4.79     | 1080 x 1920               |  401                 | 3                  | 2016 |
 | Huawei P10      | 2.50 x 4.44     | 1080 x 1920               |  432                 | 3                  | 2017 |
 | Motorola Nexus 6| 2.92 x 5.19     | 1440 x 2560               |  493                 | 3.5                | 2014 |
+{:.table-wide}
 
 *Source: [GSMArena](https://www.gsmarena.com/). Note that screen sizes and pixel densities are approximative.*
 
@@ -63,6 +64,7 @@ Let's look at the screen sizes and resolutions of some desktop computers:
 | MacBook 12"           | 10.24 x 6.40    | 2304 x 1440               | 225                  | 2                  | 2017 |
 | MacBook Pro 13.3"     | 11.28 x 7.05    | 2560 x 1600               | 227                  | 2                  | 2017 |
 | MacBook Pro 15.4"     | 13.09 x 8.18    | 2880 x 1800               | 220                  | 2                  | 2017 |
+{:.table-wide}
 
 *Source: [Apple](https://www.apple.com/). For calculating pixel density in PPI from resolution and diagonal screen size, use [dpilove](http://dpi.lv/). Note that in above table the screen sizes and pixel densities are approximative.*
 

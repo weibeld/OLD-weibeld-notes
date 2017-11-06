@@ -22,7 +22,7 @@ Members of [3GPP](http://www.itu.int/en/Pages/default.aspx) come from regional s
 | TSG | Technical Specifiation Group
 | WG | Working Group
 | PCG | Project Coordination Group
-{:.acronyms}
+{:.table-acronym}
 
 ## Organisation
 

@@ -5,9 +5,6 @@ date:   8 January 2014
 last_updated: 8 January 2014
 ---
 
-<!-- Hack to identify tables which are to be formatted differently -->
-<p class="glossary-following"></p>
-
 |  |  
 |:-|:-|
 | [Ruby](https://www.ruby-lang.org/en/) | The Ruby programming language 
@@ -18,4 +15,5 @@ last_updated: 8 January 2014
 | [Bundler](http://bundler.io/) | Tool to include required gems in a given app.
 | Gemfile | File that includes the gem requirements for a given app.
 | [Rake](https://github.com/ruby/rake) | The Ruby equivalent of the UNIX [Make](https://en.wikipedia.org/wiki/Make_(software)). Used for many little administrative tasks when working with databases.
+{:.table-description .table-no-thead}
 

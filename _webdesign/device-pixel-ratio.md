@@ -137,7 +137,7 @@ For example, the device pixel ratios for some interesting devices are:
 | MacBook >= 2012             | 2                  |
 | Huawei P10                  | 3                  |
 | Motorola Nexus 6            | 3.5                |
-
+{:.table-normal}
 
 ## History {#device-pixel-ratio-history}
 

@@ -60,6 +60,8 @@ The following shows the same as the above figure, but illustrated differently:
 
 # Acronyms
 
+The following is a list of acronyms that are used in this document:
+
 | |
 |:-|:-
 | LTE | Long-Term Evolution
@@ -74,7 +76,7 @@ The following shows the same as the above figure, but illustrated differently:
 | CRC | Cyclic Redundancy Check
 | HARQ | Hybrid Automatic Repeat Request
 | OFDM | Orthogonal Frequency-Division Multiplexing
-{:.acronyms}
+{:.table-acronym .table-no-thead}
 
 The acronyms of the channels are resolved directly in the figures of the [downlink](#downlink) and [uplink](#uplink) channels.
 
