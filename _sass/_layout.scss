@@ -583,9 +583,10 @@ div[id^=footer-col-] > :first-child {
 
 /* Tables */
 
-// A "normal" small table, no wrapping, no scrolling
+// Table with alternating row colours, and no scrolling support. If wider than
+// the content, the table takes 100% width, and the content inside <td> wraps.
 .table-normal {
-  margin: $margin-paragraph-Desktop auto;
+  margin: 0 auto;
   border-collapse: collapse;
   box-shadow: $shadow-large;
   td, th {
@@ -613,16 +614,18 @@ div[id^=footer-col-] > :first-child {
   }
 }
 
-// A normal table with horizontal scrolling suppport. This is not an ideal
-// solution, because it requires display: block, which is not good when the
-// natural table width is less than 100%.
-.table-wide {
-  @extend .table-normal;
+// Table with horizontal scrolling support. Table is horizontally centered if
+// less wide than content, and taked 100% width and has scrollbars otherwise.
+// Caveats: no shadow can be applied, no line will break inside a <td>
+.scrollable-table-wrapper {
   overflow-x: auto;
-  display: block;
+}
+.table-scrollable {
+  @extend .table-normal;
   white-space: nowrap;
   box-shadow: none;
 }
+
 // Table with description of acronyms in two columns
 .table-acronym {
   margin: $margin-paragraph-Desktop 0;

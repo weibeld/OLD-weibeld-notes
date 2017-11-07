@@ -18,6 +18,7 @@ The following parameters are listed fore each device:
 
 The following table lists some smartphones and the size and resolution of their screen, as well as the resulting pixel density:
 
+<div class="scrollable-table-wrapper" markdown="block">
 | Phone           | Size (in)       | Resolution       |  Pixel Density (PPI) |  DPR | Release Year |
 |:----------------|----------------:|--------------------------:|---------------------:|-------------------:|-----:|
 | iPhone 3G       | 1.94 x 2.91     | 320 x 480                 |  165                 | 1                  | 2008 |
@@ -27,9 +28,10 @@ The following table lists some smartphones and the size and resolution of their 
 | iPhone 7 Plus   | 2.69 x 4.79     | 1080 x 1920               |  401                 | 3                  | 2016 |
 | Huawei P10      | 2.50 x 4.44     | 1080 x 1920               |  432                 | 3                  | 2017 |
 | Motorola Nexus 6| 2.92 x 5.19     | 1440 x 2560               |  493                 | 3.5                | 2014 |
-{:.table-wide}
+{:.table-scrollable}
+</div>
 
-*Source: [GSMArena](https://www.gsmarena.com/). Note that screen sizes and pixel densities are approximative.*
+Source: [GSMArena](https://www.gsmarena.com/). Note that screen sizes and pixel densities are approximative.
 
 Between iPhone 3G and iPhone 4, the screen size stays the same, but the number of pixels in the width and height dimension doubles. On a segment of length 1 inch on iPhone 3G, one can count 320 pixels, whereas on a segment of the same length on iPhone 4, one can count 640 pixels.
 
@@ -57,19 +59,18 @@ However, this doesn't apply to mobile web where the same content is displayed on
 
 Let's look at the screen sizes and resolutions of some desktop computers:
 
-| Model                 | Size (in)       | Resolution (pixels)       |  Pixel Density (PPI) | Device Pixel Ratio | Year |
+<div class="scrollable-table-wrapper" markdown="block">
+| Model                 | Size (in)       | Resolution |  (PPI) | asdfla lajödf jaöfl aldfkja ölfjaldfjaöjf DPR | Year |
 |:----------------------|----------------:|--------------------------:|---------------------:|-------------------:|-----:|
 | MacBook Air 11.6"     | 10.12 x 5.69    | 1366 x 768                | 135                  | 1                  | 2013 |
 | MacBook Air 13.3"     | 11.25 x 7.03    | 1440 x 900                | 128                  | 1                  | 2017 |
 | MacBook 12"           | 10.24 x 6.40    | 2304 x 1440               | 225                  | 2                  | 2017 |
 | MacBook Pro 13.3"     | 11.28 x 7.05    | 2560 x 1600               | 227                  | 2                  | 2017 |
 | MacBook Pro 15.4"     | 13.09 x 8.18    | 2880 x 1800               | 220                  | 2                  | 2017 |
-{:.table-wide}
+{:.table-scrollable}
+</div>
 
-*Source: [Apple](https://www.apple.com/). For calculating pixel density in PPI from resolution and diagonal screen size, use [dpilove](http://dpi.lv/). Note that in above table the screen sizes and pixel densities are approximative.*
-
-
-
+Source: [Apple](https://www.apple.com/). For calculating pixel density in PPI from resolution and diagonal screen size, use [dpilove](http://dpi.lv/). Note that in above table the screen sizes and pixel densities are approximative.
 
 - New definition of CSS pixel (px) in CSS 2.1 (2011)
     - Last specificatino where it's not defined liked this [here](https://www.w3.org/TR/2008/REC-CSS2-20080411/syndata.html#length-units) (2008)
