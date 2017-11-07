@@ -2,8 +2,7 @@
 layout: default
 ---
 
-{% assign sorted = site.collections | sort: 'size' %}
-
+{% assign sorted = site.collections | sort: 'label' %}
 <div>
   {% for coll in sorted %}
     {% if coll.title %}
@@ -14,6 +13,7 @@ layout: default
               <img src="{{ coll.image | relative_url }}" height="50px">
               <h1>{{ coll.title}}</h1>
             </div>
+            <div class="number-of-docs">{{ coll.docs.size }} documents</div>
             <p>{{ coll.description }}</p>
         </div>
           </a>

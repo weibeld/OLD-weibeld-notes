@@ -248,6 +248,13 @@ a.sitemap-link {
 .page-date-container {
   margin-bottom: 1rem;
 }
+.number-of-docs {
+  margin-bottom: 0.25rem;
+  font-size: 0.95rem;
+  font-style: italic;
+  font-weight: 400;
+  color: $color-secondary-text;
+}
 @media (min-width: $break-give-space) {
   .page-date-container {
     margin-bottom: 2rem;
