@@ -1,0 +1,12 @@
+{% assign c = include.collection %}
+{% assign collection_url = "/" | append: c.label %}
+<a class="collection-box-link" href="{{ collection_url | relative_url }}">
+  <div class="collection-box">
+      <div class="collection-box-heading">
+        <img src="{{ c.image | relative_url }}" height="50px">
+        <h1>{{ c.title}}</h1>
+      </div>
+      <div class="number-of-docs">{{ c.docs.size }} documents</div>
+      <p>{{ c.description }}</p>
+  </div>
+</a>
