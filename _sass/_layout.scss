@@ -381,7 +381,7 @@ ul.breadcrumbs {
   @media (hover: hover) {
     &:hover {
       @include strong-hover-mixin;
-      & .collection-box-heading h1 {
+      & .collection-box-heading h1, & div {
         color: white;
       }
     }
@@ -646,6 +646,16 @@ div[id^=footer-col-] > :first-child {
     }
     &:last-child {
       padding-left: 0.5rem;
+    }
+  }
+}
+// Table with keyboard shortcuts in two columns
+.table-shortcuts {
+  @extend .table-acronym;
+  td {
+    &:first-child {
+      font-weight: 400;
+      font-style: italic;
     }
   }
 }
