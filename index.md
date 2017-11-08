@@ -2,11 +2,12 @@
 layout: default
 ---
 
+<!-- Goal: sort collections by the number of documents they contain (except -->
+<!-- some special collections, like "misc", "trash", etc.). -->
+
 <!-- Create a comma-separated string of all the sizes of the collections -->
-{% assign sizes = "" %}
 {% for coll in site.collections %} 
     {% if coll.title %}
-      {% assign str = "" %}
       {% if coll.docs.size < 10 %}
         {% assign str = coll.docs.size | prepend: "00" %}
       {% elsif coll.docs.size < 100 %}
@@ -29,8 +30,8 @@ layout: default
   {% for s in sizes %}
     {% for coll in site.collections %}
       {% if coll.title and coll.label != "misc" and coll.label != "trash" and coll.label != "experiences" %}
-        {% assign t = s | plus: 0 %}
-        {% if coll.docs.size == t %}
+        {% assign i = s | plus: 0 %}
+        {% if coll.docs.size == i %}
 
           {% include collection-box.html collection=coll %}
           
@@ -39,6 +40,7 @@ layout: default
     {% endfor %}
   {% endfor %}
 
+  <!-- Print special collections at the end -->
   {% assign c = site.collections | where: "label", "experiences" | first %}
   {% include collection-box.html collection=c %}
   {% assign c = site.collections | where: "label", "misc" | first %}
@@ -46,24 +48,3 @@ layout: default
   {% assign c = site.collections | where: "label", "trash" | first %}
   {% include collection-box.html collection=c %}
 </div>
-
-
-
-<!-- {% assign sorted = site.collections | sort: 'label' %}
-<div>
-  {% for coll in sorted %}
-    {% if coll.title %}
-        {% assign category_url = "/" | append: coll.label %}
-          <a class="collection-box-link" href="{{ category_url | relative_url }}">
-        <div class="collection-box">
-            <div class="collection-box-heading">
-              <img src="{{ coll.image | relative_url }}" height="50px">
-              <h1>{{ coll.title}}</h1>
-            </div>
-            <div class="number-of-docs">{{ coll.docs.size }} documents</div>
-            <p>{{ coll.description }}</p>
-        </div>
-          </a>
-    {% endif %}
-  {% endfor %}
-</div> -->
