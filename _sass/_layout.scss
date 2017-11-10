@@ -740,6 +740,7 @@ blockquote {
 }
 
 // Hide first item of TOC
+// TODO: prevent that this also applies to nested lists (i.e. second level and further in TOC).
 .toc-skip-first {
   li:first-child {
     display: none;
