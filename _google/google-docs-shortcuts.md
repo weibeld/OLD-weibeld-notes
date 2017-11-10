@@ -22,6 +22,8 @@ A complete list of shortcuts can be found [here](https://support.google.com/docs
 | Ctrl-D | Delete character in front of cursor
 | Ctrl-H | Delete character behind cursor
 | Ctrl-K | Delete from cursor to end of line
+| Cmd-Back | Delete from cursor to beginning of line
+| Alt-Back | Delete from cursor to beginning of last word
 | Cmd-Enter | Move cursor to new page
 {:.table-shortcuts}
 
