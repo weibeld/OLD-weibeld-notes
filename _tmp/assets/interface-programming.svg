@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xl="http://www.w3.org/1999/xlink" version="1.1" viewBox="-383 99 1149 678" width="1149pt" height="678pt" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <metadata> Produced by OmniGraffle 7.2.1 
+    <dc:date>2017-11-10 17:40:06 +0000</dc:date>
+  </metadata>
+  <defs>
+    <font-face font-family="CMU Typewriter Text" font-size="23" panose-1="2 0 6 9 0 0 0 0 0 0" units-per-em="1000" underline-position="-125" underline-thickness="50" slope="0" x-height="438" cap-height="622" ascent="826.99585" descent="-233.0017" font-weight="500">
+      <font-face-src>
+        <font-face-name name="CMUTypewriter-Regular"/>
+      </font-face-src>
+    </font-face>
+    <font-face font-family="CMU Typewriter Text" font-size="23" panose-1="2 0 8 9 0 0 0 0 0 0" units-per-em="1000" underline-position="-125" underline-thickness="50" slope="0" x-height="449" cap-height="619" ascent="865.9973" descent="-229.99573" font-weight="bold">
+      <font-face-src>
+        <font-face-name name="CMUTypewriter-Bold"/>
+      </font-face-src>
+    </font-face>
+    <font-face font-family="Helvetica" font-size="26" units-per-em="1000" underline-position="-75.68359" underline-thickness="49.316406" slope="0" x-height="532.22656" cap-height="719.7266" ascent="770.0195" descent="-229.98047" font-weight="bold">
+      <font-face-src>
+        <font-face-name name="Helvetica-Bold"/>
+      </font-face-src>
+    </font-face>
+    <marker orient="auto" overflow="visible" markerUnits="strokeWidth" id="FilledArrow_Marker" viewBox="-1 -3 5 6" markerWidth="5" markerHeight="6" color="black">
+      <g>
+        <path d="M 2.728889 0 L 0 -1.0233333 L 0 1.0233333 Z" fill="currentColor" stroke="currentColor" stroke-width="1"/>
+      </g>
+    </marker>
+  </defs>
+  <g stroke="none" stroke-opacity="1" stroke-dasharray="none" fill="none" fill-opacity="1">
+    <title>Canvas 1</title>
+    <rect fill="white" width="1149" height="841.8898"/>
+    <g>
+      <title>Layer 1</title>
+      <text transform="translate(-136.73228 104.21312)" fill="#aaa">
+        <tspan font-family="CMU Typewriter Text" font-size="23" font-weight="500" fill="#aaa" x="0" y="19" textLength="253.575">import java.util.Map;</tspan>
+        <tspan font-family="CMU Typewriter Text" font-size="23" font-weight="500" fill="#aaa" x="0" y="47.59993" textLength="301.875">import java.util.HashMap;</tspan>
+        <tspan font-family="CMU Typewriter Text" font-size="23" font-weight="500" fill="#aaa" x="0" y="76.19986" textLength="265.65">import java.util.List;</tspan>
+        <tspan font-family="CMU Typewriter Text" font-size="23" font-weight="500" fill="#aaa" x="0" y="104.79979" textLength="326.025">import java.util.ArrayList;</tspan>
+        <tspan font-family="CMU Typewriter Text" font-size="23" font-weight="500" fill="#aaa" x="0" y="162.39972" textLength="132.825">class Foo {</tspan>
+        <tspan font-family="CMU Typewriter Text" font-size="23" font-weight="500" fill="#aaa" x="0" y="219.99965" textLength="531.3">    public static void main(String[] args) {</tspan>
+        <tspan font-family="CMU Typewriter Text" font-size="23" font-weight="500" x="0" y="278.59958" textLength="96.6">        </tspan>
+        <tspan font-family="CMU Typewriter Text" font-size="23" font-weight="bold" fill="#ff2600" x="96.6" y="278.59958" textLength="289.8">Map&lt;String, Integer&gt; map</tspan>
+        <tspan font-family="CMU Typewriter Text" font-size="23" font-weight="500" x="386.4" y="278.59958" textLength="84.525"> = new </tspan>
+        <tspan font-family="CMU Typewriter Text" font-size="23" font-weight="bold" fill="#0432ff" x="470.925" y="278.59958" textLength="108.675">HashMap&lt;&gt;</tspan>
+        <tspan font-family="CMU Typewriter Text" font-size="23" font-weight="500" x="579.6" y="278.59958" textLength="36.225">();</tspan>
+        <tspan font-family="CMU Typewriter Text" font-size="23" font-weight="500" x="0" y="337.1995" textLength="96.6">        </tspan>
+        <tspan font-family="CMU Typewriter Text" font-size="23" font-weight="bold" fill="#ff2600" x="96.6" y="337.1995" textLength="217.35">List&lt;Integer&gt; list</tspan>
+        <tspan font-family="CMU Typewriter Text" font-size="23" font-weight="500" x="313.95" y="337.1995" textLength="132.825"> = process(</tspan>
+        <tspan font-family="CMU Typewriter Text" font-size="23" font-weight="bold" fill="#ff2600" x="446.775" y="337.1995" textLength="36.225">map</tspan>
+        <tspan font-family="CMU Typewriter Text" font-size="23" font-weight="500" x="483" y="337.1995" textLength="24.15">);</tspan>
+        <tspan font-family="CMU Typewriter Text" font-size="23" font-weight="500" x="0" y="366.79944" textLength="96.6">        </tspan>
+        <tspan font-family="CMU Typewriter Text" font-size="23" font-weight="500" fill="#aaa" x="96.6" y="366.79944" textLength="48.3">if (</tspan>
+        <tspan font-family="CMU Typewriter Text" font-size="23" font-weight="bold" fill="#ff2600" x="144.9" y="366.79944" textLength="156.975">list.contains</tspan>
+        <tspan font-family="CMU Typewriter Text" font-size="23" font-weight="bold" fill="black" x="301.875" y="366.79944" textLength="36.225">(5)</tspan>
+        <tspan font-family="CMU Typewriter Text" font-size="23" font-weight="500" fill="#c1c1c1" x="338.1" y="366.79944" textLength="12.075">)</tspan>
+        <tspan font-family="CMU Typewriter Text" font-size="23" font-weight="500" x="350.175" y="366.79944" textLength="12.075"> </tspan>
+        <tspan font-family="CMU Typewriter Text" font-size="23" font-weight="500" fill="#aaa" x="362.25" y="366.79944" textLength="313.95">System.out.println(&quot;yes&quot;);</tspan>
+        <tspan font-family="CMU Typewriter Text" font-size="23" font-weight="500" x="0" y="396.39937" textLength="96.6">        </tspan>
+        <tspan font-family="CMU Typewriter Text" font-size="23" font-weight="500" fill="black" x="96.6" y="396.39937" textLength="156.975">for (int i : </tspan>
+        <tspan font-family="CMU Typewriter Text" font-size="23" font-weight="bold" fill="#ff2600" x="253.575" y="396.39937" textLength="48.3">list</tspan>
+        <tspan font-family="CMU Typewriter Text" font-size="23" font-weight="500" fill="black" x="301.875" y="396.39937" textLength="12.075">)</tspan>
+        <tspan font-family="CMU Typewriter Text" font-size="23" font-weight="500" x="313.95" y="396.39937" textLength="12.075"> </tspan>
+        <tspan font-family="CMU Typewriter Text" font-size="23" font-weight="500" fill="#aaa" x="326.025" y="396.39937" textLength="265.65">System.out.println(i);</tspan>
+        <tspan font-family="CMU Typewriter Text" font-size="23" font-weight="500" x="0" y="424.9993" textLength="48.3">    </tspan>
+        <tspan font-family="CMU Typewriter Text" font-size="23" font-weight="500" fill="#aaa" x="48.3" y="424.9993" textLength="12.075">}</tspan>
+        <tspan font-family="CMU Typewriter Text" font-size="23" font-weight="500" x="0" y="483.5992" textLength="48.3">    </tspan>
+        <tspan font-family="CMU Typewriter Text" font-size="23" font-weight="500" fill="#aaa" x="48.3" y="483.5992" textLength="169.05">private static</tspan>
+        <tspan font-family="CMU Typewriter Text" font-size="23" font-weight="500" fill="#ff2600" x="217.35" y="483.5992" textLength="12.075"> </tspan>
+        <tspan font-family="CMU Typewriter Text" font-size="23" font-weight="bold" fill="#ff2600" x="229.425" y="483.5992" textLength="156.975">List&lt;Integer&gt;</tspan>
+        <tspan font-family="CMU Typewriter Text" font-size="23" font-weight="500" x="386.4" y="483.5992" textLength="108.675"> process(</tspan>
+        <tspan font-family="CMU Typewriter Text" font-size="23" font-weight="bold" fill="#ff2600" x="495.075" y="483.5992" textLength="289.8">Map&lt;String, Integer&gt; map</tspan>
+        <tspan font-family="CMU Typewriter Text" font-size="23" font-weight="500" x="784.875" y="483.5992" textLength="12.075">)</tspan>
+        <tspan font-family="CMU Typewriter Text" font-size="23" font-weight="500" fill="#aaa" x="796.95" y="483.5992" textLength="24.15"> {</tspan>
+        <tspan font-family="CMU Typewriter Text" font-size="23" font-weight="500" x="0" y="542.19916" textLength="96.6">        </tspan>
+        <tspan font-family="CMU Typewriter Text" font-size="23" font-weight="500" fill="black" x="96.6" y="542.19916" textLength="132.825">return new </tspan>
+        <tspan font-family="CMU Typewriter Text" font-size="23" font-weight="bold" fill="#0432ff" x="229.425" y="542.19916" textLength="132.825">ArrayList&lt;&gt;</tspan>
+        <tspan font-family="CMU Typewriter Text" font-size="23" font-weight="500" x="362.25" y="542.19916" textLength="36.225">();</tspan>
+        <tspan font-family="CMU Typewriter Text" font-size="23" font-weight="500" x="0" y="599.7991" textLength="48.3">    </tspan>
+        <tspan font-family="CMU Typewriter Text" font-size="23" font-weight="500" fill="#aaa" x="48.3" y="599.7991" textLength="12.075">}</tspan>
+        <tspan font-family="CMU Typewriter Text" font-size="23" font-weight="500" fill="#aaa" x="0" y="657.399" textLength="12.075">}</tspan>
+      </text>
+    </g>
+    <g>
+      <title>Layer 2</title>
+      <text transform="translate(218.09842 203.4252)" fill="black">
+        <tspan font-family="Helvetica" font-size="26" font-weight="bold" x=".265625" y="25" textLength="199.46875">Declare variable</tspan>
+        <tspan font-family="Helvetica" font-size="26" font-weight="bold" x="16.20459" y="56" textLength="59.21094">with </tspan>
+        <tspan font-family="Helvetica" font-size="26" font-weight="bold" fill="#ff2600" x="75.41553" y="56" textLength="108.37988">interface</tspan>
+      </text>
+      <text transform="translate(516.2362 203.4252)" fill="black">
+        <tspan font-family="Helvetica" font-size="26" font-weight="bold" x="9.725586" y="25" textLength="209.54883">Initialise variable</tspan>
+        <tspan font-family="Helvetica" font-size="26" font-weight="bold" x=".36279297" y="56" textLength="59.21094">with </tspan>
+        <tspan font-family="Helvetica" font-size="26" font-weight="bold" fill="#0432ff" x="59.57373" y="56" textLength="169.06348">concrete type</tspan>
+      </text>
+      <text transform="translate(543.5827 416.0236)" fill="black">
+        <tspan font-family="Helvetica" font-size="26" font-weight="bold" x="10.854088" y="25" textLength="195.06348">Declare method</tspan>
+        <tspan font-family="Helvetica" font-size="26" font-weight="bold" x="8.683189" y="56" textLength="206.6289">parameters with </tspan>
+        <tspan font-family="Helvetica" font-size="26" font-weight="bold" fill="#ff2600" x="54.195885" y="87" textLength="108.37988">interface</tspan>
+      </text>
+      <text transform="translate(-363.50393 614.4488)" fill="black">
+        <tspan font-family="Helvetica" font-size="26" font-weight="bold" x="34.40915" y="25" textLength="176.2998">Declare return</tspan>
+        <tspan font-family="Helvetica" font-size="26" font-weight="bold" x="8.421847" y="56" textLength="119.89453">type with </tspan>
+        <tspan font-family="Helvetica" font-size="26" font-weight="bold" fill="#ff2600" x="128.31638" y="56" textLength="108.37988">interface</tspan>
+      </text>
+      <text transform="translate(5 713.6614)" fill="black">
+        <tspan font-family="Helvetica" font-size="26" font-weight="bold" x="20.873773" y="25" textLength="91">Return </tspan>
+        <tspan font-family="Helvetica" font-size="26" font-weight="bold" fill="#0432ff" x="111.87377" y="25" textLength="169.06348">concrete type</tspan>
+      </text>
+      <text transform="translate(-377.67716 359.3307)" fill="black">
+        <tspan font-family="Helvetica" font-size="26" font-weight="bold" x="3.238442" y="25" textLength="252.81445">Supports everything</tspan>
+        <tspan font-family="Helvetica" font-size="26" font-weight="bold" x="41.527504" y="56" textLength="130.0127">that is defi</tspan>
+        <tspan font-family="Helvetica" font-size="26" font-weight="bold" x="171.5402" y="56" textLength="46.223633">ned</tspan>
+        <tspan font-family="Helvetica" font-size="26" font-weight="bold" x="37.17936" y="87" textLength="69.3291">in the</tspan>
+        <tspan font-family="Helvetica" font-size="26" font-weight="bold" fill="#ff2600" x="106.50846" y="87" textLength="115.60352"> interface</tspan>
+      </text>
+      <line x1="254.91584" y1="270.4252" x2="108.60594" y2="353.78924" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="5.6692914"/>
+      <line x1="565.648" y1="270.4252" x2="417.92105" y2="352.13236" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="5.6692914"/>
+      <line x1="554.0915" y1="514.0236" x2="474.7011" y2="555.7965" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="5.6692914"/>
+      <line x1="155.90551" y1="708.6614" x2="155.90551" y2="675.8764" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="5.6692914"/>
+      <line x1="-113.38583" y1="620.2698" x2="61.58408" y2="585.7322" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="5.6692914"/>
+      <line x1="-113.38583" y1="424.90544" x2="-70.213185" y2="431.02155" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="5.6692914"/>
+    </g>
+  </g>
+</svg>

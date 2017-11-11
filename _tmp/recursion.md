@@ -2,8 +2,35 @@
 title: Recursion and Dynamic Programming
 author: Daniel Weibel
 date: 9 November 2017
-last_updated: 9 November 2017
+last_updated: 11 November 2017
 ---
+
+# The Power of Recursion
+
+The [Towers of Hanoi](https://en.wikipedia.org/wiki/Tower_of_Hanoi) problem consists in moving all the disks from the first tower to the last tower in the same order, under the following constraints:
+
+1. Only one disk can be moved at a time
+2. A disk cannot be placed on top of a smaller disk
+
+The recursive solution is extremely easy, for example, in Java:
+
+~~~java
+void hanoi(int n, Stack<Integer> start, Stack<Integer> tmp, Stack<Integer> dest) {
+    if (n <= 0) return;              // Base case, no disks to move
+    hanoi(n-1, start, dest, tmp);    // Move disks on top of largest disk to "tmp"
+    dest.push(start.pop());          // Move largest disk to "dest"
+    hanoi(n-1, tmp, start, dest);    // Move disks on "tmp" to "dest"
+}
+~~~
+
+These are 4 lines of code doing the following (example of *n* = 6 disks):
+
+![Towers of Hanoi](assets/towers-of-hanoi.gif){:.center-image}{:width="40%"}
+*Source:&nbsp;[Wikipedia](https://commons.wikimedia.org/wiki/File:Iterative_algorithm_solving_a_6_disks_Tower_of_Hanoi.gif#/media/File:Iterative_algorithm_solving_a_6_disks_Tower_of_Hanoi.gif)*{:.caption}
+
+There are $2^n-1$ moves.
+
+Good luck implementing this iteratively!
 
 
 # Recursion
