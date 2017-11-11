@@ -35,7 +35,7 @@ Good luck implementing this iteratively!
 
 # Recursion
 
-An algorithm that contains a function that calls itself.
+A function that calls itself with different arguments.
 
 # Dynamic Programming
 

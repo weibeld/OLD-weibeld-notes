@@ -158,6 +158,12 @@ collections:
     image: /assets/icons/mobcom.png
     description: >
       Mobile communication technologies, including UMTS, LTE, 5G, organisations like 3GPP, and technical aspects of radio communication.
+  interviews:
+    output: true
+    title: Coding Interviews
+    image: /assets/icons/interview.png
+    description: >
+      Information and resources for preparing for a coding interview for a software engineering position.
   tmp:
     output: true
     title: Tmp
