@@ -78,6 +78,10 @@ The base of an exponent **matters**: $\O(2^N)$ and $\O(8^N)$ are different.
 
 Non-dominant terms in an exponent **don't matter**: $2^{N+1}$ becomes $\O(2^N)$.
 
+### Constants in Exponent
+
+Constant factors in exponents **matter**: $\O(8^N)$ and $\O(8^{2N})$ are different.
+
 # Common Big-$\O$/$\Omega$/$\Theta$ Terms and Their Relation
 
 ![Big-O Complexity Classes](assets/big-o.png){:width="100%"}{:.center-image}

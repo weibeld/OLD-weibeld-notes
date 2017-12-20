@@ -2,7 +2,7 @@
 title: Java Data Types
 author: Daniel Weibel
 date: 10 November 2017
-last_updated: 10 November 2017
+last_updated: 13 November 2017
 ---
 
 # Set
@@ -31,6 +31,8 @@ General-purpose `List` implementations:
 
 
 # Map
+
+Note that `Map` does not extend [`Collection`](https://docs.oracle.com/javase/9/docs/api/java/util/Collection.html) like all the other interafaces in this document.
 
 - [`Map`](https://docs.oracle.com/javase/8/docs/api/java/util/Map.html) interface
 

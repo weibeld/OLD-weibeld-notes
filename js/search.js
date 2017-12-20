@@ -41,7 +41,7 @@
   // Step 2: perform the search (with lunr)
   if (searchTerm) {
     var textBox = document.getElementById('body-search-text');
-    // Don't focus on mobile to avoid that soft-keyboard pops up
+    // On mobile: don't focus to avoid the soft-keyboard of popping up
     if (window.matchMedia("(pointer: fine)").matches) textBox.focus();
     textBox.value = searchTerm;
 

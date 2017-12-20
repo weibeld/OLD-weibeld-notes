@@ -9,7 +9,7 @@ last_updated: 11 November 2017
 # Types of Interview Questions
 
 - **Algorithm design questions**: most questions
-- **System design questions**: at most one per interview
+- **System design questions**: at most one question per interview
 
 # Websites for Interactively Practicing Interview Questions
 
@@ -44,9 +44,9 @@ last_updated: 11 November 2017
 ## Data Structures and Algorithms
 
 - [Introduction to Algorithms, 3rd Edition](https://www.amazon.com/Introduction-Algorithms-3rd-MIT-Press/dp/0262033844/ref=sr_1_1?s=books&ie=UTF8&qid=1503038523&sr=1-1&keywords=introduction+to+algorithms)
-    - Very formal, putting emphasis on theorems and proofs
+    - Very formal, focus on theorems and proofs
 - [Algorithms, 4th Edition](https://www.amazon.com/Algorithms-4th-Robert-Sedgewick/dp/032157351X/ref=sr_1_1?ie=UTF8&qid=1504347900&sr=8-1&keywords=sedgewick+algorithms)
-    - Very practical, putting emphasis on implementation (using Java)
+    - Very practical, focus on design and implementation (Java)
 - [The Algorithm Design Manual, 2nd Edition](https://www.amazon.com/Algorithm-Design-Manual-Steven-Skiena/dp/1848000693/ref=sr_1_1?s=books&ie=UTF8&qid=1503038167&sr=1-1&keywords=the+algorithm+design+manual)
 - [Algorithms and Programming, 2nd Edition](https://www.amazon.com/Algorithms-Programming-Undergraduate-Mathematics-Technology/dp/1441917470/ref=sr_1_1?s=books&ie=UTF8&qid=1503045069&sr=1-1&keywords=Algorithms+and+programming)
 - [Programming Pearls, 2nd Edition](https://www.amazon.com/Programming-Pearls-2nd-Jon-Bentley/dp/0201657880/ref=sr_1_1?s=books&ie=UTF8&qid=1503038430&sr=1-1&keywords=programming+pearls)

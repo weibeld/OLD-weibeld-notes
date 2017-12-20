@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xl="http://www.w3.org/1999/xlink" version="1.1" viewBox="117 287 436 234" width="436pt" height="234pt" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <metadata> Produced by OmniGraffle 7.2.1 
+    <dc:date>2017-11-17 19:13:04 +0000</dc:date>
+  </metadata>
+  <defs>
+    <font-face font-family="CMU Typewriter Text" font-size="12" panose-1="2 0 6 9 0 0 0 0 0 0" units-per-em="1000" underline-position="-125" underline-thickness="50" slope="0" x-height="438" cap-height="622" ascent="826.99585" descent="-233.0017" font-weight="500">
+      <font-face-src>
+        <font-face-name name="CMUTypewriter-Regular"/>
+      </font-face-src>
+    </font-face>
+  </defs>
+  <g stroke="none" stroke-opacity="1" stroke-dasharray="none" fill="none" fill-opacity="1">
+    <title>Canvas 1</title>
+    <rect fill="white" width="761" height="584"/>
+    <g>
+      <title>Layer 1</title>
+      <line x1="175.42093" y1="464.1732" x2="193.22822" y2="499.6063" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.4173228"/>
+      <line x1="164.791" y1="464.1732" x2="147.16523" y2="499.6063" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.4173228"/>
+      <line x1="203.74016" y1="407.4803" x2="221.4567" y2="442.9134" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.4173228"/>
+      <line x1="193.11024" y1="407.4803" x2="175.3937" y2="442.9134" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.4173228"/>
+      <line x1="294.0945" y1="350.7874" x2="329.52756" y2="386.22047" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.4173228"/>
+      <line x1="267.51968" y1="350.7874" x2="214.37008" y2="386.22047" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.4173228"/>
+      <line x1="425.19685" y1="307.0866" x2="496.063" y2="330.70866" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.4173228"/>
+      <line x1="368.50393" y1="308.2677" x2="311.81102" y2="329.52756" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.4173228"/>
+      <rect x="368.50393" y="287.00787" width="56.69291" height="21.259842" fill="white"/>
+      <text transform="translate(373.50393 289.9378)" fill="black">
+        <tspan font-family="CMU Typewriter Text" font-size="12" font-weight="500" x="1.2964565" y="10" textLength="44.1">fibo(5)</tspan>
+      </text>
+      <rect x="255.1181" y="329.52756" width="56.69291" height="21.259842" fill="white"/>
+      <text transform="translate(260.1181 332.4575)" fill="black">
+        <tspan font-family="CMU Typewriter Text" font-size="12" font-weight="500" x="1.2964565" y="10" textLength="44.1">fibo(4)</tspan>
+      </text>
+      <rect x="496.063" y="329.52756" width="56.69291" height="21.259842" fill="#ccc"/>
+      <text transform="translate(501.063 332.4575)" fill="black">
+        <tspan font-family="CMU Typewriter Text" font-size="12" font-weight="500" fill="black" x="1.2964565" y="10" textLength="44.1">fibo(3)</tspan>
+      </text>
+      <rect x="170.07874" y="386.22047" width="56.69291" height="21.259842" fill="white"/>
+      <text transform="translate(175.07874 389.1504)" fill="black">
+        <tspan font-family="CMU Typewriter Text" font-size="12" font-weight="500" x="1.2964565" y="10" textLength="44.1">fibo(3)</tspan>
+      </text>
+      <rect x="311.81102" y="386.22047" width="56.69291" height="21.259842" fill="#ccc"/>
+      <text transform="translate(316.81102 389.1504)" fill="black">
+        <tspan font-family="CMU Typewriter Text" font-size="12" font-weight="500" fill="black" x="1.2964565" y="10" textLength="44.1">fibo(2)</tspan>
+      </text>
+      <rect x="141.73228" y="442.9134" width="56.69291" height="21.259842" fill="white"/>
+      <text transform="translate(146.73228 445.8433)" fill="black">
+        <tspan font-family="CMU Typewriter Text" font-size="12" font-weight="500" x="1.2964565" y="10" textLength="44.1">fibo(2)</tspan>
+      </text>
+      <rect x="198.4252" y="442.9134" width="56.69291" height="21.259842" fill="#ccc"/>
+      <text transform="translate(203.4252 445.8433)" fill="black">
+        <tspan font-family="CMU Typewriter Text" font-size="12" font-weight="500" x="1.2964565" y="10" textLength="44.1">fibo(1)</tspan>
+      </text>
+      <rect x="117.07435" y="499.6063" width="49.6063" height="21.259842" fill="#ccc"/>
+      <text transform="translate(117.07435 502.53624)" fill="black">
+        <tspan font-family="CMU Typewriter Text" font-size="12" font-weight="500" x="2.7531495" y="10" textLength="44.1">fibo(1)</tspan>
+      </text>
+      <rect x="173.76726" y="499.6063" width="49.6063" height="21.259842" fill="#ccc"/>
+      <text transform="translate(173.76726 502.53624)" fill="black">
+        <tspan font-family="CMU Typewriter Text" font-size="12" font-weight="500" x="2.7531495" y="10" textLength="44.1">fibo(0)</tspan>
+      </text>
+    </g>
+  </g>
+</svg>

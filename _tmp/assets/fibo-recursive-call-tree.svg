@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xl="http://www.w3.org/1999/xlink" version="1.1" viewBox="-8 281 703 298" width="703pt" height="298pt" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <metadata> Produced by OmniGraffle 7.2.1 
+    <dc:date>2017-11-17 15:18:46 +0000</dc:date>
+  </metadata>
+  <defs>
+    <font-face font-family="CMU Typewriter Text" font-size="12" panose-1="2 0 6 9 0 0 0 0 0 0" units-per-em="1000" underline-position="-125" underline-thickness="50" slope="0" x-height="438" cap-height="622" ascent="826.99585" descent="-233.0017" font-weight="500">
+      <font-face-src>
+        <font-face-name name="CMUTypewriter-Regular"/>
+      </font-face-src>
+    </font-face>
+    <font-face font-family="Trebuchet MS" font-size="14" panose-1="2 11 6 3 2 2 2 2 2 4" units-per-em="1000" underline-position="-127.4414" underline-thickness="62.01172" slope="0" x-height="532.71484" cap-height="727.5391" ascent="938.9648" descent="-222.16797" font-weight="500">
+      <font-face-src>
+        <font-face-name name="TrebuchetMS"/>
+      </font-face-src>
+    </font-face>
+    <font-face font-family="Trebuchet MS" font-size="12" panose-1="2 11 6 3 2 2 2 2 2 4" units-per-em="1000" underline-position="-127.4414" underline-thickness="62.01172" slope="0" x-height="532.71484" cap-height="727.5391" ascent="938.9648" descent="-222.16797" font-weight="500">
+      <font-face-src>
+        <font-face-name name="TrebuchetMS"/>
+      </font-face-src>
+    </font-face>
+    <font-face font-family="Trebuchet MS" font-size="16" panose-1="2 11 6 3 2 2 2 2 2 4" units-per-em="1000" underline-position="-127.4414" underline-thickness="62.01172" slope="0" x-height="532.71484" cap-height="727.5391" ascent="938.9648" descent="-222.16797" font-weight="500">
+      <font-face-src>
+        <font-face-name name="TrebuchetMS"/>
+      </font-face-src>
+    </font-face>
+  </defs>
+  <g stroke="none" stroke-opacity="1" stroke-dasharray="none" fill="none" fill-opacity="1">
+    <title>Canvas 1</title>
+    <rect fill="white" width="761" height="584"/>
+    <g>
+      <title>Layer 1</title>
+      <line x1="487.2047" y1="407.4803" x2="504.92126" y2="442.9134" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.4173228"/>
+      <line x1="476.5748" y1="407.4803" x2="458.85827" y2="442.9134" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.4173228"/>
+      <line x1="532.3819" y1="350.7874" x2="558.9567" y2="386.22047" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.4173228"/>
+      <line x1="516.437" y1="350.7874" x2="489.8622" y2="386.22047" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.4173228"/>
+      <line x1="345.47244" y1="407.4803" x2="363.18897" y2="442.9134" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.4173228"/>
+      <line x1="334.8425" y1="407.4803" x2="317.126" y2="442.9134" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.4173228"/>
+      <line x1="175.3937" y1="464.1732" x2="193.11024" y2="499.6063" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.4173228"/>
+      <line x1="164.76378" y1="464.1732" x2="147.04724" y2="499.6063" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.4173228"/>
+      <line x1="203.74016" y1="407.4803" x2="221.4567" y2="442.9134" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.4173228"/>
+      <line x1="193.11024" y1="407.4803" x2="175.3937" y2="442.9134" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.4173228"/>
+      <line x1="294.0945" y1="350.7874" x2="329.52756" y2="386.22047" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.4173228"/>
+      <line x1="267.51968" y1="350.7874" x2="214.37008" y2="386.22047" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.4173228"/>
+      <line x1="425.19685" y1="307.0866" x2="496.063" y2="330.70866" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.4173228"/>
+      <line x1="368.50393" y1="308.2677" x2="311.81102" y2="329.52756" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.4173228"/>
+      <rect x="368.50393" y="287.00787" width="56.69291" height="21.259842" fill="white"/>
+      <text transform="translate(373.50393 289.9378)" fill="black">
+        <tspan font-family="CMU Typewriter Text" font-size="12" font-weight="500" x="1.2964565" y="10" textLength="44.1">fibo(5)</tspan>
+      </text>
+      <rect x="255.1181" y="329.52756" width="56.69291" height="21.259842" fill="white"/>
+      <text transform="translate(260.1181 332.4575)" fill="black">
+        <tspan font-family="CMU Typewriter Text" font-size="12" font-weight="500" x="1.2964565" y="10" textLength="44.1">fibo(4)</tspan>
+      </text>
+      <rect x="496.063" y="329.52756" width="56.69291" height="21.259842" fill="white"/>
+      <text transform="translate(501.063 332.4575)" fill="black">
+        <tspan font-family="CMU Typewriter Text" font-size="12" font-weight="500" x="1.2964565" y="10" textLength="44.1">fibo(3)</tspan>
+      </text>
+      <rect x="170.07874" y="386.22047" width="56.69291" height="21.259842" fill="white"/>
+      <text transform="translate(175.07874 389.1504)" fill="black">
+        <tspan font-family="CMU Typewriter Text" font-size="12" font-weight="500" x="1.2964565" y="10" textLength="44.1">fibo(3)</tspan>
+      </text>
+      <rect x="311.81102" y="386.22047" width="56.69291" height="21.259842" fill="white"/>
+      <text transform="translate(316.81102 389.1504)" fill="black">
+        <tspan font-family="CMU Typewriter Text" font-size="12" font-weight="500" x="1.2964565" y="10" textLength="44.1">fibo(2)</tspan>
+      </text>
+      <rect x="141.73228" y="442.9134" width="56.69291" height="21.259842" fill="white"/>
+      <text transform="translate(146.73228 445.8433)" fill="black">
+        <tspan font-family="CMU Typewriter Text" font-size="12" font-weight="500" x="1.2964565" y="10" textLength="44.1">fibo(2)</tspan>
+      </text>
+      <rect x="198.4252" y="442.9134" width="56.69291" height="21.259842" fill="white"/>
+      <text transform="translate(203.4252 445.8433)" fill="black">
+        <tspan font-family="CMU Typewriter Text" font-size="12" font-weight="500" x="1.2964565" y="10" textLength="44.1">fibo(1)</tspan>
+      </text>
+      <rect x="113.38583" y="499.6063" width="56.69291" height="21.259842" fill="white"/>
+      <text transform="translate(118.38583 502.53624)" fill="black">
+        <tspan font-family="CMU Typewriter Text" font-size="12" font-weight="500" x="1.2964565" y="10" textLength="44.1">fibo(1)</tspan>
+      </text>
+      <rect x="170.07874" y="499.6063" width="56.69291" height="21.259842" fill="white"/>
+      <text transform="translate(175.07874 502.53624)" fill="black">
+        <tspan font-family="CMU Typewriter Text" font-size="12" font-weight="500" x="1.2964565" y="10" textLength="44.1">fibo(0)</tspan>
+      </text>
+      <rect x="283.46457" y="442.9134" width="56.69291" height="21.259842" fill="white"/>
+      <text transform="translate(288.46457 445.8433)" fill="black">
+        <tspan font-family="CMU Typewriter Text" font-size="12" font-weight="500" x="1.2964565" y="10" textLength="44.1">fibo(1)</tspan>
+      </text>
+      <rect x="340.15748" y="442.9134" width="56.69291" height="21.259842" fill="white"/>
+      <text transform="translate(345.15748 445.8433)" fill="black">
+        <tspan font-family="CMU Typewriter Text" font-size="12" font-weight="500" x="1.2964565" y="10" textLength="44.1">fibo(0)</tspan>
+      </text>
+      <rect x="453.5433" y="386.22047" width="56.69291" height="21.259842" fill="white"/>
+      <text transform="translate(458.5433 389.1504)" fill="black">
+        <tspan font-family="CMU Typewriter Text" font-size="12" font-weight="500" x="1.2964565" y="10" textLength="44.1">fibo(2)</tspan>
+      </text>
+      <rect x="538.5827" y="386.22047" width="56.69291" height="21.259842" fill="white"/>
+      <text transform="translate(543.5827 389.1504)" fill="black">
+        <tspan font-family="CMU Typewriter Text" font-size="12" font-weight="500" x="1.2964565" y="10" textLength="44.1">fibo(1)</tspan>
+      </text>
+      <rect x="425.19685" y="442.9134" width="56.69291" height="21.259842" fill="white"/>
+      <text transform="translate(430.19685 445.8433)" fill="black">
+        <tspan font-family="CMU Typewriter Text" font-size="12" font-weight="500" x="1.2964565" y="10" textLength="44.1">fibo(1)</tspan>
+      </text>
+      <rect x="481.88976" y="442.9134" width="56.69291" height="21.259842" fill="white"/>
+      <text transform="translate(486.88976 445.8433)" fill="black">
+        <tspan font-family="CMU Typewriter Text" font-size="12" font-weight="500" x="1.2964565" y="10" textLength="44.1">fibo(0)</tspan>
+      </text>
+      <path d="M 85.03937 283.46457 L 85.03937 283.46457 C 80.06881 283.46457 76.03937 287.494 76.03937 292.46457 L 76.03937 384.01735 C 76.03937 388.28154 74.43264 392.3892 71.53937 395.52165 L 67.03937 400.3937 L 67.03937 400.3937 L 71.53937 405.26575 C 74.43264 408.3982 76.03937 412.50585 76.03937 416.77005 L 76.03937 508.32283 C 76.03937 513.2934 80.06881 517.32283 85.03937 517.32283 L 85.03937 517.32283" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.4173228"/>
+      <text transform="translate(-7.086614 390.7638)" fill="black">
+        <tspan font-family="Trebuchet MS" font-size="14" font-weight="500" x="13.398572" y="13" textLength="47.612305">5 levels</tspan>
+      </text>
+      <text transform="translate(85.03937 536.49606)" fill="black">
+        <tspan font-family="Trebuchet MS" font-size="14" font-weight="500" x="11" y="13" textLength="7.341797">•</tspan>
+        <tspan font-family="Trebuchet MS" font-size="14" font-weight="500" x="36" y="13" textLength="480.0947">Max number of simultaneous (stacked) recursive calls = number of levels = n</tspan>
+        <tspan font-family="Trebuchet MS" font-size="14" font-weight="500" x="11" y="33" textLength="7.341797">•</tspan>
+        <tspan font-family="Trebuchet MS" font-size="14" font-weight="500" x="36" y="33" textLength="361.4092">Max number of recursive calls = max number of nodes = 2</tspan>
+        <tspan font-family="Trebuchet MS" font-size="12" font-weight="500" x="397.4092" y="27" textLength="10.171875">n </tspan>
+        <tspan font-family="Trebuchet MS" font-size="16" font-weight="500" fill="#222" x="407.58105" y="33" textLength="13.210938">− </tspan>
+        <tspan font-family="Trebuchet MS" font-size="14" font-weight="500" x="420.792" y="33" textLength="11.55957">1 </tspan>
+      </text>
+    </g>
+  </g>
+</svg>
