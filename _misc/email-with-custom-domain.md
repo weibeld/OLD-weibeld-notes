@@ -2,7 +2,7 @@
 title:  Set Up a Custom Domain E-Mail Address FOR FREE
 author: Daniel Weibel
 date:   4 April 2017
-last_updated: 4 April 2017
+last_updated: 20 December 2017
 ---
 
 Everybody can register a domain name (e.g. *weibeld.net*) with a domain name registrar like Namecheap, and use this domain name for a website. But what about an e-mail address with this domain? Is it also possible to send and receive e-mails from e.g. *info@weibeld.net*?
