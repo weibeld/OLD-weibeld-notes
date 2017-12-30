@@ -23,7 +23,7 @@ You can store your photos and videos in two options:
 1. Original resolution
 2. High resolution
 
-With **Option 1** the photos are stored in their original resolution, no matter how big this resolution is. However, in this case the space occupied by the photos **counts against your [Google Drive storage quota](https://www.google.com/settings/storage)**. That is, you can upload not more photos than fit in your current storage quota (15 GB are free, 100 GB costs \$20 per year, 1 TB costs \$100 per year).
+With **Option 1** the photos are stored in their original resolution, no matter how big this resolution is. However, in this case the space occupied by the photos **counts against your [Google Drive storage quota](https://www.google.com/settings/storage)**. That is, you can upload not more photos than fit in your current storage quota (15 GB are free, 100 GB costs $20 per year, 1 TB costs $100 per year).
 
 With **Option 2** the storage space available to you is **unlimited**. That is, you can upload an unlimited number of photos for free. However, in this case the photos and videos are bound to a maximum resolution:
 
@@ -68,7 +68,7 @@ Note: the information above should, more or less, also apply to the iOS app, how
 
 ## Delete from mobile device {#delete-from-device}
 
-If you physically delete a photo from one of the "back up \& sync" folders, this photo is **not deleted** from Google Photos. The photo is still stored in Google Photos and can be viewed in the Google Photos app and on the website.
+If you physically delete a photo from one of the "back up & sync" folders, this photo is **not deleted** from Google Photos. The photo is still stored in Google Photos and can be viewed in the Google Photos app and on the website.
 
 This is because the photo was already "in" Google Photos, and what happens to the original source from which this photo was uploaded to Google Photos, doesn't matter.
 
