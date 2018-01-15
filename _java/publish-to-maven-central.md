@@ -131,7 +131,7 @@ This documentation also includes a set of very informative videos that you defin
 - [07 - Javadoc, Sources and Signing](https://www.youtube.com/watch?v=HeQ70mRSSGE)
 - [08 - Getting Help](https://www.youtube.com/watch?v=E8_oByBCbmI)
 
-In general, the Sonatype documentation is the ✅ resource for questions about publising to Maven Central.
+In general, the Sonatype documentation is the ✅ resource for questions about publishing to Maven Central.
 
 ## Let's Go
 
@@ -242,7 +242,7 @@ Note that behind the scenes the `uploadArchives` task creates a Maven POM file, 
 
 ### Upload to OSSRH
 
-Once your `build.gradle` file looks like the example above, exeute the `uploadArchives` task:
+Once your `build.gradle` file looks like the example above, execute the `uploadArchives` task:
 
 ~~~bash
 ./gradlew uploadArchives
@@ -250,7 +250,7 @@ Once your `build.gradle` file looks like the example above, exeute the `uploadAr
 
 This builds the project, generates the POM file, signs all the files with PGP, and uploads them to your account on OSSRH.
 
-When the task is finished, go to the OSSRH Nexus Repository Manager on <https://oss.sonatype.org/>, and log in with the username and password that you initially used for signing up for the OSSRH JIRA account (the same credentials that you saved in your `~/.gradle/gradle.properties` file.
+When the task is finished, go to the OSSRH Nexus Repository Manager on <https://oss.sonatype.org/>, and log in with the username and password that you initially used for signing up for the OSSRH JIRA account (the same credentials that you saved in your `~/.gradle/gradle.properties` file).
 
 Once you're logged in to OSSRH, click on *Staging Repositories* in the left sidebar:
 
