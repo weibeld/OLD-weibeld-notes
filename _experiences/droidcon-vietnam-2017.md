@@ -5,11 +5,12 @@ date:   15 April 2017
 last_updated: 16 April 2017
 ---
 
-From 15--16 April 2017 Droidcon took place in Ho Chi Minh City, Vietnam. 
+Droidcon Vietnam took place on 15 and 16 April 2017 in Ho Chi Minh City.
 
-Here is a short summary of all the presentations that I attended.
+Here is a short summary of all the presentations of the conference.
 
-It includes a subjective ordering of the presentations of each day, with respect to how relevant I found the presented content for myself (1 means most relevant). 
+
+It includes a ranking of the presentations of each day with respect to how relevant I found it myself (most relevant is 1). 
 
 # List of Presentations
 

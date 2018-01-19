@@ -1,13 +1,13 @@
 ---
-title:  Android Bootcamp 2017
+title:  Android Bootcamp Vietnam
 author: Daniel Weibel
 date:   14 February 2017
 last_updated: 6 April 2017
 ---
 
-These are notes of an 8-week Android development bootcamp that I attended.
+These are notes of an eight-week [CoderSchool](http://www.coderschool.vn/) Android development bootcamp that I attended from February to April 2017 in Ho Chi Minh City (a.k.a. Saigon), Vietnam.
 
-The main focus is on the new concepts that I learned every week, and also on the things which proved to be challenging. 
+The main focus of these notes is on the new concepts that I learned every week, and on the things that proved to be challenging. 
 
 Organisation
 ============
