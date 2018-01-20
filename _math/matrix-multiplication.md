@@ -3,8 +3,8 @@ title:  Matrix Multiplication For Dummies
 author: Daniel Weibel
 date:   16 July 2016
 last_updated: 16 July 2016
+layout: page-dollarmath
 ---
-
 
 # How To Multiply Two Matrices?
 

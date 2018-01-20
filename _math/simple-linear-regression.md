@@ -2,6 +2,8 @@
 title:  Simple Linear Regression
 author: Daniel Weibel
 date:   27 February 2016
+last_updated:   27 February 2016
+layout: page-dollarmath
 ---
 
 - **Given:** $n$ observed data points {$(x_1, y_1), (x_2, y_2), \dots, (x_n, y_n)$}

@@ -164,6 +164,12 @@ collections:
     image: /assets/icons/interview.png
     description: >
       Information and resources for preparing for a coding interview for a software engineering position.
+  math:
+    output: true
+    title: Mathematics
+    image: /assets/icons/math.png
+    description: >
+      All the evil but necessary mathematical stuff.
   tmp:
     output: true
     title: Tmp
