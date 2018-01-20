@@ -3,13 +3,14 @@ title:  RSA Encryption
 author: Daniel Weibel
 date:   1 September 2013
 last_updated: 1 September 2013
+layout: page-dollarmath
 ---
 
 Mathematical foundation of the RSA asymmetrical cryptosystem.
 
 # Key Generation
 
-1. Choose two prime numbers $p$ and $q$
+1. Choose two prime numbers \\(p\\) and $q$
 2. Compute $n=p q$
 2. Choose $a$ such that $\textrm{gcd}(a,\,\varphi(n))=1$
 3. Compute $b$ such that $\textrm{mod}(a b,\,\varphi(n)) = 1$

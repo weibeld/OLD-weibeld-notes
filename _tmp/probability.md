@@ -3,6 +3,7 @@ title: Probability Theory
 author: Daniel Weibel
 date: 8 November 2017
 last_updated: 8 November 2017
+layout: page-dollarmath
 ---
 
 $$

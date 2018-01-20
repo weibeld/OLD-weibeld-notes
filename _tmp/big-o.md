@@ -3,6 +3,7 @@ title: Big-O, Big-Omega, and Big-Theta
 author: Daniel Weibel
 date: August 2017
 last_updated: 9 November 2017
+layout: page-dollarmath
 ---
 
 $$

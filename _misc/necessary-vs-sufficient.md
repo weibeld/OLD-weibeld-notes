@@ -3,6 +3,7 @@ title:  Necessary vs. Sufficient
 author: Daniel Weibel
 date:   29 October 2013
 last_updated: 31 October 2017
+layout: page-dollarmath
 ---
 
 These are some reminders for the intuition of the terms **necessary** and **sufficient** conditions.

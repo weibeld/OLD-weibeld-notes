@@ -1,7 +1,9 @@
 ---
 title:  Work, Energy, Power
 author: Daniel Weibel
-date:   February--June 2016
+date:   February 2016
+last_updated: June 2016
+layout: page-dollarmath
 ---
 
 Explanation of the concepts **work**, **energy** and **power** known from physics.

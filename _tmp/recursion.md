@@ -3,6 +3,7 @@ title: Recursion and Dynamic Programming
 author: Daniel Weibel
 date: 9 November 2017
 last_updated: 22 November 2017
+layout: page-dollarmath
 ---
 
 $$

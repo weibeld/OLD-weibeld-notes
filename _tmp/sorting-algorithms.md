@@ -3,6 +3,7 @@ title: Sorting Algorithms
 author: Daniel Weibel
 date: September 2017
 date: 12 November 2017
+layout: page-dollarmath
 ---
 
 $$

@@ -3,6 +3,7 @@ title:  Possible Directions for 5G
 author: Daniel Weibel
 date:   17 March 2016
 last_updated: 17 March 2016
+layout: page-dollarmath
 ---
 
 Brief overview of the possible directions of a future 5G mobile network, from the point of view of the year 2016.

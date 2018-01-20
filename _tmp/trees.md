@@ -3,6 +3,7 @@ title: Trees
 author: Daniel Weibel
 date: September 2017
 last_updated: 9 November 2017
+layout: page-dollarmath
 ---
 
 $$
