@@ -1,0 +1,19 @@
+---
+layout: page
+---
+
+<!-- This is a quick fix for correctly rendering the pages that use a dollar
+     sign $ as the inline math delimiter. It is intended to be removed as
+     soon as all these dollar signs have been changed to the \\( and \\)
+     MathJax inline math delimiters -->
+
+<!-- Enable the dollar sign $ as delimiter for inline math in MathJax -->
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+    }
+  });
+</script>
+
+{{ content }}
