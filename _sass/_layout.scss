@@ -739,18 +739,27 @@ blockquote {
 #markdown-toc {
 }
 
-// Hide first item of TOC
-// TODO: prevent that this also applies to nested lists (i.e. second level and further in TOC).
+// Hide first item of first level of TOC (usually a section called "Contents")
 .toc-skip-first {
   li:first-child {
     display: none;
   }
+  ul,ol {
+    li:first-child {
+      display: list-item;
+    }
+  }
 }
 
-// Hide last item of TOC
+// Hide last item of first level of TOC
 .toc-skip-last {
   li:last-child {
     display: none;
+  }
+  ul,ol {
+    li:last-child {
+      display: list-item;
+    }
   }
 }
 
