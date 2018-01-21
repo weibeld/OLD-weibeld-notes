@@ -44,9 +44,9 @@ The "pointers" are implicit in the array indices, as follows:
 - Nodes on depth 3 are at **indices 8, 9, 10, 11, 12, 13, 14, 15**
 - etc.
 
-Thus, a binary heap of size $n$ can be represented as an array of size $n+1$ (the convention of leaving array index 0 empty is optional, but simplifies the "pointer" arithmetic below).
+Thus, a binary heap of size $n$ can be represented as an array of size $n+1$ (the convention of leaving array index 0 empty is optional, but simplifies the pseudo-pointer arithmetic below).
 
-### "Pointer" arithmetic
+### Pseudo-Pointer Arithmetic
 
 Get depth of node given an index:
 
@@ -75,15 +75,9 @@ Because for heaps, each level can be fully packed, and the length of the array t
 
 However, for an unbalanced BST, the levels cannot be fully packed, because there is no flexibility for the position of the nodes. In the worst case, a BST of size $n$ has $n$ levels, and thus requires an array of length $2^n$.
 
-## Operations
-
-
-
-
-
 ## Applications
 
-- Used to implement the **binary queue** data type
+- Used to implement the **priority queue** data type
 - Used for the **heapsort** sorting algorithm
 
 # Binary Search Tree
