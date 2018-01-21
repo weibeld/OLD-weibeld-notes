@@ -1,0 +1,39 @@
+#!/bin/bash
+#------------------------------------------------------------------------------#
+
+set -e
+
+if [[ -z "$1" || "$1" = -h || "$1" = --help || $# < 2 ]]; then
+  echo "Move a page, including all its assets, to another category."
+  echo "Usage:"
+  echo "  $(basename $0) <page> <dir>"
+  echo "  <page>:  markdown file of the page to move to another category"
+  echo "  <dir>:   directory of the destination category"
+  echo "Notes:"
+  echo "  - This moves only the asset files that are directly referenced in"
+  echo "    the page. If there are related unreferenced files, like for example"
+  echo "    OmniGraffle files, you still have to move them manually."
+  echo "  - The base directory for assets is hardcoded to be \"assets/\""
+  exit
+fi
+
+page=$1
+dir_to=${2%/}
+[[ ! -f "$page" ]] && { echo "File '$page' does not exist."; exit 1; }
+[[ ! -d "$dir_to" ]] && { echo "Directory '$dir_to' does not exist."; exit 1; }
+dir_from=$(dirname "$page")
+
+# Extract asset files referenced in links (paths starting with "assets/")
+IFS=$'\n' files=($(sed -n 's|.*\[.*\](\(assets/[^)]*\)).*|\1|p' "$page"))
+
+# Move all referenced asset files to target category
+for f in "${files[@]}"; do
+  mkdir -p "$dir_to"/$(dirname "$f")
+  mv "$dir_from/$f" "$dir_to/$f"
+done
+
+# Clean up directories that may be empty now
+find "$dir_from" -type d -empty -delete
+
+# Move markdown file itself to target category
+mv "$page" "$dir_to"

@@ -1,0 +1,20 @@
+#/bin/bash
+#------------------------------------------------------------------------------#
+
+set -e
+
+if [[ -z "$1" || "$1" = -h || "$1" = --help ]]; then
+  echo "Set up a new category."
+  echo "Usage:"
+  echo "  $(basename $0) <name>"
+  echo "  <name>:  name of the category to create (e.g. \"math\")"
+  echo "Notes:"
+  echo "  - Must be executed from the root directory"
+  echo "  - You still have to declare the category manually in _config.yml"
+  exit
+fi
+name=$1
+
+cp _categories/android.md _categories/"$name".md
+sed -i '' "s/android/${name}/" _categories/"$name".md
+mkdir _"$name"
