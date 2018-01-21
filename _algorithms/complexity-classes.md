@@ -7,6 +7,10 @@ last_updated: 4 September 2017
 
 An overview of the most important complexity classes of algorithms.
 
+Here is a visual depiction:
+
+![Complexity classes](assets/complexity-classes.png){:.center-image}
+
 # P
 
 Can be *solved* by a *deterministic* Turing machine in polynomial time
@@ -27,7 +31,3 @@ Can be *solved* by a *deterministic* Turing machine in polynomial time
 - Subset of NP-hard
 - Those NP-hard problems that are in NP
 - **Is in NP**
-
-# Summary
-
-![Complexity classes](assets/complexity-classes.png){:.center-image}
