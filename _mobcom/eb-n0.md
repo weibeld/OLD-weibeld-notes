@@ -3,6 +3,7 @@ title:  Energy per Bit to Noise Power Spectral Density Ratio
 author: Daniel Weibel
 date:   17 June 2016
 last_updated:   17 June 2016
+layout: page-dollarmath
 ---
 
 The *energy per bit to noise power spectral density ratio* $E_b/N_0$ can be seen as a signal-to-noise ratio (SNR) per individual bit.

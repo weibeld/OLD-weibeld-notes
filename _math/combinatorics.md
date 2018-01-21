@@ -546,7 +546,7 @@ $$\left(\!\!\binom{6}{3}\!\!\right) = \binom{6+3-1}{3} = \binom{8}{3} = \frac{8!
 
 $$\left(\!\!\binom{5}{3}\!\!\right) = \binom{5+3-1}{3} = \binom{7}{3} = \frac{n!}{4! \cdot 3!} = 35$$
 
-### Application 4 (#foobar)
+### Application 4
 
 - Calculate the number of ways that four persons can stay in the two hotels Hilton and Ritz, if the only thing that matters is the number of persons staying in each hotel.
     - For example, "4 persons staying in Hilton and 0 in Ritz", or "3 persons staying in Hilton, and 1 in Ritz", and so on.
