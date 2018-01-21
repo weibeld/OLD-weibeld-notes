@@ -170,12 +170,12 @@ collections:
     image: /assets/icons/math.png
     description: >
       All the evil but necessary mathematical stuff.
-  tmp:
+  algorithms:
     output: true
-    title: Tmp
-    image: /assets/icons/tmp.png
+    title: Algorithms & Data Structures
+    image: /assets/icons/algorithms.png
     description: >
-      Work in progress.
+      Classical computer science algorithms and data structure stuff. The things hat you need to know for coding interviews.
   categories:
     output: true
     permalink: /:path/

@@ -2,7 +2,7 @@
 layout: default
 ---
 
-{% assign collection = site.collections | where: "label", "tmp" | first %}
+{% assign collection = site.collections | where: "label", "algorithms" | first %}
 
 {% include set-page-title.html %}
 
