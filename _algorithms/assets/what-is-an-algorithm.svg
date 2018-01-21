@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xl="http://www.w3.org/1999/xlink" version="1.1" viewBox="33 56 467 172" width="467pt" height="172pt" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <metadata> Produced by OmniGraffle 7.5 
+    <dc:date>2018-01-21 22:36:37 +0000</dc:date>
+  </metadata>
+  <defs>
+    <font-face font-family="Arial" font-size="10" panose-1="2 11 6 4 2 2 2 2 2 4" units-per-em="1000" underline-position="-105.95703" underline-thickness="73.24219" slope="0" x-height="518.5547" cap-height="716.3086" ascent="905.2734" descent="-211.91406" font-weight="500">
+      <font-face-src>
+        <font-face-name name="ArialMT"/>
+      </font-face-src>
+    </font-face>
+    <font-face font-family="Arial" font-size="10" panose-1="2 11 7 4 2 2 2 2 2 4" units-per-em="1000" underline-position="-105.95703" underline-thickness="104.98047" slope="0" x-height="518.5547" cap-height="715.8203" ascent="905.2734" descent="-211.91406" font-weight="bold">
+      <font-face-src>
+        <font-face-name name="Arial-BoldMT"/>
+      </font-face-src>
+    </font-face>
+    <marker orient="auto" overflow="visible" markerUnits="strokeWidth" id="FilledArrow_Marker" viewBox="-6 -3 7 6" markerWidth="7" markerHeight="6" color="black">
+      <g>
+        <path d="M -4.8924444 0 L 0 1.8346667 L 0 -1.8346667 Z" fill="currentColor" stroke="currentColor" stroke-width="1"/>
+      </g>
+    </marker>
+    <font-face font-family="Helvetica" font-size="14" units-per-em="1000" underline-position="-75.68359" underline-thickness="49.316406" slope="0" x-height="532.22656" cap-height="719.7266" ascent="770.0195" descent="-229.98047" font-weight="bold">
+      <font-face-src>
+        <font-face-name name="Helvetica-Bold"/>
+      </font-face-src>
+    </font-face>
+    <font-face font-family="Arial" font-size="14" panose-1="2 11 7 4 2 2 2 2 2 4" units-per-em="1000" underline-position="-105.95703" underline-thickness="104.98047" slope="0" x-height="518.5547" cap-height="715.8203" ascent="905.2734" descent="-211.91406" font-weight="bold">
+      <font-face-src>
+        <font-face-name name="Arial-BoldMT"/>
+      </font-face-src>
+    </font-face>
+    <font-face font-family="Courier New" font-size="6" panose-1="2 7 3 9 2 2 5 2 4 4" units-per-em="1000" underline-position="-232.91016" underline-thickness="41.015625" slope="0" x-height="422.85156" cap-height="571.28906" ascent="832.5195" descent="-300.29297" font-weight="500">
+      <font-face-src>
+        <font-face-name name="CourierNewPSMT"/>
+      </font-face-src>
+    </font-face>
+  </defs>
+  <g stroke="none" stroke-opacity="1" stroke-dasharray="none" fill="none" fill-opacity="1">
+    <title>Canvas 1</title>
+    <rect fill="white" width="595.2756" height="841.8898"/>
+    <g>
+      <title>Layer 1</title>
+      <rect x="226.77165" y="102.04725" width="79.37008" height="113.38583" fill="#c0c0ff"/>
+      <rect x="226.77165" y="102.04725" width="79.37008" height="113.38583" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <text transform="translate(231.77165 147.41301)" fill="black">
+        <tspan font-family="Arial" font-size="10" font-weight="500" fill="black" x="2.4438305" y="9" textLength="67.26074">Computational </tspan>
+        <tspan font-family="Arial" font-size="10" font-weight="500" fill="black" x="12.170393" y="20.327148" textLength="45.029297">procedure</tspan>
+      </text>
+      <rect x="124.72441" y="136.063" width="11.338583" height="11.338583" fill="#ff8080"/>
+      <rect x="124.72441" y="136.063" width="11.338583" height="11.338583" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <rect x="56.692914" y="170.07874" width="11.338583" height="11.338583" fill="#ff8080"/>
+      <rect x="56.692914" y="170.07874" width="11.338583" height="11.338583" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <rect x="73.70079" y="170.07874" width="11.338583" height="11.338583" fill="#ff8080"/>
+      <rect x="73.70079" y="170.07874" width="11.338583" height="11.338583" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <rect x="90.70866" y="170.07874" width="11.338583" height="11.338583" fill="#ff8080"/>
+      <rect x="90.70866" y="170.07874" width="11.338583" height="11.338583" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <rect x="107.71654" y="170.07874" width="11.338583" height="11.338583" fill="#ff8080"/>
+      <rect x="107.71654" y="170.07874" width="11.338583" height="11.338583" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <rect x="124.72441" y="170.07874" width="11.338583" height="11.338583" fill="#ff8080"/>
+      <rect x="124.72441" y="170.07874" width="11.338583" height="11.338583" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <text transform="translate(112.71653 122.0569)" fill="black">
+        <tspan font-family="Arial" font-size="10" font-weight="500" x=".046875" y="9" textLength="23.90625">value</tspan>
+      </text>
+      <text transform="translate(121.22047 153.238)" fill="black">
+        <tspan font-family="Arial" font-size="10" font-weight="bold" x="0" y="9" textLength="15">OR</tspan>
+      </text>
+      <text transform="translate(78.70079 184.4191)" fill="black">
+        <tspan font-family="Arial" font-size="10" font-weight="500" x=".42871094" y="9" textLength="56.14258">set of values</tspan>
+      </text>
+      <rect x="396.8504" y="136.063" width="11.338583" height="11.338583" fill="#80ff80"/>
+      <rect x="396.8504" y="136.063" width="11.338583" height="11.338583" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <rect x="396.8504" y="170.07874" width="11.338583" height="11.338583" fill="#80ff80"/>
+      <rect x="396.8504" y="170.07874" width="11.338583" height="11.338583" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <rect x="413.85827" y="170.07874" width="11.338583" height="11.338583" fill="#80ff80"/>
+      <rect x="413.85827" y="170.07874" width="11.338583" height="11.338583" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <rect x="430.86615" y="170.07874" width="11.338583" height="11.338583" fill="#80ff80"/>
+      <rect x="430.86615" y="170.07874" width="11.338583" height="11.338583" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <rect x="447.874" y="170.07874" width="11.338583" height="11.338583" fill="#80ff80"/>
+      <rect x="447.874" y="170.07874" width="11.338583" height="11.338583" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <rect x="464.8819" y="170.07874" width="11.338583" height="11.338583" fill="#80ff80"/>
+      <rect x="464.8819" y="170.07874" width="11.338583" height="11.338583" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <text transform="translate(396.1811 122.0569)" fill="black">
+        <tspan font-family="Arial" font-size="10" font-weight="500" x=".046875" y="9" textLength="23.90625">value</tspan>
+      </text>
+      <text transform="translate(396.1811 153.238)" fill="black">
+        <tspan font-family="Arial" font-size="10" font-weight="bold" x="0" y="9" textLength="15">OR</tspan>
+      </text>
+      <text transform="translate(396.1811 184.4191)" fill="black">
+        <tspan font-family="Arial" font-size="10" font-weight="500" x=".42871094" y="9" textLength="56.14258">set of values</tspan>
+      </text>
+      <line x1="217.35323" y1="158.74016" x2="147.40158" y2="158.74016" marker-start="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.4173228"/>
+      <line x1="376.0934" y1="158.74016" x2="306.14174" y2="158.74016" marker-start="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.4173228"/>
+      <text transform="translate(234.1063 61.692914)" fill="black">
+        <tspan font-family="Helvetica" font-size="14" font-weight="bold" x=".4482422" y="14" textLength="66.103516">Algorithm</tspan>
+      </text>
+      <text transform="translate(95.70866 61.96391)" fill="black">
+        <tspan font-family="Arial" font-size="14" font-weight="bold" x=".39648438" y="13" textLength="34.20703">Input</tspan>
+      </text>
+      <text transform="translate(396.1811 61.96391)" fill="black">
+        <tspan font-family="Arial" font-size="14" font-weight="bold" x=".06542969" y="13" textLength="45.86914">Output</tspan>
+      </text>
+      <line x1="181.41732" y1="68.0315" x2="181.41732" y2="226.77166" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.4173228" stroke-dasharray="4,4"/>
+      <line x1="351.49607" y1="68.0315" x2="351.49607" y2="226.77166" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.4173228" stroke-dasharray="4,4"/>
+      <line x1="487.55906" y1="68.0315" x2="487.55906" y2="226.77166" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.4173228" stroke-dasharray="4,4"/>
+      <line x1="45.35433" y1="68.0315" x2="45.35433" y2="226.77166" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.4173228" stroke-dasharray="4,4"/>
+      <path d="M 34.01575 90.70866 L 498.89764 90.70866 L 498.89764 90.70866" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.4173228" stroke-dasharray="4,4"/>
+      <text transform="translate(231.77166 107.04725)" fill="black">
+        <tspan font-family="Courier New" font-size="6" font-weight="500" x="0" y="5" textLength="32.405273">Step 1: …</tspan>
+        <tspan font-family="Courier New" font-size="6" font-weight="500" x="0" y="12" textLength="39.606445">Step 2: ………</tspan>
+        <tspan font-family="Courier New" font-size="6" font-weight="500" x="0" y="19" textLength="36.00586">Step 3: ……</tspan>
+        <tspan font-family="Courier New" font-size="6" font-weight="500" x="0" y="26" textLength="3.600586">…</tspan>
+      </text>
+    </g>
+  </g>
+</svg>
