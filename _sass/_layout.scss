@@ -794,3 +794,10 @@ blockquote {
   font-size: 0.9em;
 }
 
+/* Center text */
+
+.center-text {
+  display: flex;
+  justify-content: center;
+}
+

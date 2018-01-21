@@ -5,7 +5,11 @@ date: April 2015
 last_updated: August 2017
 ---
 
-*Information from a Google recruiter from March 2015.*
+The following is some information I got from a Google recruiter in March 2015.
+
+# Guide
+
+[Interviewing at Google Zurich](assets/Interviewing-at-Google-Zurich.pdf)
 
 # Introduction
 
