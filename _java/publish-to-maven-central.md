@@ -16,10 +16,11 @@ The document is structured into four main parts:
 
 # Important URL Shortcuts
 
-- <https://search.maven.org/>
-- <https://repo1.maven.org/maven2/>
-- <http://central.sonatype.org/>
-- <https://oss.sonatype.org/>
+- <https://search.maven.org/>: Maven Central search engine
+- <https://repo1.maven.org/maven2/>: Maven Central file system
+- <http://central.sonatype.org/>: Sonatype OSSRH documentation portal
+- <https://oss.sonatype.org/>: Sonatype OSSRH Nexus Repository
+- <https://issues.sonatype.org>: Sonatype JIRA issue tracking system
 
 # Understanding Maven Central
 
