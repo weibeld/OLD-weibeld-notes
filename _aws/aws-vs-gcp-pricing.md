@@ -47,7 +47,7 @@ On-demand instances are just the "normal" instances of AWS EC2, that is, the one
 
 - Spec
     - 2 CPUs
-    - 15.25 GB
+    - 15.25 GB memory
 - Price
     - $0.133/hour
     - **$97.09/month**
@@ -83,7 +83,7 @@ Reserved instances make sense if you have an application in production that runs
     - $0.040/hour
     - $29.20/month for 3 years
 - Price "all upfront"
-    - $917 upfront payment for 3 years
+    - $917 one-time upfront payment valid for 3 years
     - $0.035/hour
     - **$25.55/month**
 
@@ -96,7 +96,7 @@ Reserved instances make sense if you have an application in production that runs
     - $0.042/hour
     - $30.66/month for 3 years
 - Price "all upfront"
-    - $968 upfront payment for 3 years
+    - $968 one-time upfront payment valid for 3 years
     - $0.037/hour
     - **$27.01/month**
 
@@ -104,12 +104,12 @@ Reserved instances make sense if you have an application in production that runs
 
 - Spec
     - 2 CPUs
-    - 15.25 GB
+    - 15.25 GB memory
 - Price "no upfront"
     - $0.057/hour
     - $41.61/month for 3 years
 - Price "all upfront"
-    - $1314 upfront payment for 3 years
+    - $1314 one-time upfront payment valid for 3 years
     - $0.050/hour
     - **$36.50/month**
 
