@@ -239,11 +239,14 @@ a.sitemap-link {
 
 /* Other UI elements */
 
-.page-date {
+.page-date, .page-author {
   font-size: $font-size-date;
   font-style: italic;
   color: $color-secondary-text;
   text-align: center;
+}
+.page-author {
+  margin-bottom: 0.5rem;
 }
 .page-date-container {
   margin-bottom: 1rem;

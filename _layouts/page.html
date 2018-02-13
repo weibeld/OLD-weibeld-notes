@@ -15,6 +15,10 @@ layout: default
 
   <h1 class="page-title">{{ page.title | escape }}</h1>
 
+  <div class="page-author">
+    {{page.author}}
+  </div>
+
   <div class="page-date-container">
     <!-- If date missing from front matter, Jekyll sets page.date to current date -->
     {% capture created_s %}{{ page.date | date: site.date_format }}{% endcapture %}
