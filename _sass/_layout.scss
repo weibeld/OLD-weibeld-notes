@@ -162,11 +162,21 @@ a:hover, a:active {
 a.naked-link {
   border: initial;
   padding: initial;
+  text-decoration: none;
 }
 a.sitemap-link {
   @extend .naked-link;
   @extend .no-strong-hover;
   font-weight: initial;
+}
+a.image-link {
+  @extend .naked-link;
+  @extend .no-strong-hover;
+  font-weight: initial;
+  &:hover {
+    border: none;
+    text-decoration: none;
+  }
 }
 @media (hover: hover) {
   a:hover, a:active {
