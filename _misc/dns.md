@@ -2,19 +2,20 @@
 title:  How DNS Works
 author: Daniel Weibel
 date:   18 February 2018
-last_updated: 18 February 2018
+last_updated: 19 February 2018
 ---
 
 An overview of how the Domain Name System (DNS) works. It includes a step-by-step explanation of DNS lookups, and a section on domain registration and DNS configuration.
 
-# Contents
-
-- TOC
-{:toc .toc-skip-first}
 
 # Illustration
 
 [![DNS Overview](assets/dns.png){:width="100%"}](assets/dns.png){:.image-link}
+
+# Contents
+
+- TOC
+{:toc .toc-skip-first-two .toc-skip-last}
 
 # DNS Lookup
 

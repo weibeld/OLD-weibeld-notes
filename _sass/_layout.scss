@@ -750,6 +750,9 @@ blockquote {
 
 // Automatic ID given by kramdown {:toc} attribute to TOC
 #markdown-toc {
+  a {
+    border: none;
+  }
 }
 
 // Hide first item of first level of TOC (usually a section called "Contents")
@@ -759,6 +762,18 @@ blockquote {
   }
   ul,ol {
     li:first-child {
+      display: list-item;
+    }
+  }
+}
+
+// Hide first two items of first level of TOC
+.toc-skip-first-two {
+  li:first-child,li:nth-child(2) {
+    display: none;
+  }
+  ul,ol {
+    li:first-child,li:nth-child(2) {
       display: list-item;
     }
   }
