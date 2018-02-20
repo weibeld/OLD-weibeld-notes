@@ -174,7 +174,7 @@ In this way, for any domain that has been registered under a given TLD, the TLD 
 
 Note that the number of name servers that you have to provide to a TLD registry is usually at least two. This is to provide redundancy in the case one of the name servers fails.
 
-### Check Your Name Servers
+### Check Your TLD Name Server Entries
 
 You can see which name servers are used by the TLD registry for your domain with the `whois` command:
 
