@@ -174,10 +174,33 @@ In this way, for any domain that has been registered under a given TLD, the TLD 
 
 Note that the number of name servers that you have to provide to a TLD registry is usually at least two. This is to provide redundancy in the case one of the name servers fails.
 
-You can review at any time the name servers that you registered with your domain name at your TLD registry with the `whois` command:
+### Check Your Name Servers
+
+You can see which name servers are used by the TLD registry for your domain with the `whois` command:
 
 ~~~bash
 whois mydomain.com
+~~~
+
+If you use a TLD for which the `whois` command returns an error like `nodename nor servname provided, or not known`, then you can query the whois server of your TLD directly.
+
+To find out the whois server of your TLD, use:
+
+~~~bash
+whois -h whois.iana.org "$TLD" | grep whois
+~~~
+Where `$TLD` is your TLD, for example, `ai`. And then query this whois server with:
+
+~~~bash
+whois -h "$WHOIS" "$MYDOMAIN"
+~~~
+
+Where `$WHOIS` is the whois server that you just found out (for example, `whois.nic.ai`), and `$MYDOMAIN` is your domain (for example, `mydomain.ai`).
+
+If you want to do everything in a single command, you can use:
+
+~~~bash
+whois -h $(whois -h whois.iana.org "$TLD" | sed -n 's/^whois:[[:blank:]]*\(.*\)$/\1/p') "$MYDOMAIN"
 ~~~
 
 ## Configure Authoritative Name Server
