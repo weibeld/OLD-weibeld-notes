@@ -1,0 +1,519 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xl="http://www.w3.org/1999/xlink" version="1.1" viewBox="-270 452 1944 1307" width="162pc" height="1307pt" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <metadata> Produced by OmniGraffle 7.5 
+    <dc:date>2018-02-28 20:15:05 +0000</dc:date>
+  </metadata>
+  <defs>
+    <font-face font-family="Arial" font-size="16" panose-1="2 11 6 4 2 2 2 2 2 4" units-per-em="1000" underline-position="-105.95703" underline-thickness="73.24219" slope="0" x-height="518.5547" cap-height="716.3086" ascent="905.2734" descent="-211.91406" font-weight="500">
+      <font-face-src>
+        <font-face-name name="ArialMT"/>
+      </font-face-src>
+    </font-face>
+    <font-face font-family="Menlo" font-size="16" panose-1="2 11 7 9 3 6 4 2 2 4" units-per-em="1000" underline-position="-63.47656" underline-thickness="43.94531" slope="0" x-height="546.875" cap-height="729.9805" ascent="928.2227" descent="-235.83984" font-weight="bold">
+      <font-face-src>
+        <font-face-name name="Menlo-Bold"/>
+      </font-face-src>
+    </font-face>
+    <font-face font-family="Menlo" font-size="20" panose-1="2 11 7 9 3 6 4 2 2 4" units-per-em="1000" underline-position="-63.47656" underline-thickness="43.94531" slope="0" x-height="546.875" cap-height="729.9805" ascent="928.2227" descent="-235.83984" font-weight="bold">
+      <font-face-src>
+        <font-face-name name="Menlo-Bold"/>
+      </font-face-src>
+    </font-face>
+    <font-face font-family="Arial" font-size="16" panose-1="2 11 7 4 2 2 2 2 2 4" units-per-em="1000" underline-position="-105.95703" underline-thickness="104.98047" slope="0" x-height="518.5547" cap-height="715.8203" ascent="905.2734" descent="-211.91406" font-weight="bold">
+      <font-face-src>
+        <font-face-name name="Arial-BoldMT"/>
+      </font-face-src>
+    </font-face>
+    <font-face font-family="Arial" font-size="20" panose-1="2 11 7 4 2 2 2 2 2 4" units-per-em="1000" underline-position="-105.95703" underline-thickness="104.98047" slope="0" x-height="518.5547" cap-height="715.8203" ascent="905.2734" descent="-211.91406" font-weight="bold">
+      <font-face-src>
+        <font-face-name name="Arial-BoldMT"/>
+      </font-face-src>
+    </font-face>
+  </defs>
+  <g stroke="none" stroke-opacity="1" stroke-dasharray="none" fill="none" fill-opacity="1">
+    <title>Canvas 2</title>
+    <rect fill="white" width="1943.1496" height="1305.3543"/>
+    <g>
+      <title>Layer 1</title>
+      <rect x="-269.29134" y="453.5433" width="1941.7323" height="1303.937" fill="white"/>
+      <rect x="-269.29134" y="453.5433" width="1941.7323" height="1303.937" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <rect x="-113.38583" y="1658.2677" width="240.94488" height="99.2126" fill="#327cbd" fill-opacity=".4"/>
+      <rect x="-113.38583" y="1658.2677" width="240.94488" height="99.2126" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.4173228"/>
+      <text transform="translate(-108.38583 1699.1123)" fill="black">
+        <tspan font-family="Arial" font-size="16" font-weight="500" x="57.67166" y="14" textLength="115.60156">Remove images</tspan>
+      </text>
+      <rect x="850.3937" y="1658.2677" width="822.0472" height="99.2126" fill="#327cbd" fill-opacity=".4"/>
+      <rect x="850.3937" y="1658.2677" width="822.0472" height="99.2126" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.4173228"/>
+      <text transform="translate(855.3937 1680.1123)" fill="black">
+        <tspan font-family="Menlo" font-size="16" font-weight="bold" x="247.0822" y="15" textLength="317.8828">docker rmi -f $(docker images -q)</tspan>
+        <tspan font-family="Arial" font-size="16" font-weight="500" x="306.42596" y="52" textLength="199.19531">Remove all existing images.</tspan>
+      </text>
+      <rect x="467.71653" y="1658.2677" width="382.67716" height="99.2126" fill="#327cbd" fill-opacity=".4"/>
+      <rect x="467.71653" y="1658.2677" width="382.67716" height="99.2126" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.4173228"/>
+      <rect x="-269.29134" y="1658.2677" width="155.90551" height="99.2126" fill="#327cbd" fill-opacity=".7"/>
+      <rect x="-269.29134" y="1658.2677" width="155.90551" height="99.2126" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.4173228"/>
+      <text transform="translate(-264.29134 1695.874)" fill="black">
+        <tspan font-family="Menlo" font-size="20" font-weight="bold" x="54.89123" y="19" textLength="36.123047">rmi</tspan>
+      </text>
+      <rect x="127.55905" y="1658.2677" width="340.15748" height="99.2126" fill="#327cbd" fill-opacity=".4"/>
+      <rect x="127.55905" y="1658.2677" width="340.15748" height="99.2126" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.4173228"/>
+      <text transform="translate(132.55905 1698.374)" fill="black">
+        <tspan font-family="Menlo" font-size="16" font-weight="bold" x="88.01624" y="15" textLength="154.125">[OPTIONS] IMAGE…</tspan>
+      </text>
+      <rect x="-269.29134" y="1559.0551" width="155.90551" height="99.2126" fill="#327cbd" fill-opacity=".7"/>
+      <rect x="-269.29134" y="1559.0551" width="155.90551" height="99.2126" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.4173228"/>
+      <text transform="translate(-264.29134 1596.6614)" fill="black">
+        <tspan font-family="Menlo" font-size="20" font-weight="bold" x="60.91174" y="19" textLength="24.08203">rm</tspan>
+      </text>
+      <rect x="850.3937" y="1559.0551" width="822.0472" height="99.2126" fill="#327cbd" fill-opacity=".4"/>
+      <rect x="850.3937" y="1559.0551" width="822.0472" height="99.2126" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.4173228"/>
+      <text transform="translate(855.3937 1580.8997)" fill="black">
+        <tspan font-family="Menlo" font-size="16" font-weight="bold" x="266.34784" y="15" textLength="279.35156">docker rm -f $(docker ps -aq)</tspan>
+        <tspan font-family="Arial" font-size="16" font-weight="500" x="295.30487" y="52" textLength="221.4375">Remove all existing containers.</tspan>
+      </text>
+      <rect x="127.55905" y="1559.0551" width="340.15748" height="99.2126" fill="#327cbd" fill-opacity=".4"/>
+      <rect x="127.55905" y="1559.0551" width="340.15748" height="99.2126" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.4173228"/>
+      <text transform="translate(132.55905 1599.1614)" fill="black">
+        <tspan font-family="Menlo" font-size="16" font-weight="bold" x="68.750614" y="15" textLength="192.65625">[OPTIONS] CONTAINER…</tspan>
+      </text>
+      <rect x="-113.38583" y="1559.0551" width="240.94488" height="99.2126" fill="#327cbd" fill-opacity=".4"/>
+      <rect x="-113.38583" y="1559.0551" width="240.94488" height="99.2126" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.4173228"/>
+      <text transform="translate(-108.38583 1599.8997)" fill="black">
+        <tspan font-family="Arial" font-size="16" font-weight="500" x="44.32791" y="14" textLength="142.28906">Remove containers.</tspan>
+      </text>
+      <rect x="467.71653" y="1559.0551" width="382.67716" height="99.2126" fill="#327cbd" fill-opacity=".4"/>
+      <rect x="467.71653" y="1559.0551" width="382.67716" height="99.2126" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.4173228"/>
+      <rect x="850.3937" y="1459.8425" width="822.0472" height="99.2126" fill="#327cbd" fill-opacity=".4"/>
+      <rect x="850.3937" y="1459.8425" width="822.0472" height="99.2126" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.4173228"/>
+      <text transform="translate(855.3937 1481.6871)" fill="black">
+        <tspan font-family="Menlo" font-size="16" font-weight="bold" x="328.96112" y="15" textLength="154.125">docker images -q</tspan>
+        <tspan font-family="Arial" font-size="16" font-weight="500" x="310.43378" y="52" textLength="191.17969">List IDs of all main images.</tspan>
+      </text>
+      <rect x="-269.29134" y="1459.8425" width="155.90551" height="99.2126" fill="#327cbd" fill-opacity=".7"/>
+      <rect x="-269.29134" y="1459.8425" width="155.90551" height="99.2126" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.4173228"/>
+      <text transform="translate(-264.29134 1497.4488)" fill="black">
+        <tspan font-family="Menlo" font-size="20" font-weight="bold" x="36.82971" y="19" textLength="72.24609">images</tspan>
+      </text>
+      <rect x="467.71653" y="1459.8425" width="382.67716" height="99.2126" fill="#327cbd" fill-opacity=".4"/>
+      <rect x="467.71653" y="1459.8425" width="382.67716" height="99.2126" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.4173228"/>
+      <rect x="127.55905" y="1459.8425" width="340.15748" height="99.2126" fill="#327cbd" fill-opacity=".4"/>
+      <rect x="127.55905" y="1459.8425" width="340.15748" height="99.2126" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.4173228"/>
+      <text transform="translate(132.55905 1499.9488)" fill="black">
+        <tspan font-family="Menlo" font-size="16" font-weight="bold" x="121.73108" y="15" textLength="86.69531">[OPTIONS]</tspan>
+      </text>
+      <rect x="-113.38583" y="1459.8425" width="240.94488" height="99.2126" fill="#327cbd" fill-opacity=".4"/>
+      <rect x="-113.38583" y="1459.8425" width="240.94488" height="99.2126" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.4173228"/>
+      <text transform="translate(-108.38583 1500.6871)" fill="black">
+        <tspan font-family="Arial" font-size="16" font-weight="500" x="72.78885" y="14" textLength="85.36719">List images.</tspan>
+      </text>
+      <rect x="467.71653" y="1360.6299" width="382.67716" height="99.2126" fill="#327cbd" fill-opacity=".4"/>
+      <rect x="467.71653" y="1360.6299" width="382.67716" height="99.2126" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.4173228"/>
+      <rect x="127.55905" y="1360.6299" width="340.15748" height="99.2126" fill="#327cbd" fill-opacity=".4"/>
+      <rect x="127.55905" y="1360.6299" width="340.15748" height="99.2126" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.4173228"/>
+      <text transform="translate(132.55905 1400.7362)" fill="black">
+        <tspan font-family="Menlo" font-size="16" font-weight="bold" x="121.73108" y="15" textLength="86.69531">[OPTIONS]</tspan>
+      </text>
+      <rect x="850.3937" y="1360.6299" width="822.0472" height="99.2126" fill="#327cbd" fill-opacity=".4"/>
+      <rect x="850.3937" y="1360.6299" width="822.0472" height="99.2126" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.4173228"/>
+      <text transform="translate(855.3937 1382.4745)" fill="black">
+        <tspan font-family="Menlo" font-size="16" font-weight="bold" x="343.41034" y="15" textLength="125.22656">docker ps -aq</tspan>
+        <tspan font-family="Arial" font-size="16" font-weight="500" x="289.52753" y="52" textLength="232.9922">List IDs of all existing containers.</tspan>
+      </text>
+      <rect x="-269.29134" y="1360.6299" width="155.90551" height="99.2126" fill="#327cbd" fill-opacity=".7"/>
+      <rect x="-269.29134" y="1360.6299" width="155.90551" height="99.2126" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.4173228"/>
+      <text transform="translate(-264.29134 1398.2362)" fill="black">
+        <tspan font-family="Menlo" font-size="20" font-weight="bold" x="60.91174" y="19" textLength="24.08203">ps</tspan>
+      </text>
+      <rect x="-113.38583" y="1360.6299" width="240.94488" height="99.2126" fill="#327cbd" fill-opacity=".4"/>
+      <rect x="-113.38583" y="1360.6299" width="240.94488" height="99.2126" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.4173228"/>
+      <text transform="translate(-108.38583 1401.4745)" fill="black">
+        <tspan font-family="Arial" font-size="16" font-weight="500" x="34.980253" y="14" textLength="160.98438">List running containers</tspan>
+      </text>
+      <rect x="-113.38583" y="510.2362" width="240.94488" height="113.38583" fill="#327cbd" fill-opacity=".4"/>
+      <rect x="-113.38583" y="510.2362" width="240.94488" height="113.38583" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.4173228"/>
+      <text transform="translate(-108.38583 549.4057)" fill="black">
+        <tspan font-family="Arial" font-size="16" font-weight="500" x="17.652128" y="14" textLength="99.60938">Create a new </tspan>
+        <tspan font-family="Arial" font-size="16" font-weight="bold" x="117.2615" y="14" textLength="46.24219">image</tspan>
+        <tspan font-family="Arial" font-size="16" font-weight="500" x="163.50369" y="14" textLength="54.234375"> from a </tspan>
+        <tspan font-family="Arial" font-size="16" font-weight="500" x="77.68338" y="31.523438" textLength="75.578125">Dockerfile.</tspan>
+      </text>
+      <rect x="-113.38583" y="1034.6457" width="240.94488" height="113.38583" fill="#327cbd" fill-opacity=".4"/>
+      <rect x="-113.38583" y="1034.6457" width="240.94488" height="113.38583" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.4173228"/>
+      <text transform="translate(-108.38583 1082.5769)" fill="black">
+        <tspan font-family="Arial" font-size="16" font-weight="500" x="26.519315" y="14" textLength="174.34375">Stop a running container</tspan>
+        <tspan font-family="Arial" font-size="16" font-weight="500" x="199.98025" y="14" textLength="4.4453125">.</tspan>
+      </text>
+      <rect x="-113.38583" y="453.5433" width="240.94488" height="56.69291" fill="black"/>
+      <rect x="-113.38583" y="453.5433" width="240.94488" height="56.69291" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.4173228"/>
+      <text transform="translate(-108.38583 470.5626)" fill="white">
+        <tspan font-family="Arial" font-size="20" font-weight="bold" fill="white" x="60.462675" y="18" textLength="110.01953">Description</tspan>
+      </text>
+      <rect x="-113.38583" y="1148.0315" width="240.94488" height="212.59842" fill="#327cbd" fill-opacity=".4"/>
+      <rect x="-113.38583" y="1148.0315" width="240.94488" height="212.59842" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.4173228"/>
+      <text transform="translate(-108.38583 1236.8073)" fill="black">
+        <tspan font-family="Arial" font-size="16" font-weight="bold" x="2.5232215" y="14" textLength="49.80469">Create</tspan>
+        <tspan font-family="Arial" font-size="16" font-weight="500" x="52.32791" y="14" textLength="180.53906"> a new container from an </tspan>
+        <tspan font-family="Arial" font-size="16" font-weight="500" x="4.7575965" y="31.523438" textLength="52.46875">image, </tspan>
+        <tspan font-family="Arial" font-size="16" font-weight="bold" x="57.226346" y="31.523438" textLength="34.679688">start</tspan>
+        <tspan font-family="Arial" font-size="16" font-weight="500" x="91.90603" y="31.523438" textLength="52.47656"> it, and </tspan>
+        <tspan font-family="Arial" font-size="16" font-weight="bold" x="144.3826" y="31.523438" textLength="47.125">attach</tspan>
+        <tspan font-family="Arial" font-size="16" font-weight="500" x="191.5076" y="31.523438" textLength="34.679688"> to it.</tspan>
+      </text>
+      <rect x="-113.38583" y="623.62204" width="240.94488" height="184.25197" fill="#327cbd" fill-opacity=".4"/>
+      <rect x="-113.38583" y="623.62204" width="240.94488" height="184.25197" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.4173228"/>
+      <text transform="translate(-108.38583 698.2246)" fill="black">
+        <tspan font-family="Arial" font-size="16" font-weight="500" x=".31619024" y="14" textLength="99.60938">Create a new </tspan>
+        <tspan font-family="Arial" font-size="16" font-weight="bold" x="99.92557" y="14" textLength="72.015625">container</tspan>
+        <tspan font-family="Arial" font-size="16" font-weight="500" x="171.9412" y="14" textLength="63.13281"> from an </tspan>
+        <tspan font-family="Arial" font-size="16" font-weight="500" x="91.46072" y="31.523438" textLength="48.02344">image.</tspan>
+      </text>
+      <rect x="-113.38583" y="807.874" width="240.94488" height="113.38583" fill="#327cbd" fill-opacity=".4"/>
+      <rect x="-113.38583" y="807.874" width="240.94488" height="113.38583" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.4173228"/>
+      <text transform="translate(-108.38583 855.8052)" fill="black">
+        <tspan font-family="Arial" font-size="16" font-weight="500" x="54.99197" y="14" textLength="117.39844">Start a container</tspan>
+        <tspan font-family="Arial" font-size="16" font-weight="500" x="171.5076" y="14" textLength="4.4453125">.</tspan>
+      </text>
+      <rect x="-113.38583" y="921.2598" width="240.94488" height="113.38583" fill="#327cbd" fill-opacity=".4"/>
+      <rect x="-113.38583" y="921.2598" width="240.94488" height="113.38583" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.4173228"/>
+      <text transform="translate(-108.38583 960.4293)" fill="black">
+        <tspan font-family="Arial" font-size="16" font-weight="500" x="6.109159" y="14" textLength="87.15625">Attach local </tspan>
+        <tspan font-family="Arial" font-size="16" font-weight="bold" x="93.26541" y="14" textLength="38.21875">stdin</tspan>
+        <tspan font-family="Arial" font-size="16" font-weight="500" x="131.48416" y="14" textLength="8.890625">, </tspan>
+        <tspan font-family="Arial" font-size="16" font-weight="bold" x="140.37478" y="14" textLength="48.875">stdout</tspan>
+        <tspan font-family="Arial" font-size="16" font-weight="500" x="189.24978" y="14" textLength="40.03125">, and </tspan>
+        <tspan font-family="Arial" font-size="16" font-weight="bold" x="14.538846" y="31.523438" textLength="45.35156">stderr</tspan>
+        <tspan font-family="Arial" font-size="16" font-weight="500" x="59.89041" y="31.523438" textLength="80.05469"> to running </tspan>
+        <tspan font-family="Arial" font-size="16" font-weight="bold" x="139.9451" y="31.523438" textLength="72.015625">container</tspan>
+        <tspan font-family="Arial" font-size="16" font-weight="500" x="211.96072" y="31.523438" textLength="4.4453125">.</tspan>
+      </text>
+      <rect x="467.71653" y="1148.0315" width="382.67716" height="212.59842" fill="#327cbd" fill-opacity=".4"/>
+      <rect x="467.71653" y="1148.0315" width="382.67716" height="212.59842" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.4173228"/>
+      <rect x="850.3937" y="1148.0315" width="822.0472" height="212.59842" fill="#327cbd" fill-opacity=".4"/>
+      <rect x="850.3937" y="1148.0315" width="822.0472" height="212.59842" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.4173228"/>
+      <text transform="translate(855.3937 1216.3307)" fill="black">
+        <tspan font-family="Menlo" font-size="16" font-weight="bold" x="39.976745" y="15" textLength="732.09375">docker run -i -t -e FOO=bar -p 8080:80 -v /home/user:/root ubuntu:16.04 bash</tspan>
+        <tspan font-family="Arial" font-size="16" font-weight="500" x="6.402526" y="53" textLength="155.625">Same example as for </tspan>
+        <tspan font-family="Menlo" font-size="16" font-weight="bold" x="162.02753" y="53" textLength="57.796875">create</tspan>
+        <tspan font-family="Arial" font-size="16" font-weight="500" x="219.8244" y="53" textLength="558.53906">, but now also start the container and attach local stdin, stdout, and stderr to it. </tspan>
+        <tspan font-family="Arial" font-size="16" font-weight="500" x="778.0744" y="53" textLength="32.015625">The </tspan>
+        <tspan font-family="Menlo" font-size="16" font-weight="bold" x="108.70331" y="72" textLength="28.898438">run</tspan>
+        <tspan font-family="Arial" font-size="16" font-weight="500" x="137.60174" y="72" textLength="287.23438"> command merges the three commands </tspan>
+        <tspan font-family="Menlo" font-size="16" font-weight="bold" x="424.8361" y="72" textLength="57.796875">create</tspan>
+        <tspan font-family="Arial" font-size="16" font-weight="500" x="482.633" y="72" textLength="8.890625">, </tspan>
+        <tspan font-family="Menlo" font-size="16" font-weight="bold" x="491.5236" y="72" textLength="48.16406">start</tspan>
+        <tspan font-family="Arial" font-size="16" font-weight="500" x="539.6877" y="72" textLength="40.03125">, and </tspan>
+        <tspan font-family="Menlo" font-size="16" font-weight="bold" x="579.7189" y="72" textLength="57.796875">attach</tspan>
+        <tspan font-family="Arial" font-size="16" font-weight="500" x="637.5158" y="72" textLength="65.828125"> into one.</tspan>
+      </text>
+      <rect x="127.55905" y="1148.0315" width="340.15748" height="212.59842" fill="#327cbd" fill-opacity=".4"/>
+      <rect x="127.55905" y="1148.0315" width="340.15748" height="212.59842" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.4173228"/>
+      <text transform="translate(132.55905 1244.8307)" fill="black">
+        <tspan font-family="Menlo" font-size="16" font-weight="bold" x="15.770145" y="15" textLength="298.6172">[OPTIONS] IMAGE [CMD] [CMDARG…]</tspan>
+      </text>
+      <rect x="-269.29134" y="1148.0315" width="155.90551" height="212.59842" fill="#327cbd" fill-opacity=".7"/>
+      <rect x="-269.29134" y="1148.0315" width="155.90551" height="212.59842" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.4173228"/>
+      <text transform="translate(-264.29134 1242.3307)" fill="black">
+        <tspan font-family="Menlo" font-size="20" font-weight="bold" x="54.89123" y="19" textLength="36.123047">run</tspan>
+      </text>
+      <rect x="850.3937" y="1034.6457" width="822.0472" height="113.38583" fill="#327cbd" fill-opacity=".4"/>
+      <rect x="850.3937" y="1034.6457" width="822.0472" height="113.38583" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.4173228"/>
+      <text transform="translate(855.3937 1062.8386)" fill="black">
+        <tspan font-family="Menlo" font-size="16" font-weight="bold" x="290.42987" y="15" textLength="231.1875">docker stop f585a987fae2</tspan>
+        <tspan font-family="Arial" font-size="16" font-weight="500" x="19.531432" y="53" textLength="174.34375">Stop a running container</tspan>
+        <tspan font-family="Arial" font-size="16" font-weight="500" x="192.99237" y="53" textLength="8.890625">. </tspan>
+        <tspan font-family="Arial" font-size="16" font-weight="500" x="201.59393" y="53" textLength="238.32812">The container is now still listed in </tspan>
+        <tspan font-family="Menlo" font-size="16" font-weight="bold" x="439.92206" y="53" textLength="115.59375">docker ps -a</tspan>
+        <tspan font-family="Arial" font-size="16" font-weight="500" x="555.5158" y="53" textLength="145.85938">, but not anymore in </tspan>
+        <tspan font-family="Menlo" font-size="16" font-weight="bold" x="701.3752" y="53" textLength="86.69531">docker ps</tspan>
+        <tspan font-family="Arial" font-size="16" font-weight="500" x="788.0705" y="53" textLength="4.4453125">.</tspan>
+      </text>
+      <rect x="850.3937" y="623.62204" width="822.0472" height="184.25197" fill="#327cbd" fill-opacity=".4"/>
+      <rect x="850.3937" y="623.62204" width="822.0472" height="184.25197" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.4173228"/>
+      <text transform="translate(855.3937 670.2246)" fill="black">
+        <tspan font-family="Menlo" font-size="16" font-weight="bold" x="25.527526" y="15" textLength="760.9922">docker create -i -t -e FOO=bar -p 8080:80 -v /home/user:/root ubuntu:16.04 bash</tspan>
+        <tspan font-family="Arial" font-size="16" font-weight="500" x="10.722838" y="51" textLength="99.60938">Create a new </tspan>
+        <tspan font-family="Arial" font-size="16" font-weight="bold" x="110.33221" y="51" textLength="100.46094">Ubuntu 16.04</tspan>
+        <tspan font-family="Arial" font-size="16" font-weight="500" x="210.79315" y="51" textLength="129.85156"> container with an </tspan>
+        <tspan font-family="Arial" font-size="16" font-weight="bold" x="340.6447" y="51" textLength="80.03906">interactive</tspan>
+        <tspan font-family="Arial" font-size="16" font-weight="500" x="420.6838" y="51" textLength="4.4453125"> </tspan>
+        <tspan font-family="Arial" font-size="16" font-weight="bold" x="425.1291" y="51" textLength="62.24219">terminal</tspan>
+        <tspan font-family="Arial" font-size="16" font-weight="500" x="487.3713" y="51" textLength="62.265625"> running </tspan>
+        <tspan font-family="Arial" font-size="16" font-weight="bold" x="549.6369" y="51" textLength="39.125">Bash</tspan>
+        <tspan font-family="Arial" font-size="16" font-weight="500" x="588.7619" y="51" textLength="217.0078">. Set the environment variable </tspan>
+        <tspan font-family="Arial" font-size="16" font-weight="bold" x="12.918151" y="68.52344" textLength="34.664062">FOO</tspan>
+        <tspan font-family="Arial" font-size="16" font-weight="500" x="47.582213" y="68.52344" textLength="113.85156"> in the container</tspan>
+        <tspan font-family="Arial" font-size="16" font-weight="500" x="160.55096" y="68.52344" textLength="66.703125">. Expose </tspan>
+        <tspan font-family="Arial" font-size="16" font-weight="bold" x="227.2541" y="68.52344" textLength="53.34375">port 80</tspan>
+        <tspan font-family="Arial" font-size="16" font-weight="500" x="280.59784" y="68.52344" textLength="114.74219"> of the container</tspan>
+        <tspan font-family="Arial" font-size="16" font-weight="500" x="394.4572" y="68.52344" textLength="128.95312">, an map it to port </tspan>
+        <tspan font-family="Arial" font-size="16" font-weight="bold" x="523.41034" y="68.52344" textLength="35.59375">8080</tspan>
+        <tspan font-family="Arial" font-size="16" font-weight="500" x="559.0041" y="68.52344" textLength="154.76562"> on the host. Map the </tspan>
+        <tspan font-family="Arial" font-size="16" font-weight="bold" x="713.7697" y="68.52344" textLength="85.35938">/home/user</tspan>
+        <tspan font-family="Arial" font-size="16" font-weight="500" x="799.1291" y="68.52344" textLength="4.4453125"> </tspan>
+        <tspan font-family="Arial" font-size="16" font-weight="500" x="61.558776" y="87.04688" textLength="167.20312">directory on the host to </tspan>
+        <tspan font-family="Arial" font-size="16" font-weight="bold" x="228.7619" y="87.04688" textLength="35.546875">/root</tspan>
+        <tspan font-family="Arial" font-size="16" font-weight="500" x="264.30878" y="87.04688" textLength="113.85156"> in the container</tspan>
+        <tspan font-family="Arial" font-size="16" font-weight="500" x="377.27753" y="87.04688" textLength="8.890625">. </tspan>
+        <tspan font-family="Arial" font-size="16" font-weight="500" x="385.8791" y="87.04688" textLength="244.5703">The new container is now listed in </tspan>
+        <tspan font-family="Menlo" font-size="16" font-weight="bold" x="630.4494" y="87.04688" textLength="115.59375">docker ps -a</tspan>
+        <tspan font-family="Arial" font-size="16" font-weight="500" x="746.04315" y="87.04688" textLength="4.4453125">.</tspan>
+      </text>
+      <rect x="850.3937" y="921.2598" width="822.0472" height="113.38583" fill="#327cbd" fill-opacity=".4"/>
+      <rect x="850.3937" y="921.2598" width="822.0472" height="113.38583" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.4173228"/>
+      <text transform="translate(855.3937 941.4293)" fill="black">
+        <tspan font-family="Menlo" font-size="16" font-weight="bold" x="280.79706" y="15" textLength="250.45312">docker attach f585a987fae2</tspan>
+        <tspan font-family="Arial" font-size="16" font-weight="500" x="24.488463" y="52" textLength="180.53125">Attach local stdout, stderr</tspan>
+        <tspan font-family="Arial" font-size="16" font-weight="500" x="204.1369" y="52" textLength="305.0625">, and stdin to a previously started container</tspan>
+        <tspan font-family="Arial" font-size="16" font-weight="500" x="508.3166" y="52" textLength="283.6875">. If the container runs a shell, this is like </tspan>
+        <tspan font-family="Arial" font-size="16" font-weight="500" x="312.62128" y="69.52344" textLength="183.24219">logging in to the container</tspan>
+        <tspan font-family="Arial" font-size="16" font-weight="500" x="494.98065" y="69.52344" textLength="4.4453125">.</tspan>
+      </text>
+      <rect x="850.3937" y="807.874" width="822.0472" height="113.38583" fill="#327cbd" fill-opacity=".4"/>
+      <rect x="850.3937" y="807.874" width="822.0472" height="113.38583" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.4173228"/>
+      <text transform="translate(855.3937 827.0669)" fill="black">
+        <tspan font-family="Menlo" font-size="16" font-weight="bold" x="266.34784" y="15" textLength="279.35156">docker start -ai f585a987fae2</tspan>
+        <tspan font-family="Arial" font-size="16" font-weight="500" x="4.453307" y="52" textLength="466.03125">Start a previously created container and attach local stdout, stderr</tspan>
+        <tspan font-family="Arial" font-size="16" font-weight="500" x="469.60174" y="52" textLength="112.95312">, and stdin to it. </tspan>
+        <tspan font-family="Arial" font-size="16" font-weight="500" x="582.2658" y="52" textLength="32.015625">The </tspan>
+        <tspan font-family="Menlo" font-size="16" font-weight="bold" x="614.2814" y="52" textLength="19.265625">-a</tspan>
+        <tspan font-family="Arial" font-size="16" font-weight="500" x="633.54706" y="52" textLength="35.585938"> and </tspan>
+        <tspan font-family="Menlo" font-size="16" font-weight="bold" x="669.133" y="52" textLength="19.265625">-i</tspan>
+        <tspan font-family="Arial" font-size="16" font-weight="500" x="688.3986" y="52" textLength="123.64062"> options together </tspan>
+        <tspan font-family="Arial" font-size="16" font-weight="500" x="32.656432" y="71" textLength="122.74219">have the same ef</tspan>
+        <tspan font-family="Arial" font-size="16" font-weight="500" x="155.10956" y="71" textLength="109.39844">fect as running </tspan>
+        <tspan font-family="Menlo" font-size="16" font-weight="bold" x="264.508" y="71" textLength="125.22656">docker attach</tspan>
+        <tspan font-family="Arial" font-size="16" font-weight="500" x="389.73456" y="71" textLength="88.03125"> afterwards. </tspan>
+        <tspan font-family="Arial" font-size="16" font-weight="500" x="477.47674" y="71" textLength="210.77344">The container is now listed in </tspan>
+        <tspan font-family="Menlo" font-size="16" font-weight="bold" x="688.2502" y="71" textLength="86.69531">docker ps</tspan>
+        <tspan font-family="Arial" font-size="16" font-weight="500" x="774.9455" y="71" textLength="4.4453125">.</tspan>
+      </text>
+      <rect x="850.3937" y="510.2362" width="822.0472" height="113.38583" fill="#327cbd" fill-opacity=".4"/>
+      <rect x="850.3937" y="510.2362" width="822.0472" height="113.38583" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.4173228"/>
+      <text transform="translate(855.3937 530.1674)" fill="black">
+        <tspan font-family="Menlo" font-size="16" font-weight="bold" x="203.73456" y="15" textLength="404.57812">docker build -t myapp:0.0.1 /home/user/app</tspan>
+        <tspan font-family="Arial" font-size="16" font-weight="500" x="7.750182" y="51" textLength="687.4453">Create a new image called myapp with tag 0.0.1 from the Dockerfile in directory /home/user/app. </tspan>
+        <tspan font-family="Arial" font-size="16" font-weight="500" x="694.9064" y="51" textLength="113.83594">The new image </tspan>
+        <tspan font-family="Arial" font-size="16" font-weight="500" x="286.9416" y="69.52344" textLength="108.49219">is now listed in </tspan>
+        <tspan font-family="Menlo" font-size="16" font-weight="bold" x="395.43378" y="69.52344" textLength="125.22656">docker images</tspan>
+        <tspan font-family="Arial" font-size="16" font-weight="500" x="520.66034" y="69.52344" textLength="4.4453125">.</tspan>
+      </text>
+      <rect x="850.3937" y="453.5433" width="822.0472" height="56.69291" fill="black"/>
+      <rect x="850.3937" y="453.5433" width="822.0472" height="56.69291" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.4173228"/>
+      <text transform="translate(855.3937 470.5626)" fill="white">
+        <tspan font-family="Arial" font-size="20" font-weight="bold" fill="white" x="364.8908" y="18" textLength="82.265625">Example</tspan>
+      </text>
+      <rect x="467.71653" y="453.5433" width="382.67716" height="56.69291" fill="black"/>
+      <rect x="467.71653" y="453.5433" width="382.67716" height="56.69291" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.4173228"/>
+      <text transform="translate(472.71653 470.5626)" fill="white">
+        <tspan font-family="Arial" font-size="20" font-weight="bold" fill="white" x="99.67843" y="18" textLength="173.32031">Important Options</tspan>
+      </text>
+      <rect x="467.71653" y="807.874" width="382.67716" height="113.38583" fill="#327cbd" fill-opacity=".4"/>
+      <rect x="467.71653" y="807.874" width="382.67716" height="113.38583" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.4173228"/>
+      <rect x="467.71653" y="510.2362" width="382.67716" height="113.38583" fill="#327cbd" fill-opacity=".4"/>
+      <rect x="467.71653" y="510.2362" width="382.67716" height="113.38583" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.4173228"/>
+      <rect x="467.71653" y="921.2598" width="382.67716" height="113.38583" fill="#327cbd" fill-opacity=".4"/>
+      <rect x="467.71653" y="921.2598" width="382.67716" height="113.38583" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.4173228"/>
+      <rect x="467.71653" y="623.62204" width="382.67716" height="184.25197" fill="#327cbd" fill-opacity=".4"/>
+      <rect x="467.71653" y="623.62204" width="382.67716" height="184.25197" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.4173228"/>
+      <rect x="467.71653" y="1034.6457" width="382.67716" height="113.38583" fill="#327cbd" fill-opacity=".4"/>
+      <rect x="467.71653" y="1034.6457" width="382.67716" height="113.38583" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.4173228"/>
+      <rect x="-269.29134" y="1034.6457" width="155.90551" height="113.38583" fill="#327cbd" fill-opacity=".7"/>
+      <rect x="-269.29134" y="1034.6457" width="155.90551" height="113.38583" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.4173228"/>
+      <text transform="translate(-264.29134 1079.3386)" fill="black">
+        <tspan font-family="Menlo" font-size="20" font-weight="bold" x="48.870724" y="19" textLength="48.16406">stop</tspan>
+      </text>
+      <rect x="127.55905" y="1034.6457" width="340.15748" height="113.38583" fill="#327cbd" fill-opacity=".4"/>
+      <rect x="127.55905" y="1034.6457" width="340.15748" height="113.38583" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.4173228"/>
+      <text transform="translate(132.55905 1081.8386)" fill="black">
+        <tspan font-family="Menlo" font-size="16" font-weight="bold" x="68.750614" y="15" textLength="192.65625">[OPTIONS] CONTAINER…</tspan>
+      </text>
+      <rect x="-269.29134" y="921.2598" width="155.90551" height="113.38583" fill="#327cbd" fill-opacity=".7"/>
+      <rect x="-269.29134" y="921.2598" width="155.90551" height="113.38583" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.4173228"/>
+      <text transform="translate(-264.29134 965.9528)" fill="black">
+        <tspan font-family="Menlo" font-size="20" font-weight="bold" x="36.82971" y="19" textLength="72.24609">attach</tspan>
+      </text>
+      <rect x="127.55905" y="921.2598" width="340.15748" height="113.38583" fill="#327cbd" fill-opacity=".4"/>
+      <rect x="127.55905" y="921.2598" width="340.15748" height="113.38583" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.4173228"/>
+      <text transform="translate(132.55905 968.4528)" fill="black">
+        <tspan font-family="Menlo" font-size="16" font-weight="bold" x="73.56702" y="15" textLength="183.02344">[OPTIONS] CONTAINER</tspan>
+      </text>
+      <rect x="127.55905" y="453.5433" width="340.15748" height="56.69291" fill="black"/>
+      <rect x="127.55905" y="453.5433" width="340.15748" height="56.69291" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.4173228"/>
+      <text transform="translate(132.55905 470.5626)" fill="white">
+        <tspan font-family="Arial" font-size="20" font-weight="bold" fill="white" x="135.06409" y="18" textLength="60.0293">Usage</tspan>
+      </text>
+      <rect x="-269.29134" y="807.874" width="155.90551" height="113.38583" fill="#327cbd" fill-opacity=".7"/>
+      <rect x="-269.29134" y="807.874" width="155.90551" height="113.38583" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.4173228"/>
+      <text transform="translate(-264.29134 852.5669)" fill="black">
+        <tspan font-family="Menlo" font-size="20" font-weight="bold" x="42.850216" y="19" textLength="60.20508">start</tspan>
+      </text>
+      <rect x="-269.29134" y="453.5433" width="155.90551" height="56.69291" fill="black"/>
+      <rect x="-269.29134" y="453.5433" width="155.90551" height="56.69291" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.4173228"/>
+      <text transform="translate(-264.29134 470.5626)" fill="white">
+        <tspan font-family="Arial" font-size="20" font-weight="bold" fill="white" x="24.061154" y="18" textLength="97.7832">Command</tspan>
+      </text>
+      <rect x="127.55905" y="807.874" width="340.15748" height="113.38583" fill="#327cbd" fill-opacity=".4"/>
+      <rect x="127.55905" y="807.874" width="340.15748" height="113.38583" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.4173228"/>
+      <text transform="translate(132.55905 855.0669)" fill="black">
+        <tspan font-family="Menlo" font-size="16" font-weight="bold" x="68.750614" y="15" textLength="192.65625">[OPTIONS] CONTAINER…</tspan>
+      </text>
+      <rect x="127.55905" y="510.2362" width="340.15748" height="113.38583" fill="#327cbd" fill-opacity=".4"/>
+      <rect x="127.55905" y="510.2362" width="340.15748" height="113.38583" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.4173228"/>
+      <text transform="translate(132.55905 557.4291)" fill="black">
+        <tspan font-family="Menlo" font-size="16" font-weight="bold" x="102.46546" y="15" textLength="125.22656">[OPTIONS] DIR</tspan>
+      </text>
+      <rect x="-269.29134" y="623.62204" width="155.90551" height="184.25197" fill="#327cbd" fill-opacity=".7"/>
+      <rect x="-269.29134" y="623.62204" width="155.90551" height="184.25197" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.4173228"/>
+      <text transform="translate(-264.29134 703.748)" fill="black">
+        <tspan font-family="Menlo" font-size="20" font-weight="bold" x="36.82971" y="19" textLength="72.24609">create</tspan>
+      </text>
+      <rect x="-269.29134" y="510.2362" width="155.90551" height="113.38583" fill="#327cbd" fill-opacity=".7"/>
+      <rect x="-269.29134" y="510.2362" width="155.90551" height="113.38583" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.4173228"/>
+      <text transform="translate(-264.29134 554.9291)" fill="black">
+        <tspan font-family="Menlo" font-size="20" font-weight="bold" x="42.850216" y="19" textLength="60.20508">build</tspan>
+      </text>
+      <rect x="127.55905" y="623.62204" width="340.15748" height="184.25197" fill="#327cbd" fill-opacity=".4"/>
+      <rect x="127.55905" y="623.62204" width="340.15748" height="184.25197" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.4173228"/>
+      <text transform="translate(132.55905 706.248)" fill="black">
+        <tspan font-family="Menlo" font-size="16" font-weight="bold" x="15.770145" y="15" textLength="298.6172">[OPTIONS] IMAGE [CMD] [CMDARG…]</tspan>
+      </text>
+      <text transform="translate(531.5354 770.7658)" fill="black">
+        <tspan font-family="Arial" font-size="16" font-weight="500" x="0" y="14" textLength="120.0625"> Define a volume</tspan>
+      </text>
+      <text transform="translate(531.5354 742.4194)" fill="black">
+        <tspan font-family="Arial" font-size="16" font-weight="500" x="0" y="14" textLength="234.8047">Set up a terminal in the container</tspan>
+      </text>
+      <text transform="translate(531.5354 643.2068)" fill="black">
+        <tspan font-family="Arial" font-size="16" font-weight="500" x="0" y="14" textLength="184.98438">Set environment variables</tspan>
+      </text>
+      <text transform="translate(531.5354 669.8781)" fill="black">
+        <tspan font-family="Arial" font-size="16" font-weight="500" x="0" y="14" textLength="270.35156">Interactive (allow to attach local stdin, </tspan>
+        <tspan font-family="Arial" font-size="16" font-weight="500" x="0" y="31.523438" textLength="129.84375">stdout, and stderr)</tspan>
+      </text>
+      <text transform="translate(531.5354 714.0729)" fill="black">
+        <tspan font-family="Arial" font-size="16" font-weight="500" x="0" y="14" textLength="144.08594">Define port mapping</tspan>
+      </text>
+      <text transform="translate(486.88976 770.0276)" fill="black">
+        <tspan font-family="Menlo" font-size="16" font-weight="bold" x="7.690022" y="15" textLength="19.265625">-v</tspan>
+      </text>
+      <text transform="translate(486.88976 741.6811)" fill="black">
+        <tspan font-family="Menlo" font-size="16" font-weight="bold" x="7.690022" y="15" textLength="19.265625">-t</tspan>
+      </text>
+      <text transform="translate(486.88976 713.3346)" fill="black">
+        <tspan font-family="Menlo" font-size="16" font-weight="bold" x="7.690022" y="15" textLength="19.265625">-p</tspan>
+      </text>
+      <text transform="translate(486.88976 671.1417)" fill="black">
+        <tspan font-family="Menlo" font-size="16" font-weight="bold" x="7.690022" y="15" textLength="19.265625">-i</tspan>
+      </text>
+      <text transform="translate(486.88976 642.4685)" fill="black">
+        <tspan font-family="Menlo" font-size="16" font-weight="bold" x="7.690022" y="15" textLength="19.265625">-e</tspan>
+      </text>
+      <text transform="translate(531.5354 529.82096)" fill="black">
+        <tspan font-family="Arial" font-size="16" font-weight="500" x="0" y="14" textLength="196.57031">Define image name and tag</tspan>
+      </text>
+      <text transform="translate(486.88976 529.0827)" fill="black">
+        <tspan font-family="Menlo" font-size="16" font-weight="bold" x="7.690022" y="15" textLength="19.265625">-t</tspan>
+      </text>
+      <text transform="translate(529.40945 868.3033)" fill="black">
+        <tspan font-family="Arial" font-size="16" font-weight="500" x="0" y="14" textLength="49.80469">Attach </tspan>
+        <tspan font-family="Arial" font-size="16" font-weight="bold" x="49.80469" y="14" textLength="38.21875">stdin</tspan>
+        <tspan font-family="Arial" font-size="16" font-weight="500" x="88.02344" y="14" textLength="214.3125"> (read stdin for container from </tspan>
+        <tspan font-family="Arial" font-size="16" font-weight="500" x="0" y="31.523438" textLength="35.570312">host)</tspan>
+      </text>
+      <text transform="translate(486.88976 827.0472)" fill="black">
+        <tspan font-family="Menlo" font-size="16" font-weight="bold" x="6.62703" y="15" textLength="19.265625">—a</tspan>
+      </text>
+      <text transform="translate(486.88976 869.5669)" fill="black">
+        <tspan font-family="Menlo" font-size="16" font-weight="bold" x="6.62703" y="15" textLength="19.265625">-i</tspan>
+      </text>
+      <text transform="translate(529.40945 825.7836)" fill="black">
+        <tspan font-family="Arial" font-size="16" font-weight="500" x="0" y="14" textLength="49.80469">Attach </tspan>
+        <tspan font-family="Arial" font-size="16" font-weight="bold" x="49.80469" y="14" textLength="48.875">stdout</tspan>
+        <tspan font-family="Arial" font-size="16" font-weight="500" x="98.67969" y="14" textLength="35.585938"> and </tspan>
+        <tspan font-family="Arial" font-size="16" font-weight="bold" x="134.26562" y="14" textLength="45.35156">stderr</tspan>
+        <tspan font-family="Arial" font-size="16" font-weight="500" x="179.61719" y="14" textLength="130.74219"> (show stdout and </tspan>
+        <tspan font-family="Arial" font-size="16" font-weight="500" x="0" y="31.523438" textLength="191.21094">stderr of container on host)</tspan>
+      </text>
+      <text transform="translate(486.88976 1379.4764)" fill="black">
+        <tspan font-family="Menlo" font-size="16" font-weight="bold" x="7.690022" y="15" textLength="19.265625">-a</tspan>
+      </text>
+      <text transform="translate(531.5354 1380.2147)" fill="black">
+        <tspan font-family="Arial" font-size="16" font-weight="500" x="0" y="14" textLength="281.0547">List all containers, not just running ones</tspan>
+      </text>
+      <text transform="translate(486.88976 1407.8228)" fill="black">
+        <tspan font-family="Menlo" font-size="16" font-weight="bold" x="7.690022" y="15" textLength="19.265625">-q</tspan>
+      </text>
+      <text transform="translate(531.5354 1408.5611)" fill="black">
+        <tspan font-family="Arial" font-size="16" font-weight="500" x="0" y="14" textLength="183.19531">List only IDs of containers</tspan>
+      </text>
+      <text transform="translate(486.88976 1478.689)" fill="black">
+        <tspan font-family="Menlo" font-size="16" font-weight="bold" x="7.690022" y="15" textLength="19.265625">-a</tspan>
+      </text>
+      <text transform="translate(531.5354 1479.4272)" fill="black">
+        <tspan font-family="Arial" font-size="16" font-weight="500" x="0" y="14" textLength="203.64062">Also list intermediate images</tspan>
+      </text>
+      <text transform="translate(486.88976 1507.0354)" fill="black">
+        <tspan font-family="Menlo" font-size="16" font-weight="bold" x="7.690022" y="15" textLength="19.265625">-q</tspan>
+      </text>
+      <text transform="translate(531.5354 1507.7737)" fill="black">
+        <tspan font-family="Arial" font-size="16" font-weight="500" x="0" y="14" textLength="160.95312">List only IDs of images</tspan>
+      </text>
+      <text transform="translate(486.88976 1577.9016)" fill="black">
+        <tspan font-family="Menlo" font-size="16" font-weight="bold" x="7.690022" y="15" textLength="19.265625">-f</tspan>
+      </text>
+      <text transform="translate(531.5354 1578.6398)" fill="black">
+        <tspan font-family="Arial" font-size="16" font-weight="500" x="0" y="14" textLength="102.25">Force removal</tspan>
+      </text>
+      <text transform="translate(486.88976 1606.248)" fill="black">
+        <tspan font-family="Menlo" font-size="16" font-weight="bold" x="7.690022" y="15" textLength="19.265625">-v</tspan>
+      </text>
+      <text transform="translate(531.5354 1606.9863)" fill="black">
+        <tspan font-family="Arial" font-size="16" font-weight="500" x="0" y="14" textLength="152.94531">Also remove volumes</tspan>
+      </text>
+      <text transform="translate(531.5354 1677.8524)" fill="black">
+        <tspan font-family="Arial" font-size="16" font-weight="500" x="0" y="14" textLength="102.25">Force removal</tspan>
+      </text>
+      <text transform="translate(486.88976 1677.1142)" fill="black">
+        <tspan font-family="Menlo" font-size="16" font-weight="bold" x="7.690022" y="15" textLength="19.265625">-f</tspan>
+      </text>
+      <text transform="translate(531.5354 1167.6162)" fill="black">
+        <tspan font-family="Arial" font-size="16" font-weight="500" x="0" y="14" textLength="200.125">Don’t attach to the container</tspan>
+      </text>
+      <text transform="translate(486.88976 1166.878)" fill="black">
+        <tspan font-family="Menlo" font-size="16" font-weight="bold" x="7.690022" y="15" textLength="19.265625">-d</tspan>
+      </text>
+      <text transform="translate(531.5354 1323.5217)" fill="black">
+        <tspan font-family="Arial" font-size="16" font-weight="500" x="0" y="14" textLength="120.0625"> Define a volume</tspan>
+      </text>
+      <text transform="translate(531.5354 1295.1753)" fill="black">
+        <tspan font-family="Arial" font-size="16" font-weight="500" x="0" y="14" textLength="234.8047">Set up a terminal in the container</tspan>
+      </text>
+      <text transform="translate(531.5354 1195.9627)" fill="black">
+        <tspan font-family="Arial" font-size="16" font-weight="500" x="0" y="14" textLength="184.98438">Set environment variables</tspan>
+      </text>
+      <text transform="translate(531.5354 1222.634)" fill="black">
+        <tspan font-family="Arial" font-size="16" font-weight="500" x="0" y="14" textLength="270.35156">Interactive (allow to attach local stdin, </tspan>
+        <tspan font-family="Arial" font-size="16" font-weight="500" x="0" y="31.523438" textLength="129.84375">stdout, and stderr)</tspan>
+      </text>
+      <text transform="translate(531.5354 1266.8288)" fill="black">
+        <tspan font-family="Arial" font-size="16" font-weight="500" x="0" y="14" textLength="144.08594">Define port mapping</tspan>
+      </text>
+      <text transform="translate(486.88976 1322.7835)" fill="black">
+        <tspan font-family="Menlo" font-size="16" font-weight="bold" x="7.690022" y="15" textLength="19.265625">-v</tspan>
+      </text>
+      <text transform="translate(486.88976 1294.437)" fill="black">
+        <tspan font-family="Menlo" font-size="16" font-weight="bold" x="7.690022" y="15" textLength="19.265625">-t</tspan>
+      </text>
+      <text transform="translate(486.88976 1266.0905)" fill="black">
+        <tspan font-family="Menlo" font-size="16" font-weight="bold" x="7.690022" y="15" textLength="19.265625">-p</tspan>
+      </text>
+      <text transform="translate(486.88976 1223.8976)" fill="black">
+        <tspan font-family="Menlo" font-size="16" font-weight="bold" x="7.690022" y="15" textLength="19.265625">-i</tspan>
+      </text>
+      <text transform="translate(486.88976 1195.2244)" fill="black">
+        <tspan font-family="Menlo" font-size="16" font-weight="bold" x="7.690022" y="15" textLength="19.265625">-e</tspan>
+      </text>
+    </g>
+  </g>
+</svg>
