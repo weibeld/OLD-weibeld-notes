@@ -634,6 +634,16 @@ div[id^=footer-col-] > :first-child {
   }
 }
 
+.table-telegram-cli {
+  table-layout: fixed;
+  td:nth-child(1) {
+    width: 50%;
+  }
+  td:nth-child(2) {
+    width: 50%;
+  }
+}
+
 // Table with horizontal scrolling support. Table is horizontally centered if
 // less wide than content, and taked 100% width and has scrollbars otherwise.
 // Caveats: no shadow can be applied, no line will break inside a <td>
