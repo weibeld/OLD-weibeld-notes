@@ -115,7 +115,7 @@ Commands of the [Telegram CLI](https://github.com/vysheng/tg). This is the outpu
 |status_offline|Sets status as offline|
 |unblock_user <user>|   Unblocks user|
 |user_info <user>|      Prints info about user (id, last online, phone)|
-|version Prints client and library version|
+|version | Prints client and library version|
 |view_audio <msg-id>|   Downloads file to downloads dirs. Then tries to open it with system default action|
 |view_channel_photo <channel>|  Downloads file to downloads dirs. Then tries to open it with system default action|
 |view_chat_photo <chat>|Downloads file to downloads dirs. Then tries to open it with system default action|
