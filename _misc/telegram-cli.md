@@ -71,7 +71,7 @@ Commands of the [Telegram CLI](https://github.com/vysheng/tg). This is the outpu
 |post <peer> <text>|    Sends text message to peer as admin|
 |post_audio <peer> <file>|      Posts audio to peer|
 |post_document <peer> <file>|   Posts document to peer|
-|post_file <peer> <file> Sends document to peer|
+|post_file|  <peer> <file> Sends document to peer|
 |post_location <peer> <latitude> <longitude>|   Sends geo location|
 |post_photo <peer> <file> [caption]|    Sends photo to peer|
 |post_text <peer> <file> Sends contents of text file as plain text message|
@@ -82,8 +82,8 @@ Commands of the [Telegram CLI](https://github.com/vysheng/tg). This is the outpu
 |rename_contact <user> <first name> <last name>|Renames contact|
 |reply <msg-id> <text>| Sends text reply to message|
 |reply_audio <msg-id> <file>|   Sends audio to peer|
-|reply_contact <msg-id> <phone> <first-name> <last-name> Sends contact (not necessary telegram user)|
-|reply_document <msg-id> <file>|Sends document to peer|
+|reply_contact | <msg-id> <phone> <first-name> <last-name> Sends contact (not necessary telegram user)|
+|reply_document | <msg-id> <file>|Sends document to peer|
 |reply_file <msg-id> <file>|    Sends document to peer|
 |reply_location <msg-id> <latitude> <longitude>|Sends geo location|
 |reply_photo <msg-id> <file> [caption]| Sends photo to peer|
@@ -97,7 +97,7 @@ Commands of the [Telegram CLI](https://github.com/vysheng/tg). This is the outpu
 |send_file <peer> <file> Sends document to peer|
 |send_location <peer> <latitude> <longitude>|   Sends geo location|
 |send_photo <peer> <file> [caption]|    Sends photo to peer|
-|send_text <peer> <file> Sends contents of text file as plain text message|
+|send_text | <peer> <file> Sends contents of text file as plain text message|
 |send_typing <peer> [status]|   Sends typing notification. You can supply a custom status (range 0-10): none, typing, cancel, record video, upload video, record audio, upload audio, upload photo, upload document, geo, choose contact.|
 |send_typing_abort <peer>|      Sends typing notification abort|
 |send_video <peer> <file> [caption]|    Sends video to peer|
