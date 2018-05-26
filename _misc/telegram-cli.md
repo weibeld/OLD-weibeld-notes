@@ -83,7 +83,7 @@ Commands of the [Telegram CLI](https://github.com/vysheng/tg). This is the outpu
 |reply <msg-id> <text>| Sends text reply to message|
 |reply_audio <msg-id> <file>|   Sends audio to peer|
 |reply_contact | <msg-id> <phone> <first-name> <last-name> Sends contact (not necessary telegram user)|
-|reply_document | <msg-id> <file>|Sends document to peer|
+|reply_document <msg-id> <file>|Sends document to peer|
 |reply_file <msg-id> <file>|    Sends document to peer|
 |reply_location <msg-id> <latitude> <longitude>|Sends geo location|
 |reply_photo <msg-id> <file> [caption]| Sends photo to peer|
@@ -129,4 +129,4 @@ Commands of the [Telegram CLI](https://github.com/vysheng/tg). This is the outpu
 |view_video_thumb <msg-id>|     Downloads file to downloads dirs. Then tries to open it with system default action|
 |view <msg-id>| Tries to view message contents|
 |visualize_key <secret chat>|   Prints visualization of encryption key (first 16 bytes sha1 of it in fact)|
-{:table-normal}
+{:.table-normal}
