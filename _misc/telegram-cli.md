@@ -16,10 +16,10 @@ Commands of the [Telegram CLI](https://github.com/vysheng/tg). This is the outpu
 |channel_get_admins <channel> [limit=100] [offset=0]|   Gets channel admins|
 |channel_get_members <channel> [limit=100] [offset=0]|  Gets channel members|
 |channel_info <channel>|Prints info about channel (id, members, admin, etc.)|
-|channel_invite <channel> <user> Invites user to channel|
+|channel_invite <channel> <user> | Invites user to channel|
 |channel_join <channel>|Joins to channel|
 |channel_kick <channel> <user>| Kicks user from channel|
-|channel_leave <channel> Leaves from channel|
+|channel_leave | <channel> Leaves from channel|
 |channel_list [limit=100] [offset=0]|   List of last channels|
 |channel_set_about <channel> <about>|   Sets channel about info.|
 |channel_set_admin <channel> <admin> <type>|    Sets channel admin. 0 - not admin, 1 - moderator, 2 - editor|
@@ -33,7 +33,7 @@ Commands of the [Telegram CLI](https://github.com/vysheng/tg). This is the outpu
 |chat_with_peer <peer>| Interface option. All input will be treated as messages to this peer. Type /quit to end this mode|
 |clear| Clears all data and exits. For debug.|
 |contact_list|  Prints contact list|
-|contact_search username Searches user by username|
+|contact_search username | Searches user by username|
 |create_channel <name> <about> <user>+| Creates channel with users|
 |create_group_chat <name> <user>+|      Creates group chat with users|
 |create_secret_chat <user>|     Starts creation of secret chat|
@@ -49,9 +49,9 @@ Commands of the [Telegram CLI](https://github.com/vysheng/tg). This is the outpu
 |get_message <msg-id>|  Get message by id|
 |get_self|      Get our user info|
 |help [command]|Prints this help|
-|history <peer> [limit] [offset] Prints messages with this peer (most recent message lower). Also marks messages as read|
+|history <peer> [limit] [offset] |  Prints messages with this peer (most recent message lower). Also marks messages as read|
 |import_card <card>|    Gets user by card and prints it name. You can then send messages to him as usual|
-|import_chat_link <hash> Joins to chat by link|
+|import_chat_link <hash> | Joins to chat by link|
 |import_channel_link <hash>|    Joins to channel by link|
 |load_audio <msg-id>|   Downloads file to downloads dirs. Prints file name after download end|
 |load_channel_photo <channel>|  Downloads file to downloads dirs. Prints file name after download end|
@@ -74,7 +74,7 @@ Commands of the [Telegram CLI](https://github.com/vysheng/tg). This is the outpu
 |post_file|  <peer> <file> Sends document to peer|
 |post_location <peer> <latitude> <longitude>|   Sends geo location|
 |post_photo <peer> <file> [caption]|    Sends photo to peer|
-|post_text <peer> <file> Sends contents of text file as plain text message|
+|post_text <peer> <file> | Sends contents of text file as plain text message|
 |post_video <peer> <file> [caption]|    Sends video to peer|
 |quit|  Quits immediately|
 |rename_channel <channel> <new name>|   Renames channel|
