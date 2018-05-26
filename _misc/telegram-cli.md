@@ -19,7 +19,7 @@ Commands of the [Telegram CLI](https://github.com/vysheng/tg). This is the outpu
 | `channel_invite <channel> <user>`                      | Invites user to channel
 | `channel_join <channel>`                               | Joins to channel
 | `channel_kick <channel> <user>`                        | Kicks user from channel
-| `channel_leave`                                        | <channel> Leaves from channel
+| `channel_leave <channel>`                              |  Leaves from channel
 | `channel_list [limit=100] [offset=0]`                  | List of last channels
 | `channel_set_about <channel> <about>`                  | Sets channel about info.
 | `channel_set_admin <channel> <admin> <type>`           | Sets channel admin. 0 - not admin, 1 - moderator, 2 - editor
@@ -71,7 +71,7 @@ Commands of the [Telegram CLI](https://github.com/vysheng/tg). This is the outpu
 | `post <peer> <text>`                                   | Sends text message to peer as admin
 | `post_audio <peer> <file>`                             | Posts audio to peer
 | `post_document <peer> <file>`                          | Posts document to peer
-| `post_file`                                            | <peer> <file> Sends document to peer
+| `post_file <peer> <file>`                              | Sends document to peer
 | `post_location <peer> <latitude> <longitude>`          | Sends geo location
 | `post_photo <peer> <file> [caption]`                   | Sends photo to peer
 | `post_text <peer> <file>`                              | Sends contents of text file as plain text message
