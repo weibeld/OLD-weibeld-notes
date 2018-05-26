@@ -129,3 +129,4 @@ Commands of the [Telegram CLI](https://github.com/vysheng/tg). This is the outpu
 |view_video_thumb <msg-id>|     Downloads file to downloads dirs. Then tries to open it with system default action|
 |view <msg-id>| Tries to view message contents|
 |visualize_key <secret chat>|   Prints visualization of encryption key (first 16 bytes sha1 of it in fact)|
+{:table-normal}
