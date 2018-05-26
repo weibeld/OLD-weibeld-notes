@@ -94,7 +94,7 @@ Commands of the [Telegram CLI](https://github.com/vysheng/tg). This is the outpu
 |send_audio <peer> <file>|      Sends audio to peer|
 |send_contact <peer> <phone> <first-name> <last-name>|  Sends contact (not necessary telegram user)|
 |send_document <peer> <file>|   Sends document to peer|
-|send_file <peer> <file> Sends document to peer|
+|send_file <peer> <file> | Sends document to peer|
 |send_location <peer> <latitude> <longitude>|   Sends geo location|
 |send_photo <peer> <file> [caption]|    Sends photo to peer|
 |send_text | <peer> <file> Sends contents of text file as plain text message|
