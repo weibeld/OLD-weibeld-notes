@@ -14,7 +14,7 @@ The Terraform files for all the clusters are maintained in separate GitLab repos
 
 # Overview
 
-![Nine GKE Project](assets/nine-gke-project.png)
+<a class="image-link" href="assets/nine-gke-project.png"><img src="assets/nine-gke-project.png" width="100%"></a>
 
 # GCP concept
 
