@@ -2,7 +2,7 @@
 title:  Setting Up a New Mac
 author: Daniel Weibel
 date:   December 2013
-last_updated: 28 December 2015
+last_updated: 1 January 2022
 ---
 
 Settings, tweaks, and software that I find useful on a Mac. This can be used as a checklist when setting up a machine with a fresh macOS.
@@ -32,6 +32,10 @@ Last used for setting up Mac OS X El Capitan 10.11.1 on MacBook Air Model A1465.
 # Disable Auto Adjustment Of Screen Brightness
 
 *System Preferences > Displays > Uncheck "Automatically adjust brightness"*
+
+# Disable Automatic Rearrangement of Spaces (Desktops)
+
+*System Preferences > Mission Control > Uncheck "Automatically rearrange Spaces based on most recent use"*
 
 # Enable "Snap-To-Grid" For Desktop Icons
 
