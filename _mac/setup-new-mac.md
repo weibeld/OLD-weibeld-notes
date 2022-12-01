@@ -109,7 +109,7 @@ In Order To Trigger A Dialog Prompting You To Install The *Xcode Command Line To
 Verify installation with:
 
 ~~~bash
-xcode-select p
+xcode-select -p
 ~~~
 
 If the output is
