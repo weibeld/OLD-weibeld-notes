@@ -35,6 +35,12 @@ _System Preferences > Accessibility > Pointer Control > Trackpad Options... > En
 
 _System Preferences > Keyboard > Keyboard Shortcuts... > Modifier Keys..._
 
+# Disable Globe Key
+
+_System Preferences > Keyboard > Press 🌐 key to > Do Nothing_
+
+The 🌐 is only present on newer models. The above disables the functionality of the 🌐 key and makes it behave like a normal _fn_ key.
+
 # Show/Hide Icons in Menu Bar
 
 _System Preferences > Control Centre_
