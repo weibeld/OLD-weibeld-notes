@@ -17,16 +17,16 @@ See [Setting Up a New Mac: Basic Settings](setup-new-mac-basic-settings.html) fo
 bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
-> See [Homebrew homepage](https://brew.sh/).
+See [Homebrew homepage](https://brew.sh/). Also add the `brew` command to the `PATH` as explained in the output of above command.
 
 # Install Tools and Apps from Brewfile
 
 ```bash
-wget https://raw.githubusercontent.com/weibeld/brewfile/main/Brewfile
+curl https://raw.githubusercontent.com/weibeld/brewfile/main/Brewfile >Brewfile
 brew bundle install --file Brewfile
 ```
 
-> The [weibeld/brewfile](https://github.com/weibeld/brewfile) repository hosts a [Brewfile](https://thoughtbot.com/blog/brewfile-a-gemfile-but-for-homebrew) with a foundational set of tools and apps to be installed on a new Mac. The above command retrieves this Brewfile and installs its content.
+The [weibeld/brewfile](https://github.com/weibeld/brewfile) repository hosts a [Brewfile](https://thoughtbot.com/blog/brewfile-a-gemfile-but-for-homebrew) with a foundational set of tools and apps to be installed on a new Mac. The above command retrieves this Brewfile and installs its content.
 
 # Install Dotfiles
 
@@ -34,28 +34,37 @@ brew bundle install --file Brewfile
 curl -Lks http://bit.ly/get-my-dotfiles | bash
 ```
 
-> The [weibeld/dotfiles](https://github.com/weibeld/dotfiles) repository hosts a set of dotfiles (including `~/.bashrc`, `~/.bash_profile`, etc.) with customisations for various tools. The above command downloads and installs these dotfiles. Detailed instructions can be found in [this gist](https://gist.github.com/weibeld/869f723063811e5088708a9386bf52bf).
-
-# Set iTerm2 to Sane Defaults
-
-1. Go to _iTerm2 > Preferences...> General > Preferences_
-1. Check _Load preferences from a custom folder or URL_
-1. Enter the following URL into the text field:
-    ```
-    https://raw.githubusercontent.com/weibeld/iterm2-settings/main/com.googlecode.iterm2.plist
-    ```
+The [weibeld/dotfiles](https://github.com/weibeld/dotfiles) repository hosts a set of dotfiles (`~/.bashrc`, `~/.bash_profile`, etc.) with customisations for various tools. The above command downloads and installs these dotfiles. Detailed instructions can be found in [this gist](https://gist.github.com/weibeld/869f723063811e5088708a9386bf52bf).
 
 # Set Bash as the Default Shell
 
-See https://medium.com/itnext/upgrading-bash-on-macos-7138bd1066ba
+The following sets the Homebrew Bash version as the default shell:
+
+```bash
+sudo sh -c "echo $(brew --prefix)/bin/bash >>/etc/shells"
+chsh -s $(brew --prefix)/bin/bash
+sudo chsh -s $(brew --prefix)/bin/bash
+```
+
+The first command above adds the shell to the list of shells that may be used as login shells. The second and third commands set the shell as the default shell for the current user and root, respectively. Further details can be found in the [Upgrading Bash on macOS](https://itnext.io/upgrading-bash-on-macos-7138bd1066ba#a9cc) article on Medium.
+
+Note that the Homebrew base directory varies depending on whether macOS runs on Intel or Apple chips (see [here](https://docs.brew.sh/FAQ#why-should-i-install-homebrew-in-the-default-location)):
+
+- Intel chips: `/usr/local`
+- Apple chips: `/opt/homebrew`
+
+The Homebrew base directory can always be queried with `brew --prefix`.
+
+# Configure iTerm2
+
+1. Go to _iTerm2 > Preferences...> General > Preferences_
+1. Check _Load preferences from a custom folder or URL_
+1. Enter the following URL into the text field: <https://raw.githubusercontent.com/weibeld/iterm2-settings/main/com.googlecode.iterm2.plist>
 
 # Set Chrome as the Default Browser
 
 # Configure Fluor
 
-Can be installed with Homebrew. See:
-
-- https://github.com/Pyroh/Fluor
 - https://medium.com/p/31d102feac4b#56d6
 
 
