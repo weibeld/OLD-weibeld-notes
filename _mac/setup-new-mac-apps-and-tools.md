@@ -28,14 +28,6 @@ brew bundle install --file Brewfile
 
 The [weibeld/brewfile](https://github.com/weibeld/brewfile) repository hosts a [Brewfile](https://thoughtbot.com/blog/brewfile-a-gemfile-but-for-homebrew) with a foundational set of tools and apps to be installed on a new Mac. The above command retrieves this Brewfile and installs its content.
 
-# Install Dotfiles
-
-```bash
-curl -Lks http://bit.ly/get-my-dotfiles | bash
-```
-
-The [weibeld/dotfiles](https://github.com/weibeld/dotfiles) repository hosts a set of dotfiles (`~/.bashrc`, `~/.bash_profile`, etc.) with customisations for various tools. The above command downloads and installs these dotfiles. Detailed instructions can be found in [this gist](https://gist.github.com/weibeld/869f723063811e5088708a9386bf52bf).
-
 # Set Bash as the Default Shell
 
 The following sets the Homebrew Bash version as the default shell:
@@ -55,11 +47,28 @@ Note that the Homebrew base directory varies depending on whether macOS runs on 
 
 The Homebrew base directory can always be queried with `brew --prefix`.
 
-# Configure iTerm2
+After doing all of the above, close the current terminal window and open a new one in order to use Bash as the default shell.
 
-1. Go to _iTerm2 > Preferences...> General > Preferences_
+# Install Dotfiles
+
+```bash
+curl -Lks http://bit.ly/get-my-dotfiles | bash
+```
+
+The [weibeld/dotfiles](https://github.com/weibeld/dotfiles) repository hosts a set of dotfiles (`~/.bashrc`, `~/.bash_profile`, etc.) with customisations for various tools. The above command downloads and installs these dotfiles. Detailed instructions can be found in [this gist](https://gist.github.com/weibeld/869f723063811e5088708a9386bf52bf).
+
+# Customise iTerm2
+
+1. Go to _iTerm2 > Settings...> General > Preferences_
 1. Check _Load preferences from a custom folder or URL_
 1. Enter the following URL into the text field: <https://raw.githubusercontent.com/weibeld/iterm2-settings/main/com.googlecode.iterm2.plist>
+1. Quit iTerm2 and restart it to apply the customised settings
+
+# Set Up Git Credentials
+
+TODO
+
+
 
 # Set Chrome as the Default Browser
 
