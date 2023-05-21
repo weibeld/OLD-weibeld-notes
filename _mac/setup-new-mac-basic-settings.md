@@ -49,9 +49,13 @@ _System Preferences > Control Centre_
 
 _System Preferences > Control Centre > Battery > Show Percentage_
 
-# Enable Hiding of Dock
+# Enable Automatic Hiding of Dock
 
-_Right-click on Dock > Turn Hiding On_
+_System Preferences > Desktop & Dock > Automatically hide and show the Dock_
+
+# Remove Recent Applications from Dock
+
+_System Preferences > Desktop & Dock > Show recent applications in Dock_
 
 # Add Applications Folder to Dock
 
