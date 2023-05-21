@@ -74,9 +74,9 @@ TODO
 
 # Configure Fluor
 
-- https://medium.com/p/31d102feac4b#56d6
+Start Fluor, click its icon in the menu bar, and set _Trigger_ to the rightmost option (key). This allows switching mode by simply pressing the _fn_ key.
 
-
+If you have a globe (🌐) key hosted together with the _fn_ key, make sure to disable the globe key action, as explained in [Setting Up a New Mac: Basic Settings](setup-new-mac-basic-settings.html). Otherwise, the globe functionality interfers with Fluor.
 
 # Optional: Install an "Open Terminal Here" Tool for Finder
 
