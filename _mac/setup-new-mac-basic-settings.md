@@ -7,7 +7,7 @@ last_updated: 19 May 2023
 
 This is a checklist for initial actions and setting on a new Mac.
 
-See [Setting Up a New Mac: Apps and Tools](setup-new-mac-apps-and-tools.html) for apps and tools to install on a new Mac.
+See [Setting Up a New Mac: Tools and Apps](setup-new-mac-tools-and-apps.html) for apps and tools to install on a new Mac.
 
 > Last used for setting up macOS Ventura 13.4 on MacBook Pro (model A2779).
 
