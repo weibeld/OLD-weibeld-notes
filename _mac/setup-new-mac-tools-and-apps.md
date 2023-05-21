@@ -67,6 +67,8 @@ The [weibeld/dotfiles](https://github.com/weibeld/dotfiles) repository hosts a s
     ```
 1. Quit iTerm2 and restart it to apply the customised settings
 
+The [weibeld/iterm2-settings](https://github.com/weibeld/iterm2-settings) repository hosts a complete customised iTerm2 configuration description.
+
 # Set Up GitHub Credentials
 
 1. On GitHub, create a new personal access token
