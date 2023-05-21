@@ -64,11 +64,14 @@ The [weibeld/dotfiles](https://github.com/weibeld/dotfiles) repository hosts a s
 1. Enter the following URL into the text field: <https://raw.githubusercontent.com/weibeld/iterm2-settings/main/com.googlecode.iterm2.plist>
 1. Quit iTerm2 and restart it to apply the customised settings
 
-# Set Up Git Credentials
+# Set Up GitHub Credentials
 
-TODO
+1. On GitHub, create a new personal access token
+  - _Settings > Developer settings > Personal access tokens > Tokens (classic_
+1. Push a commit to any GitHub repository
+  - In the appearing prompt, enter your username and the personal access token created above
 
-
+After this initial authentication, the [`git-credential-osxkeychain`](https://docs.github.com/en/get-started/getting-started-with-git/updating-credentials-from-the-macos-keychain) helper saves the credentials in Keychain Access and automatically retrieves them whenever they are needed. 
 
 # Set Chrome as the Default Browser
 
