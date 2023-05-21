@@ -35,11 +35,11 @@ _System Preferences > Accessibility > Pointer Control > Trackpad Options... > En
 
 _System Preferences > Keyboard > Keyboard Shortcuts... > Modifier Keys..._
 
-# Disable Globe Key
+# Disable Globe Key Functionality
 
 _System Preferences > Keyboard > Press 🌐 key to > Do Nothing_
 
-The 🌐 is only present on newer models. The above disables the functionality of the 🌐 key and makes it behave like a normal _fn_ key.
+The globe (🌐) key is hosted together with the _fn_ key on newer models of macOS machines. The above setting disables the globe functionality and makes the key behave like a normal _fn_ key.
 
 # Show/Hide Icons in Menu Bar
 
