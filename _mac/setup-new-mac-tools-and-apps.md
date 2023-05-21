@@ -61,13 +61,16 @@ The [weibeld/dotfiles](https://github.com/weibeld/dotfiles) repository hosts a s
 
 1. Go to _iTerm2 > Settings...> General > Preferences_
 1. Check _Load preferences from a custom folder or URL_
-1. Enter the following URL into the text field: <https://raw.githubusercontent.com/weibeld/iterm2-settings/main/com.googlecode.iterm2.plist>
+1. Enter the following URL into the text field:
+    ```
+    https://raw.githubusercontent.com/weibeld/iterm2-settings/main/com.googlecode.iterm2.plist
+    ```
 1. Quit iTerm2 and restart it to apply the customised settings
 
 # Set Up GitHub Credentials
 
 1. On GitHub, create a new personal access token
-  - _Settings > Developer settings > Personal access tokens > Tokens (classic_
+  - _Settings > Developer settings > Personal access tokens > Tokens (classic)_
 1. Push a commit to any GitHub repository
   - In the appearing prompt, enter your username and the personal access token created above
 
@@ -75,6 +78,6 @@ After this initial authentication, the [`git-credential-osxkeychain`](https://do
 
 # Configure Fluor
 
-Start Fluor, click its icon in the menu bar, and set _Trigger_ to the rightmost option (key). This allows switching mode by simply pressing the _fn_ key.
+Start [Fluor](https://github.com/Pyroh/Fluor), click its icon in the menu bar, and set _Trigger_ to the rightmost option (key). This allows switching mode by simply pressing the _fn_ key.
 
-If you have a globe (🌐) key hosted together with the _fn_ key, make sure to disable the globe key action, as explained in [Setting Up a New Mac: Basic Settings](setup-new-mac-basic-settings.html). Otherwise, the globe functionality interfers with Fluor.
+If you have a globe (🌐) key hosted together with the _fn_ key, make sure to disable the globe key functionality, as explained in [Setting Up a New Mac: Basic Settings](setup-new-mac-basic-settings.html). Otherwise, the globe functionality may interfer with Fluor.
