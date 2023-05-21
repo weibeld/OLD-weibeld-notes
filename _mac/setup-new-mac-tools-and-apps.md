@@ -73,22 +73,8 @@ The [weibeld/dotfiles](https://github.com/weibeld/dotfiles) repository hosts a s
 
 After this initial authentication, the [`git-credential-osxkeychain`](https://docs.github.com/en/get-started/getting-started-with-git/updating-credentials-from-the-macos-keychain) helper saves the credentials in Keychain Access and automatically retrieves them whenever they are needed. 
 
-# Set Chrome as the Default Browser
-
 # Configure Fluor
 
 Start Fluor, click its icon in the menu bar, and set _Trigger_ to the rightmost option (key). This allows switching mode by simply pressing the _fn_ key.
 
 If you have a globe (🌐) key hosted together with the _fn_ key, make sure to disable the globe key action, as explained in [Setting Up a New Mac: Basic Settings](setup-new-mac-basic-settings.html). Otherwise, the globe functionality interfers with Fluor.
-
-# Optional: Install an "Open Terminal Here" Tool for Finder
-
-[*cd to*](https://github.com/jbtule/cdto) is a plugin for the Finder toolbar which allows to open a terminal window in the current directory.
-
-- Download the latest release of *cd to* from [here](https://github.com/jbtule/cdto) (ZIP file).
-- Unzip the file
-- Copy the `cd to.app` file of the directory named after the desired terminal to the `/Applications` folder
-    - For example, if you want to use **iTerm2**, use the file `iterm/cd to.app`
-- From the `/Applications` folder, hold *Alt-Cmd* and drag the `cd to.app` file onto the toolbar of any Finder window
-
-Now the plugin is installed.
