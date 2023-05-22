@@ -78,7 +78,13 @@ The [weibeld/iterm2-settings](https://github.com/weibeld/iterm2-settings) reposi
 
 After this initial authentication, the [`git-credential-osxkeychain`](https://docs.github.com/en/get-started/getting-started-with-git/updating-credentials-from-the-macos-keychain) helper saves the credentials in Keychain Access and automatically retrieves them whenever they are needed. 
 
-# Configure Google Drive to Use Mirroring Instead of Streaming
+# Configure Fluor
+
+Start [Fluor](https://github.com/Pyroh/Fluor), click its icon in the menu bar, and set _Trigger_ to the rightmost option (key). This allows switching mode by simply pressing the _fn_ key.
+
+If you have a globe (🌐) key hosted together with the _fn_ key, make sure to disable the globe key functionality, as explained in [Setting Up a New Mac: Basic Settings](setup-new-mac-basic-settings.html). Otherwise, the globe functionality may interfer with Fluor.
+
+# Set Up Google Drive to Mirror Files
 
 1. Click on _Google Drive_ in the menu bar, then _Preferences > Google Drive > Mirror files_
 1. Create and select a folder in which to mirror the Google Drive files
@@ -87,8 +93,10 @@ After this initial authentication, the [`git-credential-osxkeychain`](https://do
 
 The above settings make sure that the entire content of Google Drive is downloaded to the local machine (in the specified folder) and kept in sync with the server side of Google Drive. By default, Google Drive uses the Streaming mode where files are only downloaded on demand, e.g. when they are opened on the local machine.
 
-# Configure Fluor
+# Install AdBlock in Chrome
 
-Start [Fluor](https://github.com/Pyroh/Fluor), click its icon in the menu bar, and set _Trigger_ to the rightmost option (key). This allows switching mode by simply pressing the _fn_ key.
+Go to <https://chrome.google.com/webstore/detail/adblock-%E2%80%94-best-ad-blocker/gighmmpiobklfepjocnamgkkbiglidom>
 
-If you have a globe (🌐) key hosted together with the _fn_ key, make sure to disable the globe key functionality, as explained in [Setting Up a New Mac: Basic Settings](setup-new-mac-basic-settings.html). Otherwise, the globe functionality may interfer with Fluor.
+# Set Chrome Download Location to Desktop
+
+_Chrome > Settings > Downloads > Location > Change_
