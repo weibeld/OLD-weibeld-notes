@@ -78,6 +78,15 @@ The [weibeld/iterm2-settings](https://github.com/weibeld/iterm2-settings) reposi
 
 After this initial authentication, the [`git-credential-osxkeychain`](https://docs.github.com/en/get-started/getting-started-with-git/updating-credentials-from-the-macos-keychain) helper saves the credentials in Keychain Access and automatically retrieves them whenever they are needed. 
 
+# Configure Google Drive to Use Mirroring Instead of Streaming
+
+1. Click on _Google Drive_ in the menu bar, then _Preferences > Google Drive > Mirror files_
+1. Create and select a folder in which to mirror the Google Drive files
+  - This folder will directly contain the content of Google Drive, i.e. no additional top-level folder will be created
+  - For example, create and select the folder `~/Desktop/Google Drive`
+
+The above settings make sure that the entire content of Google Drive is downloaded to the local machine (in the specified folder) and kept in sync with the server side of Google Drive. By default, Google Drive uses the Streaming mode where files are only downloaded on demand, e.g. when they are opened on the local machine.
+
 # Configure Fluor
 
 Start [Fluor](https://github.com/Pyroh/Fluor), click its icon in the menu bar, and set _Trigger_ to the rightmost option (key). This allows switching mode by simply pressing the _fn_ key.
