@@ -88,6 +88,14 @@ sudo defaults write com.apple.loginwindow LoginHook "osascript -e 'set volume wi
 
 The above mutes the system volume at logout, and restores the previous volume at login. In this way, the startup sound is never played.
 
+# Disable Power Chime
+
+By default, there is a short chime when connecting the charging cable (bound to the system volume). This can be disabled with:
+
+```bash
+defaults write com.apple.PowerChime ChimeOnNoHardware -bool true
+```
+
 # Set Up eduroam
 
 See instructions on Zoolz (TODO: move instructions here).
