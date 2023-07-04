@@ -2,7 +2,7 @@
 title:  Install a Custom Keyboard Layout
 author: Daniel Weibel
 date:   28 December 2015
-last_updated: 2 November 2017
+last_updated: 4 July 2023
 ---
 
 This document explains how to add a custom keyboard layout to macOS (that is, a keyboard layout that doesn't come preinstalled with the operating system).
@@ -53,7 +53,4 @@ Since `.keylayout` files are pure XML files, it is also possible to create/edit 
 
 # Notes
 
-Here are direct links to the Logitech Swiss German keyboard layout files that I personally use:
-
-- [LogitechSwissGerman.keylayout](assets/LogitechSwissGerman.keylayout)
-- [LogitechSwissGerman.icns](assets/LogitechSwissGerman.icns)
+The custom keyboard layout file that I personally use (Logitech Swiss German) can be found in the [weibeld/logitech-swiss-german-keyboard-layout](https://github.com/weibeld/logitech-swiss-german-keyboard-layout) repository on GitHub.
